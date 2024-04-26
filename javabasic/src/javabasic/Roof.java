@@ -1,5 +1,8 @@
 package javabasic;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Roof {
 
 	public static void main(String[] args) {
@@ -40,6 +43,73 @@ public class Roof {
 //			}
 //		}
 		
+		// enhanced for
+//		int[] intArray = {10, 20, 30, 40};
+//		for (int i : intArray) {
+//			System.out.println(i);
+//		}
+//		for (int i=0; i<intArray.length; i++) {
+//			System.out.println(intArray[i]);
+//		}
+//		
+//		List<String> strList = new ArrayList<String>();
+//		strList.add("홍길동");
+//		strList.add("강감찬");
+//		strList.add("유관순");
+//		for (String str : strList) {
+//			System.out.println(str);
+//		}
+//		for (int i=0; i<strList.size(); i++) {
+//			System.out.println(strList.get(i));
+//		}
+		
+//		int k = 10;
+//		while (k<100) {
+//			System.out.println(k);
+//			k++;
+//		}
+		
+//		int l = 1;
+//		while (l<100) {
+//			if (l==50) break;
+//			l++;
+//			if (l%2==0) continue;
+//			System.out.println(l);
+//		}
+		
+		// 실습 1) while문을 사용하여 10부터 100까지의 정수 중에서 3의 배수만 출력
+//		int i = 10;
+//		while (i<101) {
+//			if (i%3==0) {
+//				System.out.println(i);
+//			}
+//			i++;
+//		}
+		
+		// 실습 2) while문을 사용하여 10부터 100까지의 정수 중에서 3의 배수이지만
+		//           6의 배수는 아닌 수들만 출력
+//		int i = 10;		
+//		while (i<101) {
+//			if (i%3==0 && i%6!=0) {
+//				System.out.println(i);
+//			}
+//			i++;
+//		}
+		
+		// 실습 3) while문을 사용해서 10부터 100까지의 정수 중에서 3의 배수 아닌것들 출력
+//		int i = 9;
+//		while (i<101) {
+//			i++;
+//			if (i%3==0) continue;
+//			System.out.println(i);
+//		}		
+		
+		int i = 1;
+		do {
+			System.out.println(i);
+			i++;
+		} while (i<10);
+		
 	} // main
 
 	static boolean isPrime(int n) {
@@ -54,3 +124,10 @@ public class Roof {
 	}
 
 } // class
+
+
+
+
+
+
+

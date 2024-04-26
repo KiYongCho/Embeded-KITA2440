@@ -17,6 +17,7 @@
   - switch ~ case ~ default
 
  * 반복
+ 
   - for
     for (초기값; 조건식; 증감식) {
 	반복적으로 수행할 구문들...
@@ -26,9 +27,17 @@
     3. 증감식을 수행
     4. 조건식을 수행해보고 결과가 true이면 구문들을 수행
     5. false이면 for의 수행을 끝냄
-  - for :
-  - while
-  - do while
+    
+  - for : (enhanced for, 향상된 for문)
+    배열, List ... 여러값들을 가진 타입들의 각 값을 하나씩 꺼내서 반복시킬때 사용
+  
+  - while : 조건이 true인 동안 계속 반복
+  
+  - do while : 한번 do구문을 수행하고 조건이 true인 동안 계속 반복
+  
+  - break : 가장 가까운 반복문을 즉시 빠져나감
+  
+  - continue : 가장 가까운 반복문의 다음 반복을 수행
 
 
 
