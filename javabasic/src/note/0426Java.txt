@@ -26,8 +26,9 @@
     3. 증감식을 수행
     4. 조건식을 수행해보고 결과가 true이면 구문들을 수행
     5. false이면 for의 수행을 끝냄
-  - for in
+  - for :
   - while
+  - do while
 
 
 
