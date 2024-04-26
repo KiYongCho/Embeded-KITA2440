@@ -4,9 +4,9 @@ public class Roof {
 	
 	public static void main(String[] args) {
 		
-		for (int i=1; i<11; i++) {
-			System.out.println(i);
-		}
+//		for (int i=1; i<11; i++) {
+//			System.out.println(i);
+//		}
 		
 		// 실습 1) 11부터 33까지 반복해서 출력
 //		for (int i=11; i<34; i++) {
@@ -45,6 +45,7 @@ public class Roof {
 		
 		
 	} // main
+	
 	
 	static boolean isPrime(int n) {
         if (n == 1) return true;
