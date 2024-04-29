@@ -148,10 +148,23 @@ public class LoofExer {
 		//*****
 		//o***o
 		//oo*oo		
+		
+		
 				
 	} // main
 
 } // class
+
+
+
+
+
+
+
+
+
+
+
 
 
 
