@@ -1,0 +1,16 @@
+### OOP 실습
+
+# 패키지 : javabasic.oop.art
+
+* 아트(Art) 인터페이스 필요
+
+* AbstractArt 추상클래스 필요 : 공통메소드 기본 구현
+
+* 미술(Drawing), 음악(Music), 영화(Movie) 클래스가 필요
+
+* 미술, 음악, 영화 의 개별메소드 정의
+
+* ArtMain 클래스를 생성해서 테스트
+
+
+ 
