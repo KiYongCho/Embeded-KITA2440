@@ -1,0 +1,121 @@
+### 람다 (Lambda) 표현식 (expression)
+
+* 메소드를 간략한 문법형태로 사용하기 위한 문법
+* "파라미터리스트 -> 구현부" 문법 형태를 취함
+* 예1)
+  int add(int x, int y) {
+  	return x + y;
+  }
+  (x, y) -> x + y
+* 예2)
+  void printName(String str) {
+  	System.out.println(str);
+  }
+  str -> System.out.println(str)
+ * 예3)
+  void printInfo(String str, int age) {
+  	System.out.println(str);
+  	System.out.println(age);
+  }
+  (str, age) -> {
+  	System.out.println(str);
+  	System.out.println(age);
+  }
+  * 문장 (Statement) : 실행가능한 코드 단위
+  * 표현식 (Expression) : 실행해서 결과가 값(value)인 문장
+  * 모든 메소드는 람다표현식의 형식으로 변환해서 사용할 수 있지만
+     람다는 일회성 호출에만 사용된다.
+
+
+### 쓰레드 (Thread)
+
+* 소프트웨어(Software > 프로그램(Program) > 프로세스(Process) > 쓰레드(Thread)
+* 소프트웨어 : 하드웨어의 물리적 형태가 아닌 전자적 신호를 사용한 IT인프라
+* 프로그램 : 프로그래밍 언어를 사용해서 일련의 실행 순서를 만들어 둔 소프트웨어
+* 프로세스 : 컴퓨팅자원(CPU, Memory)을 독립적으로 사용하는 실행 흐름
+* 쓰레드 : 프로세스가 할당받은 컴퓨팅자원을 공유해서 사용하는 실행 흐름
+
+* 쓰레드 생성법
+  1) Runnable 인터페이스를 구현
+  	class MyThread implements Runnable {
+  	}
+  2) Thread 클래스를 상속
+  	class MyThread extends Thread {
+  	}
+  	
+* start() : 쓰레드 실행 > run()메소드가 자동 호출되어 실행됨
+
+* 주요메소드
+  - activeCount() : 실행중인 쓰레드의 수
+  - currentThread() : 현재 실행중인 쓰레드
+  - getId() : 쓰레드의 아이디
+  - getName() : 쓰레드의 이름
+  - getPriority() : 쓰레드 우선순위
+  - getState() : 쓰레드의 상태
+  - interrupt() : 현재쓰레드를 인터럽트
+  - interrupted() : 쓰레드가 인터럽트 되었는지 확인 (static)
+  - isAlive() : 쓰레드가 살아있는지 확인
+  - isDaemon() : 데몬쓰레드인지 확인
+  - isInterrupted() : 쓰레드가 인터럽트 되었는지 확인 (non-static)
+  - join() : 현재 쓰레드의 작업을 종료하고 다른 쓰레드를 수행
+  - run() : 쓰레드가 수행할 작업을 정의. start()호출 시 자동으로 실행되는 메소드
+  - sleep() : 현재 쓰레드의 작업을 일정시간(밀리세컨드) 중단하고 일정 시간 후 현재 쓰레드를 다시 수행
+  - yield() : 현재 쓰레드의 작업을 다른 쓰레드가 실행 완료될때까지 양보하고 다른 쓰레드가 실행 완료되면
+                 현재 쓰레드의 작업을 다시 수행
+               
+* Thread State (쓰레드 상태)
+  - New : 쓰레드 객체가 새로 생성됨 (start() 전)
+  - Runnable : 쓰레드가 JVM의 Thread Scheduler에 의해 실행 가능한 상태
+  - Run : 쓰레드가 실행 중인 상태
+  - Waiting : 쓰레드 Runnable 상태가 되기 위한 대기 상태
+    1) Timed Waiting : 지정한 시간만큼 대기 
+    2) Waiting : 다른 쓰레드가 작업을 완전히 종료때까지 대기
+    * Timed Waiting, Waiting이 종료되면 Runnable
+  - Blocked : I/O 작업과 같이 시작부터 끝까지 한번에 처리되어야만 하는 작업에 대한 특별한 상태
+  - Terminated : 쓰레드 객체가 메모리에서 소멸
+  
+  * Synchronization in Thread Processing(쓰레드 처리에서의 동기화)
+   - Object의 동기화 관련 메소드
+     * LOCK : 쓰레드가 공유하고 있는 프로세스가 할당받은 자원에 대한 사용 권한
+     1) notify : 실행 대기중인 특정 쓰레드가 LOCK을 획득하도록
+     2) notifyAll : 실행 대기중인 전체 스레드 중 하나가 LOCK을 획득하도록
+     3) wait : LOCK을 반환
+         wait() : 즉시 LOCK을 반환
+         wait(long milisecond) : 밀리초 동안 LOCK을 반환
+         wati(long milisecond, long nanosecond) : 밀리초 나노초 동안 LOCK을 반환 
+   - 쓰레드에서의 동기화란 쓰레드 들이 동시에 사용할 수 있는 객체(메모리)를 사용할 수 있는 LOCK을
+     한 순간에 하나의 쓰레드에 부여하는 작업
+   - 동기화 방법
+      1) 메소드 동기화 : 메소드내의 모든 객체들이 동기화 됨
+      2) 동기화 블록 : 블록내에서 특정한 객체가 동기화 됨
+               
+               
+               
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
