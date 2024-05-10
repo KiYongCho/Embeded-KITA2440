@@ -1,0 +1,100 @@
+### I/O (Input/Output)
+
+# Stream : 데이터의 흐름 (flow of data)
+
+# InputStream : 프로그램으로 들어오는 Byte데이터의 흐름
+  * Byte단위 또는 Byte[]단위로 Byte들을 읽는 스트림
+
+# OutputStream : 프로그램에서 나가는 Byte데이터의 흐름
+  * Byte단위 또는 Byte[]단위로 Byte들을 쓰는 스트림
+  
+# Reader : 프로그램으로 들어오는 문자데이터의 흐름
+  * 문자단위 또는 char[]단위로 문자들을 읽는 스트림
+
+# Writer : 프로그램에서 나가는 문자데이터의 흐름
+  * 문자단위 또는 char[]단위로 문자들을 쓰는 스트림
+  
+# File
+  * 컴퓨터 파일이나 디렉토리를 추상화한 클래스
+  * 스트림이 아니다
+  
+# BufferedInputStream, BufferedOutputStream
+   BufferedReader, BufferedWriter
+   * 입출력 속도 증가를 위해 사용됨
+   * 추가적인 기능(메소드)도 제공
+   
+# DataInputStream / DataOutputStream
+  * 기본타입 값들을 읽고 쓰는데 사용됨
+  * 기본타입의 바이트수를 지켜서 쓰고 읽어야 한다.
+  
+# InputStreamReader
+  * Byte단위 입력을 문자단위 입력으로 변환해 주는 변환스트림
+     (aka. OutputStreamWriter)
+     
+# ObjectInputStream / ObjectOutputStream
+  * 직렬화 (Serialization) : 메모리(객체) > 스트림
+  	 메모리내에 있는 객체를 전송하기 위해 스트림으로 변환하는 작업
+  * 역직렬화 (Deserialization) : 스트림 > 메모리(객체)
+     전송받은 스트림을 객체로 변환하는 작업
+  * Serializable 인터페이스
+     - 직렬화 하려면 Serializable 인터페이스를 구현하도록 강제되어 있음
+     - Serializable 인터페이스는 내용이 없다. 
+        단지 Serializable인터페이스를 구현한 클래스의 객체가 직렬화 가능함을 표시하는 용도 (표시인터페이스)
+     - 직렬화 대상
+       1) 기본타입
+       2) String
+       3) private이 아닌 것들
+       4) Serializable 인터페이스를 구현한 클래스의 객체
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
