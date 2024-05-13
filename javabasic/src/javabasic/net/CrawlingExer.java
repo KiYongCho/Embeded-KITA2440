@@ -12,6 +12,8 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.ArrayList;
+import java.util.List;
 
 /*
  * 웹크롤링 실습)
@@ -44,10 +46,45 @@ public class CrawlingExer {
 			String readedLine = null;
 			bw = new BufferedWriter(new FileWriter(file));
 			
-			
+			List<ProductInfo> piList = new ArrayList<ProductInfo>();
 			
 			while ((readedLine=br.readLine()) != null) {
-				System.out.println(readedLine.indexOf("<strong class=\"item_name\">"));
+				
+				// 상품명 추출
+				// <strong class="item_name">흑화고 1호 선물세트 450g(중) 장흥표고버섯</strong>
+				String prodStartStr = "<strong class=\"item_name\">";
+				int prodStartIndex = readedLine.indexOf(prodStartStr) + prodStartStr.length();
+				int prodEndIndex = readedLine.indexOf("</strong>", prodStartIndex);
+				String prodName = null;
+				if (prodStartIndex>-1 && prodEndIndex>-1) {
+					prodName = readedLine.substring(prodStartIndex, prodEndIndex);
+				}
+				
+				// 가격 추출
+				// <span  style="">9,800원 </span>
+				String priceStartStr = "<span  style=\"\">";
+				int priceStartIndex = readedLine.indexOf(priceStartStr) + priceStartStr.length();
+				int priceEndIndex = readedLine.indexOf("원", priceStartIndex);
+				String prodPrice = null;
+				if (priceStartIndex>-1 && priceEndIndex>-1) {
+					prodPrice = readedLine.substring(priceStartIndex, priceEndIndex);
+				}
+				
+				// 포인트 추출
+				String pointStartStr = "<img src=\"https://cdn-pro-web-241-113.cdn-nhncommerce.com/namdo0743_godomall_com/data/skin/front/mplshop_/img/icon/goods_icon/icon_mileage.png\" alt=\"마일리지\" title=\"마일리지\" /> ";
+				int pointStartIndex = readedLine.indexOf(pointStartStr) + pointStartStr.length();
+				int pointEndIndex = readedLine.indexOf("원", pointStartIndex);
+				String prodPoint = null;
+				if (pointStartIndex>-1 && pointEndIndex>-1) {
+					prodPoint = readedLine.substring(pointStartIndex, pointEndIndex);
+				}
+				
+				piList.add(new ProductInfo(
+												prodName,
+												Integer.parseInt(prodPrice),
+												Integer.parseInt(prodPoint)
+				));
+				
 				//bw.write(readedLine+"\n");
 			}
 			
