@@ -1,0 +1,3159 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<meta charset="euc-kr" />
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="user-scalable=yes, initial-scale = 1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, height=device-height">
+
+
+	<meta name="description" content="�������п�, �ڹ��п�, �����������ᱳ��, JAVA, ������, ��Ŀ, ������, ��Ʈ��ũ����, �������ȱ��, ���α׷��� ����, �ڰ�����������, ���������п�, ����ó��������, �������ȱ��, �����ͺм����, ����ó�����"> 
+
+<meta property="og:title" content="�ڸ���IT��ī���� ����7�� ����" />
+<meta property="og:description"  content=""/>
+<meta property="og:image" content="http://www.koreaisacademy.com/renewal2021/img/common/sns_img_221212.jpg">
+
+<meta name="google-site-verification" content="ZwVPH37haTboTyfqJfOHC8t-yjm62_trpd8i4jqw4n8">
+
+	<title>�ڸ���IT��ī����</title>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="/2023/img/ico/152.png" sizes="152x152" />
+	<link rel="apple-touch-icon-precomposed" href="/2023/img/ico/152.png" sizes="152x152" />
+	<link rel="apple-touch-icon-precomposed" href="/2023/img/ico/144.png" sizes="144x144" />
+	<link rel="apple-touch-icon-precomposed" href="/2023/img/ico/120.png" sizes="120x120" />
+	<link rel="apple-touch-icon-precomposed" href="/2023/img/ico/114.png" sizes="114x114" />
+	<link rel="apple-touch-icon-precomposed" href="/2023/img/ico/76.png" sizes="76x76" />
+	<link rel="apple-touch-icon-precomposed" href="/2023/img/ico/72.png" sizes="72x72" />
+	<link rel="apple-touch-icon-precomposed" href="/2023/img/ico/60.png" sizes="60x60" />
+	<link rel="apple-touch-icon-precomposed" href="/2023/img/ico/57.png" sizes="57x57" />
+	<link rel="icon" type="image/png" href="/2023/img/ico/196.png" sizes="196x196" />
+	<link rel="icon" type="image/png" href="/2023/img/ico/128.png" sizes="128x128" />
+	<link rel="icon" type="image/png" href="/2023/img/ico/96.png" sizes="96x96" />
+	<link rel="icon" type="image/png" href="/2023/img/ico/32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="/2023/img/ico/16.png" sizes="16x16" />
+	<link rel="shortcut icon" href="/2023/img/ico/16.ico" />
+
+	<link rel="stylesheet" type="text/css" href="/2023/common/css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="/2023/common/css/animate.css"/>
+	<link rel="stylesheet" type="text/css" href="/2023/common/css/aos.css"/>
+	<link rel="stylesheet" type="text/css" href="/2023/common/css/font.css"/>
+	<link rel="stylesheet" type="text/css" href="/2023/common/css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="/2023/common/css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="/2023/common/css/swiper.min.css"  />
+	<link rel="stylesheet" type="text/css" href="/template/css/template.css"/>
+	<link rel="stylesheet" type="text/css" href="/2023/common/css/responsive.css"/>
+
+
+	<script type="text/javascript" src="/2023/common/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="/2023/common/js/jquery-ui.js"></script>
+	<script type="text/javascript" src="/2023/common/js/swiper.js"></script>
+	<script type="text/javascript" src="/2023/common/js/slick.min.js"></script>
+	<script type="text/javascript" src="/2023/common/js/TweenMax.min.js"></script>
+	<script type="text/javascript" src="/2023/common/js/jquery.counterup.min.js"></script>
+	<script type="text/javascript" src="/2023/common/js/waypoints.min.js"></script>
+	<script type="text/javascript" src="/2023/common/js/endless_scroll_min.js"></script>
+	<script type="text/javascript" src="/2023/common/js/common.js"></script>
+
+	<script type="text/javascript" src="https://pay.koreaedugroup.com/nice/lib/js/payPopup.js"></script>
+
+	<script src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script><!-- īī���� -->
+
+	<span itemscope="" itemtype="http://schema.org/Organization">
+	<link itemprop="url" href="https://www.koreaitacademy.com">
+		<a itemprop="sameAs" href="https://www.facebook.com/koreaiteducation"></a>
+		<a itemprop="sameAs" href="https://www.instagram.com/koreaitacademy_"></a>
+		<a itemprop="sameAs" href="https://www.youtube.com/channel/UCltL33ps_wojc2UKsyY1CfQ"></a>
+		<a itemprop="sameAs" href="https://blog.naver.com/koreaisit"></a>
+	</span>
+		
+
+
+
+
+
+<!-- ���� GTM 190509 - �ڻ������� -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5M7JHM6');</script>
+<!-- End Google Tag Manager -->
+
+
+
+
+<script type="text/javascript" charset="UTF-8" src="//t1.daumcdn.net/kas/static/kp.js"></script>
+<script type="text/javascript">
+      kakaoPixel('1917938668448793091').pageView();
+      kakaoPixel('1917938668448793091').signUp();
+</script>
+
+
+<!--  LOG corp Web Analitics & Live Chat  START -->
+
+<script  type="text/javascript">
+//<![CDATA[
+var _HCmz={
+ PC:"",
+ PT:"",
+ SO:"",
+ MP:""
+ 
+};
+
+function logCorpAScript_full(){
+	HTTP_MSN_MEMBER_NAME="";/*member name*/
+	LOGSID = "648595198";/*logsid*/
+	LOGREF = "";/*logref*/
+	var prtc=(document.location.protocol=="https:")?"https://":"http://";
+		var hst=prtc+"asp27.http.or.kr";
+		var rnd="r"+(new Date().getTime()*Math.random()*9);
+		this.ch=function(){
+			if(document.getElementsByTagName("head")[0]){logCorpAnalysis_full.dls();}else{window.setTimeout(logCorpAnalysis_full.ch,30)}
+		}
+		this.dls=function(){
+			var h=document.getElementsByTagName("head")[0];
+			var s=document.createElement("script");s.type="text/jav"+"ascript";try{s.defer=true;}catch(e){};try{s.async=true;}catch(e){};
+			if(h){s.src=hst+"/HTTP_MSN/UsrConfig/legend1984/js/ASP_Conf.js?s="+rnd;h.appendChild(s);}
+		}
+		this.init= function(){
+			document.write('<img src="'+hst+'/sr.gif?d='+rnd+'" style="width:1px;height:1px;position:absolute;display:none" onload="logCorpAnalysis_full.ch()" alt="" />');
+		}
+	}
+	//if(typeof logCorpAnalysis_full=="undefined"){var logCorpAnalysis_full=new logCorpAScript_full();logCorpAnalysis_full.init();}
+</script>
+<noscript><img src="http://asp27.http.or.kr/HTTP_MSN/Messenger/Noscript.php?key=legend1984" style="display:none;width:0;height:0;" alt="" /></noscript>
+<!-- LOG corp Web Analitics & Live Chat END  -->
+
+
+<script>//console.log('mobileChk=Java/17.0.10');</script>
+
+<!-- 2020-05-21 ����ȣ���� ��û-->
+<!-- AceCounter Log Gathering Script V.8.0.2019080601 -->
+<script language='javascript'>
+	var _AceGID=(function(){var Inf=['gtp20.acecounter.com','8080','AH5A44167380319','AW','0','NaPm,Ncisy','ALL','0']; var _CI=(!_AceGID)?[]:_AceGID.val;var _N=0;var _T=new Image(0,0);if(_CI.join('.').indexOf(Inf[3])<0){ _T.src ="https://"+Inf[0]+'/?cookie'; _CI.push(Inf);  _N=_CI.length; } return {o: _N,val:_CI}; })();
+	var _AceCounter=(function(){var G=_AceGID;var _sc=document.createElement('script');var _sm=document.getElementsByTagName('script')[0];if(G.o!=0){var _A=G.val[G.o-1];var _G=(_A[0]).substr(0,_A[0].indexOf('.'));var _C=(_A[7]!='0')?(_A[2]):_A[3];var _U=(_A[5]).replace(/\,/g,'_');_sc.src='https:'+'//cr.acecounter.com/Web/AceCounter_'+_C+'.js?gc='+_A[2]+'&py='+_A[4]+'&gd='+_G+'&gp='+_A[1]+'&up='+_U+'&rd='+(new Date().getTime());_sm.parentNode.insertBefore(_sc,_sm);return _sc.src;}})();
+</script>
+<!-- AceCounter Log Gathering Script End -->
+
+</head>
+<body>
+	<div id="wrap">
+		
+
+				<!-- �ι�° �˾� id�� popCsk-snd ����°�� popCsk-third -->
+
+		<!-- ������ �˾� -->
+		<!-- <div class="pop-up" id="popCsk">	
+			<a href="javascript:void(0)" style="cursor:auto;"><img src="/2023/img/pop/popup_kit.jpg" alt=""></a>	
+			<ul>
+				<li><a href="javascript:void(0);" onclick="cookieX(this)">���� �Ϸ� ���� �ʱ�</a></li>
+				<li><a href="javascript:void(0);" onclick="cskClose(this);">�ݱ�</a></li>
+			</ul>
+		</div> -->
+	
+
+
+		<!-- ��� �˾� -->
+		
+		<!-- ��� �˾� -->
+
+
+		<!-- �뱸 �˾� -->
+		
+		<!-- �뱸 �˾� -->
+
+
+		<!-- ��õ �˾� -->
+		
+		<!-- ��õ �˾� -->
+
+		
+		<!-- ���� �˾� -->
+		
+		<!-- ���� �˾� -->
+
+
+		<!-- ���� �˾� *��ǥ���� ����� -->
+		
+			<!-- <div class="pop-up pop-up-snd" id="popCsk-snd" style="right: 33%">	
+				<a href="/renewal2021/gookbi/gookbiMain.asp?gookbi=gookbi0210" style="cursor:normal;"><img src="/renewal2021/img/pop/231016_popup_1.jpg" alt=""></a>
+					
+				<ul>
+					<li><a href="javascript:cookieXSnd();">���� �Ϸ� ���� �ʱ�</a></li>
+					<li><a href="javascript:cskCloseSnd();">�ݱ�</a></li>
+				</ul>
+			</div>
+			
+			<div class="pop-up" id="popCsk-third" style="right: 6%">	
+				<a href="/renewal2021/gookbi/gookbiMain.asp?gookbi=gookbi0207" style="cursor:normal;"><img src="/renewal2021/img/pop/231016_popup_2.jpg" alt=""></a>
+					
+				<ul>
+					<li><a href="javascript:cookieXThird();">���� �Ϸ� ���� �ʱ�</a></li>
+					<li><a href="javascript:cskCloseThird();">�ݱ�</a></li>
+				</ul>
+			</div> -->
+		
+		
+		
+		<!-- ���� �˾� -->
+
+		<script language="Javascript">
+			cookiedata = document.cookie;
+			if ( cookiedata.indexOf("popCsk=done") < 0 ){
+				$('#popCsk').addClass('on');
+			}
+			else {
+				$('#popCsk').removeClass('on');
+			}
+
+			if ( cookiedata.indexOf("popCsk-snd=done") < 0 ){
+				$('#popCsk-snd').addClass('on');
+			}
+			else {
+				$('#popCsk-snd').removeClass('on');
+			}
+
+			if ( cookiedata.indexOf("popCsk-third=done") < 0 ){
+				$('#popCsk-third').addClass('on');
+			}
+			else {
+				$('#popCsk-third').removeClass('on');
+			}
+
+			
+
+		</script>
+
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5M7JHM6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+
+<div id="header" class="location-header">
+	<!-- pc���� ���������ȳ� -->
+			
+	<div class="header-wr">
+		<div class="gnb-wrap">
+
+			<h1><a href="/" class="logo"></a></h1>
+			<ul class="nav-ul nav-ul01">
+				<li><a href="/academy/centerinfo.asp">��ī����</a></li>
+				<li><a href="/ncs/">������������</a></li>
+				<li><a href="/curriculum/">�����������</a></li>
+				<li><a href="/cer/">�ڰ���������</a></li>				
+				<li class="gnb-subNone"><a href="/community/project.asp">��Ʈ������</a></li>
+				<li><a href="/customer/center_tuition.asp">��������</a></li>
+			</ul>
+
+		</div><!-- gnb-wrap -->
+		<div class="nav-wrap">
+			<ul class="nav-ul nav-ul02">				
+				<li><a href="/landing/hackathon_award.asp" class="kit-btn">KIT��Ŀ�� ������</a></li>	
+			</ul>
+			<div class="nav-r" style="display:none;">
+				<ul class="nav-ul nav-ul03">
+					<li><a class="location-btn acad-btn">���������ȳ�</a></li>
+				</ul>
+			</div>
+		</div><!-- nav-wrap -->
+
+	</div><!-- header-wr -->
+
+	<div class="gnb-depth">
+		<div class="gnb-depwr"></div>
+	</div><!-- gnb-depth -->
+
+	<div class="menu-ham">
+		<div class="hambtn">
+			<span></span>
+			<span></span>
+		</div>
+		<div class="menu-wrap">
+			<div class="menu-wr">
+				<div>
+					<ul class="menu-ul">
+						<li class="menu-li menu-li01"><a href="#">��ī����</a>
+							<ul class="dep02">
+								<li>
+									<a href="/academy/centerinfo.asp">�п��Ұ�</a>
+									<ul class="dep03">
+										<li><a href="/academy/centerinfo.asp">�ڸ���IT �Ұ�</a></li>
+										<li><a href="/academy/history.asp">�����丮</a></li>
+										<li><a href="/academy/press.asp">��к���</a></li>
+										<li><a href="/academy/teacher.asp">����Ұ�</a></li>
+										<li><a href="/academy/facility.asp">�����ü��ȳ�</a></li>
+										<li><a href="/academy/location.asp">���ô� ��</a></li>
+										<!--<li><a href="/academy/system.asp">�л������ý���</a></li>-->
+										<li><a href="/academy/process.asp">����/���� �Ƿ�</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="/community/jobinterview.asp">Ŀ�´�Ƽ</a>
+									<ul class="dep03">
+										<li><a href="/community/jobinterview.asp">����� ���ͺ�</a></li>
+										<li><a href="/community/interview.asp">������ ���ͺ�</a></li>
+										<li><a href="/community/teacher.asp">���� ���ͺ�</a></li>
+										<li><a href="/community/post.asp">������ �ı�</a></li>
+										<li><a href="/community/photo.asp">���佺�丮</a></li>
+										<li><a href="/community/notice.asp">��������</a></li>
+										<li><a href="/community/seminar.asp">Ư��&���̳�</a></li>
+										<li><a href="/community/tv.asp">�������� ���ϴ� IT</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="/job/system.asp">�����������</a>
+									<ul class="dep03">
+										<li><a href="/job/system.asp">������α׷�</a></li>
+										<li><a href="/job/korea_recruit.asp">�ڸ�����õƯä����</a></li>
+										<li><a href="/job/job_list.asp">�����Ȳ</a></li>
+										<!--<li><a href="/job/recruit.asp">ä������</a></li>-->
+										<!--<li><a href="/job/simulation.asp">���� ���Ǹ���</a></li>-->
+										<li><a href="/mou/list.asp">�������� ��Ȳ</a></li>
+										<!--<li><a href="/job/license.asp">�ڰ�������</a></li>-->
+									</ul>
+								</li>
+							</ul>
+						</li><!-- ��ī���� -->
+
+						<li class="menu-li menu-li02"><a href="/ncs/">������������</a>
+							<ul class="dep02">
+								<li>
+									<a href="/customer/center_ncs.asp"><font color="#0070f0">�ִ� 100% ������ ����</font></a>
+									<!--<ul class="dep03 ncsdep03">
+										include virtual = "/2023/inc/ncs-list.asp"
+									</ul> -->
+								</li>
+								<li>
+									<a href="/ncs/">������������</a>
+								</li>
+								<li>
+									<a href="/ncs/gookbi.asp">���������̶�?</a>
+								</li>
+								<li>
+									<a href="/ncs/ncslist.asp">�������� �ȳ�</a>
+								</li>
+							</ul>
+						</li><!-- ������������ -->
+
+						<li class="menu-li menu-li03"><a href="/curriculum/">�����������</a>
+							<ul class="dep02">
+								<li>
+									<a href="javascript:void(0);">�����ڵ�</a>
+																	<ul class="dep03">
+									<li >
+										<a href="/curriculum/coding/python.asp">
+											<dl>
+												<dt>Python </dt>
+												<dd>���α׷��� �о߿��� �ʼ����� ������ ����ϴ� ���̽��� ���� ���� ���꼺�� ǳ���� ���̺귯��, �׸��� ���� ���� �о߿����� ���꼺�� �����غ�����.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/coding/java.asp">
+											<dl>
+												<dt>JAVA </dt>
+												<dd> �������Ʈ���� ����, �� ����, ����ϱ��� ����Ǵ� ������ ��ü���� ���α׷��� ����� �ڹٸ� ���� ������ SW�����ڷ� �ŵ쳪�ñ� �ٶ��ϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/coding/web.asp">
+											<dl>
+												<dt>��ǥ�� </dt>
+												<dd>WAS (Web Application Service)�� �����ϴ� ù �ܰ��� �������� ���� ����� �н��մϴ�. UI �±� ������ ��ũ �� �̺�Ʈó���� �н��Ͽ�, UI/UX ������ ���� ����� �н��մϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/coding/clang.asp">
+											<dl>
+												<dt>C / C++ </dt>
+												<dd>����Ʈ�� �޸� ���� ���� ó�� �ӵ��� ���� ���� ������ ����̸�, C����� �ٽ��� �����͸� ���� �޸� ������ ������ ����, ������ ��� �н��ϰ� �˴ϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/coding/programming.asp">
+											<dl>
+												<dt>C# GUI ���α׷��� </dt>
+												<dd>���� ���� �������� ������, ��ü������ ������ ���� �ǰ�, ������ �ܿ������� ȭ�鱸���� �̺�Ʈó������ GUI ���α׷��ֿ� ����ȭ�� ���������� �����մϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+								</ul>
+								</li>
+								<li>
+									<a href="javascript:void(0);">��/�۰���</a>
+																	<ul class="dep03">
+									<li >
+										<a href="/curriculum/app/webapp.asp">
+											<dl>
+												<dt>��&�� ������</dt>
+												<dd>���� �˰��� ����, MVC, ��ü, �׷��� ���α׷��� �� �� ���� ���̽��� ���� ��� �� �ֽ��ϴ�.  ����Ʈ-���忡�� �����ϴ� ���̽� ���α׷� ���� ��-���� ���α׷����� ���̽��� ������ ���踦 �����ϼ���.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/app/backend.asp">
+											<dl>
+												<dt>�鿣�� ����(������)</dt>
+												<dd>JAVA�� �̿��� ��ü������ ���α׷��ֺ��� DBMS(Oracle, MySQL)�� �����ϴ� JDBC ���, ����Ʈ ������ ��ǥ��(HTML/CSS/JS), ���Ҿ� �������� �ٹ������ Ȱ��ǰ� �ִ� Vue.js�� ���� Spring Boot, Rest���� �н��� �� �ֽ��ϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/app/frontend.asp">
+											<dl>
+												<dt>����Ʈ���� ����</dt>
+												<dd>�⺻���� ��ǥ��(HTML, CSS, Javascript) Ȱ���� �ִ��� ���̰�, node.js �� Ȱ���ؼ� �鿣�� ���� �� ��� ��ų�� ���� ����� �ʿ��� �ǹ� ����� �����ϴµ� ������ �Ӵϴ�. �Ĺ� �� react�� Ȱ���� ������Ʈ ������ ������� ������ �� �ֽ��ϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/app/jpa.asp">
+											<dl>
+												<dt>JPA SpringBoot Project</dt>
+												<dd> JPQL, Query DSL�� ���Ҿ� Spring Data JPA, Spring Security ���� �н��ϸ�, Spring Boot ����� ������Ʈ�� �ϼ��� �� �־� �� ���� �о� ����� �غ��ϴ� �е鲲 ������ ���Ⱑ �� ���Դϴ�!</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/app/javascript.asp">
+											<dl>
+												<dt>Javascript Ǯ����</dt>
+												<dd>���� ������ Javascript�� ���� ���� �� ���� �׸��� ��ǥ�ؿ����� ������ ���� �Ǹ�, �� ���ư� ������ ����� �Ͽ� ���ϴ� �����͸� �˸��� ȭ�鿡 ��Ÿ���� ���ر��� ����˴ϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/app/webproject.asp">
+											<dl>
+												<dt>������ �� Project</dt>
+												<dd>Spring�� ����Ʈ���忡�� ���Ǵ� ������� ���Կ� ������ ����� �⺻�⸦ �������� ������Ʈ�� �����ϴ� ����� �̿��� �� �ִ� ���� �ҽ����� Ȱ���ϴ� ����� �ܰ������� ����Ǵ� Ŀ��ŧ���� �����غ�����.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/app/android.asp">
+											<dl>
+												<dt>�ȵ���̵�� ���� Project</dt>
+												<dd>�ȵ���̵� ���� ����� ��Ʋ���� ������� �� ���ۿ� �ʿ��� �⺻ ����-��, �̺�Ʈ���� ���� ����� �н��ϰ�, ����� �ǹ����� ��� ������� �н��ϰ� �˴ϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/app/ios.asp">
+											<dl>
+												<dt>�������� ����</dt>
+												<dd>Objective-C�� ���� �پ��� �� ������ �� �ִ� ����� �н��ϰ�, ����� �ǹ����� ��� ������� �н��ϰ� �˴ϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+								</ul>
+								</li>
+								<li>
+									<a href="javascript:void(0);">AI��������</a>
+																	<ul class="dep03">
+									<li >
+										<a href="/curriculum/bigdata/gpt.asp">
+											<dl>
+												<dt>AI��� ChatGPT Ȱ��</dt>
+												<dd>������ ChatGPT 200% Ȱ���ϴ� ���� ������ ���</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/bigdata/vision.asp">
+											<dl>
+												<dt>AIȰ�� ��ǻ�ͺ��� ������Ʈ</dt>
+												<dd>���̽��� ������� ���Ai ���� ChatGPT, ������ ��������� fastAPI�� �����ϰ�, ������ �� OpenCV�� Ȱ���� ��ǻ�ͺ��� ������Ʈ�� �ϼ��ϴ� �������� �����˴ϴ�</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/bigdata/natural.asp">
+											<dl>
+												<dt>AIȰ�� �ڿ���ó�� ������Ʈ</dt>
+												<dd>���̽� ���� ������ �������� ���� ���̺귯���� �����ӿ�ũ�� Ȱ���Ͽ� �ӽŷ���, �������� ������� ������ �� ������ �������� ������ �м� ������ ���� �������� ���ظ� ������ �� �ֽ��ϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/bigdata/analysis.asp">
+											<dl>
+												<dt>R�м�</dt>
+												<dd>R�� ��� ��� �� �׷����� ���� ���¼ҽ� ���α׷��� ����, ������ �м�, ��� �� ����н��� ���� �پ��� ��� ��Ű���� �ӽŷ��� �˰����� �����մϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/bigdata/bigdataanalysis.asp">
+											<dl>
+												<dt>�����ͺм� ������</dt>
+												<dd>�����ͺм� �о߿��� ���� �����ް��ִ� �м� ������ R�� ���̽��� ���� api�� �м� ������ �н��ϰ�, ũ�Ѹ�, DB�� Ȱ���� ������ ����, ��� �м��� �н��մϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/bigdata/dataai.asp">
+											<dl>
+												<dt>�����ͺм���� AI Project</dt>
+												<dd> ��ǻ�Ϳ��� �н���ų �������� ��ó���� ���Ҿ� �������� �ӽŷ��װ� �������� Ȱ���� �н� ����� �˾ƺ���, 2�ְ� �̾����� ���� ���� ������Ʈ�� ���� �츮�� ���� �ΰ����� ���� ���� �׽�Ʈ �غ��� ������� �Բ� ����������!</dd>
+											</dl>
+										</a>
+									</li>
+		
+									<li >
+										<a href="/curriculum/bigdata/pythonai.asp">
+											<dl>
+												<dt>���̽� ��� AI Project</dt>
+												<dd>���̽��� ������� ���ʺ��� �˰����� ���� ����� ������, �����ͺм��� �ð�ȭ�� �پ��� ���� Ǯ�̷� �н��ϰ� �˴ϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+								</ul>
+								</li>
+								<li>
+									<a href="javascript:void(0);">�������� ������</a>
+																	<ul class="dep03">
+									<li >
+										<a href="/curriculum/security/infosecurity.asp">
+											<dl>
+												<dt>�������� </dt>
+												<dd> �ܺ� �Ǵ� ���ηκ����� ������ �����ϰ� �����ϴ� ���� ���� �̸� ���� �ǻ�Ȱ�� ������� Ȱ�밡���� �پ��� ���������� ���� �����ϰ� ������ �� �ִ� �������� �Դϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/security/networksecurity.asp">
+											<dl>
+												<dt>��Ʈ��ũ ���� </dt>
+												<dd>�ֿ� ������� üũ����Ʈ�� Ȱ���Ͽ� ��Ʈ��ũ�� Ȱ���� ���� �������� ���ؿ� ��Ŷ�м� �� Ž��/������ ���� ������� �߰��ϰ� �̿� ���� ���ȼַ���� �����ϴ� �н����� �Դϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/security/systemsecurity.asp">
+											<dl>
+												<dt>�ý��� ���� </dt>
+												<dd>��ŷ ������ �н��ϰ� �̸� ��ȣ�ϱ� ���� ��ȣȭ �� ���ȸ�� Ȱ����� ���� �α׺м��� ���� ����� �� ���ó�� Ʈ�������� �����μ� ���� ���� ��å �� ���� �����Ҽ� �ִ� �н� �����Դϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/security/websecurity.asp">
+											<dl>
+												<dt>�� ���� </dt>
+												<dd>���� ���� ���� ����, �Ǽ���ũ��Ʈ , ����������� �ľ��ϰ� SECURE CODING�� �̿� �����ϱ����� ���� ��å�� ���� �ִ� �н������Դϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/security/malware.asp">
+											<dl>
+												<dt>�Ǽ��ڵ� �м� </dt>
+												<dd>�ϼ��� �ý����� �������Ͽ� ����Ʈ������ ���������� ���������μ� �����ڵ带 �����س��� ���ο� ���α׷����� ��â�� �Ҽ� �ִ� ������ �����Ͼ�� ���ʸ� ���� �ִ� �н������Դϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/security/hacking.asp">
+											<dl>
+												<dt>���� ��ŷ </dt>
+												<dd>����� ���ۿ����� �˰� �Ǹ� �Ǽ��ڵ�κ��� �߻��ϴ� �̽��� ���� ��������� ������ �� �� �ֵ��� �ϴ� �н� �����Դϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/security/forensics.asp">
+											<dl>
+												<dt>������ ������ </dt>
+												<dd>���� ������ �ʿ��� ���Ÿ� ��� ���� ������ �����ü�� ��ϵǾ� �ִ� �����͸� ���� �ϰų� �˻��Ͽ� ã�Ƴ����μ� ������ ���Ÿ� Ȯ���ϴ� �н� �����Դϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+								</ul>
+								</li>
+								<li>
+									<a href="javascript:void(0);">��ų�� �ܰ�</a>
+																	<ul class="dep03">
+									<li >
+										<a href="/curriculum/skill/java.asp">
+											<dl>
+												<dt>�ڵ��׽�Ʈ �ڹ�</dt>
+												<dd>�ڹٸ� �н��� �е鿡�Դ� �ڷᱸ���� �˰����� ���� �ڹٸ� ���� �� ��ȭ �� �� ������, �ڹٱ�� ȸ�� ����� ������ �˴ϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/skill/python.asp">
+											<dl>
+												<dt>�ڵ��׽�Ʈ ���̽�</dt>
+												<dd>���̽� �ڷᱸ���� �˰����� �����ϰ� ������ ���̽� ������ ���� ����Ǯ�̿� ���� ���� �� �� �ֵ��� ������ ���� �����Դϴ�.  </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/skill/jsp.asp">
+											<dl>
+												<dt>JSP</dt>
+												<dd>�鿣�� ����� ���� �ְ� ������. ������ ���� ���α׷��� ������ �۵� ����, MVC �������� �̾����� �ǹ��� �Խ��� �ۼ�����. ������ �Թ����� �ʼ� �ڽ��� �����ް� �ֽ��ϴ�.  </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/skill/android.asp">
+											<dl>
+												<dt>�ȵ���̵�</dt>
+												<dd>4�� ������Ʈ, ����, xml, Ŀ���͸���¡, ���� ����� �н��ϰ�, ���� ������Ʈ���� ��ȹ �� �����Ͽ�, �ʽ��ں��� ������Ʈ�� �ʿ��� �л����� �ܰ躰 �н������� ��ġ�� �˴ϴ�.   </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/skill/structure.asp">
+											<dl>
+												<dt>�ڷᱸ��/�˰���</dt>
+												<dd>C, �ڹ�, ���̽��� �������� �� �ڷᱸ���� �˰��� ������ ����, ���� �ڵ� �ɷ��� �� ���� ���׷��̵� �� �� �ִ� ���� ������ �����Ͻñ� �ٶ��ϴ�!   </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/skill/dbms.asp">
+											<dl>
+												<dt>DBMS</dt>
+												<dd>������ �����, ����, ������ ��������� �ٷ�� ���� ���ʺ��� ��� ��ɱ��� ��, ������, Ai ������ ���ȱ��� ����� ���ϴ� �л��� ���� �ܰ躰 �н� �������� �����Ǿ� �ֽ��ϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/skill/javaScript.asp">
+											<dl>
+												<dt>Javascript</dt>
+												<dd>����Ʈ���� �Թ��ںе��� ��ư� ������ �ִ� ����, ���, ��ü Ȱ�� é�͸� ���� �˱� ���� ���� �������� �Թ��ڸ� ���� �ٽɸ��� ��ҽ��ϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/skill/php.asp">
+											<dl>
+												<dt>PHP/SQL</dt>
+												<dd>������ ���࿡ �ݵ�� �ʿ��� SQL�� �н��Ͽ�, ������ ������� ���� �ϼ����� ������ �� �ֽ��ϴ�. PHP�� DBMS ������ ���� �� ���� ���α׷��� ���� �� �� �ִ� �����ڷ� �ŵ쳪�ñ� �ٶ��ϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/skill/spring.asp">
+											<dl>
+												<dt>Spring</dt>
+												<dd>�������� �����ӿ�ũ�� ǥ������ �ڸ� ��� ������, ������ �о߿� Ưȭ �Ǿ� �ִ� Spring�� �н��� ���� �Ѵܰ� ������ �����ڷ� �ŵ쳪�ñ� �ٶ��ϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+								</ul>
+								</li>
+								<li>
+									<a href="javascript:void(0);">��Ʈ��ũ ������</a>
+																	<ul class="dep03 snb-wmid">
+									<li >
+										<a href="/curriculum/network/engineer.asp">
+											<dl>
+												<dt>��Ʈ��ũ �����Ͼ� </dt>
+												<dd>����� ���� ��Ʈ��ũ ���� ������� ��Ʈ��ũ ���� ������� �м��ϱ� ���� ���� ��ŷ�� �����ϸ�, �̸� ������ �� �ִ� ���� �ַ��(��ȭ��, ħ�� Ž��/����, IPSec VPN, MPLS VPN, UTM)�� ���ؼ� �н��մϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/network/ccnabasic.asp">
+											<dl>
+												<dt>CCNA ��Ʈ��ũ ���� </dt>
+												<dd>��Ʈ��ũ ������ ���� ����, ���� ���� �۾��� ������ �� �ִ� �ɷ��� �������� �� �ֽ��ϴ�. �� ���������� �����޴� �ڰ�������, ��Ʈ��ũ �о߿��� ����ϰ� ���� ����鿡�Դ� �ſ� �߿��� �ڰ����Դϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/network/ccnpip.asp">
+											<dl>
+												<dt>CCNP ROUTE<span>(IP Routing)</span> </dt>
+												<dd>CCNP ROUTE�� �ý��ڿ��� �����ϴ� ��Ʈ��ũ ������ �ڰ��� �� �ϳ���, ����ø��� ����, ����, � �� ���������� �� �ִ� ������ �����ϴ� �ڰ����Դϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/network/ccnplan.asp">
+											<dl>
+												<dt>CCNP SWITCH<span>(LAN Switching)</span> </dt>
+												<dd>CCNP SWITCH �ڰ����� ����ϸ�, ����ġ���� ���� �� ��������, VLAN ������ ����, ���д� Ʈ�� �������� ������ ����ȭ �� ����ġ�� ���� �������� �������� �� �ֽ��ϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+								</ul>
+								</li>
+								<li>
+									<a href="javascript:void(0);">���� ������</a>
+																	<ul class="dep03">
+									<li >
+										<a href="/curriculum/server/multicloud.asp">
+											<dl>
+												<dt>��ƼŬ���� ��������</dt>
+												<dd>�������� ���� ���� ����ϴ� Ŭ���� ������ ������ ����, �������� ȯ���� �����ϴ� �����Ͼ ����� �н��մϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/server/system.asp">
+											<dl>
+												<dt>�ý��ۿ����Ͼ�</dt>
+												<dd>�ý��� �����Ͼ� ������ �ü��(OS, Operation System)�� ������ �̷��� �н��Ͽ�, ���� ���α׷� �����ڿ� ������ �� �ִ� ȯ���� �����ϰ� ����մϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/server/linux.asp">
+											<dl>
+												<dt>����������������</dt>
+												<dd>Linux �⺻ �ܼ� ��ɾ�, Web����, Mail ���� ����, ���� �����, �α׺м� �� �⺻���� �ǹ����� �ʿ��� �پ��� ���񽺸� �н��մϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/server/window.asp">
+											<dl>
+												<dt>�����켭��������</dt>
+												<dd>���� ������ ���������� DB, WAS, ����ȭ ���� ����͸�, �׸��� ��Ŀ, ����� �м� �� �پ��� Windows ������ ����� �н��մϴ�.  </dd>
+											</dl>
+										</a>
+									</li>
+								
+								</ul>
+								</li>
+
+							</ul>
+						</li><!-- ����������� -->
+
+
+						<li class="menu-li menu-li04"><a href="/cer/">�ڰ���������</a>
+							<ul class="dep02">
+								<li>
+									<a href="javascript:void(0);">����ó��</a>
+									<ul class="dep03">
+										<li><a href="/cer/infopro/infoProcess.asp">��� �� ������ </a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="javascript:void(0);">��������</a>
+									<ul class="dep03">
+										<li><a href="/cer/infosec/infoSecurity.asp">��� �� ������ </a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="javascript:void(0);">�����ͻ��̾�</a>
+									<ul class="dep03">
+										<li><a href="/cer/datascience/bigdata.asp">������ �м���� </a></li>
+										<li><a href="/cer/datascience/sqld.asp">SQLD �� SQLP </a></li>
+										<li><a href="/cer/datascience/adsp.asp">ADsP �� ADP </a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="javascript:void(0);">�ý��۳�Ʈ��ũ</a>
+									<ul class="dep03">
+										<li><a href="/cer/systemnetwork/network.asp">��Ʈ��ũ ������</a></li>
+										<li><a href="/cer/systemnetwork/linux.asp">������������</a></li>
+										<li><a href="/cer/systemnetwork/ccna.asp">CCNA �� CCNP </a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="javascript:void(0);">����ũ�μ���Ʈ�� ���� �ڰ���</a>
+									<ul class="dep03">
+										<li><a href="/cer/microsoft/mcf.asp">MCF </a></li>
+									</ul>
+								</li>
+
+
+							</ul>
+						</li><!-- �ڰ��������� -->
+
+						<li class="menu-li menu-li04"><a href="/community/project.asp">��Ʈ������</a>
+							<ul class="dep02">
+								<li>
+									<a href="/community/project.asp">������ ������Ʈ</a>
+								</li>
+
+
+							</ul>
+						</li><!-- ����������� -->
+
+						<li class="menu-li menu-li05"><a href="#">��������</a>
+							<ul class="dep02">
+								<li><a href="/customer/center_tuition.asp">��������ȸ</a></li>
+								<li><a href="/customer/center_ncs.asp">�������� ������ȸ</a></li>
+								<li><a href="/customer/center_online.asp">�ǽð��湮����</a></li>
+								<li><a href="/customer/center_timetable.asp">�ð�ǥ��ȸ</a></li>
+								<li><a href="/customer/center_location.asp">��������ġ��ȸ</a></li>									
+								
+								<li><a href="javascript:void(0);" onclick="payPopUp('03',14);">�¶��ΰ���</a></li>
+								
+								<!--li><a href="/customer/pay01.asp">�¶��ΰ���</a></li-->
+								
+								<li><a href="/customer/center_suggest.asp">�� Ī��/���� ����</a></li>
+
+							</ul>
+						</li><!-- ����������� -->
+
+
+
+					</ul><!-- menu-ul -->
+				</div>
+			</div><!-- menu-wr -->
+		</div><!-- menu-wrap -->
+	</div><!-- menu-ham -->
+
+
+	<div class="main-locationWrap">
+		<div class="main-location">
+			<h3>�������� Ȩ������ �ٷΰ���</h3>
+			<h4>�ڸ���IT��ī���̴� ���ѹα� ��� �����̳� 100% ���� ���� ��ī�����̸�,<br>
+				���� ��� �������� ������ ���������� �ڶ��մϴ�.
+			</h4>
+
+			<div class="mloca-list">
+				<div class="on"><a href="https://gangnam.koreaisacademy.com/?dGubun=">����</a></div>
+				<div class=""><a href="https://sinchon.koreaisacademy.com/?dGubun=">����/ȫ��</a></div>
+				<div class=""><a href="https://daegu.koreaisacademy.com/?dGubun=">�뱸</a></div>
+				<div class=""><a href="https://busan.koreaisacademy.com/?dGubun=">�λ�</a></div>
+				<div class=""><a href="https://incheon.koreaisacademy.com/?dGubun=">��õ</a></div>
+				<div class=""><a href="https://daejeon.koreaisacademy.com/?dGubun=">����</a></div>
+				<div class=""><a href="https://nowon.koreaisacademy.com/?dGubun=">���</a></div>
+				<div style="padding-top: 0px;"><a href="/landing/hackathon_award.asp"><strong>KIT��Ŀ��</strong></a></div>
+			</div>
+			<a href="/customer/center_location.asp" class="main-loca-moreBtn">������ ��ġ �˾ƺ��� &#8594;</a>
+		</div>
+	</div>
+	
+	<div class="mo-show header-util">
+		<a href="/sitemap.asp" class="go-sitemap">
+			<span class="blind">��ü�޴� ����</span>
+			<i class="hamburger-ico">
+				<span class="line line1"></span>
+				<span class="line line2"></span>
+				<span class="line line3"></span>
+			</i>
+		</a>
+	
+		<a href="tel:1588-5890" class="btn-call"></a>
+	
+	</div>
+
+</div><!-- header -->
+
+<div class="gnb-right">
+	<h3>QUICK<br>MENU</h3>
+	<ul>
+		<li>
+			<a href="/customer/center_vacation.asp">
+				<img src="/2023/img/icon-vacation-normal.png">
+				<h4>����Ư����ȸ</h4>
+			</a>
+		</li>
+		<li>
+			<a href="/customer/center_tuition.asp">
+				<img src="/2023/img/icon-main-quick-tuition.png">
+				<h4>��������ȸ</h4>
+			</a>
+		</li>
+		<li>
+			<a href="/customer/center_ncs.asp">
+				<img src="/2023/img/icon-main-quick-ncs.png">
+				<h4>���������ȸ</h4>
+			</a>
+		</li>
+		<!-- <li>
+			<a href="/customer/center_vacation.asp">
+				<img src="/2023/img/mainQuick_vacation_winter.png">
+				<h4>����Ư����ȸ</h4>
+			</a>
+		</li> -->
+		<li>
+			<a href="/customer/center_tt_on.asp">
+				<img src="/2023/img/icon-main-quick-online.png">
+				<h4>�¶���<br>����û</h4>
+			</a>
+		</li>
+		<li>
+			<a href="/community/project.asp">
+				<img src="/2023/img/icon-main-quick-portfolio.png">
+				<h4>��Ʈ������</h4>
+			</a>
+		</li>
+		<li>
+			<a href="/community/post.asp">
+				<img src="/2023/img/icon_main_quick_review.png">
+				<h4>�������ı�</h4>
+			</a>
+		</li>
+		<li>
+			<a href="/customer/center_online.asp">
+				<img src="/2023/img/icon-main-quick-reservation.png">
+				<h4>�ǽð�<br>��㿹��</h4>
+			</a>
+		</li>
+	</ul>
+</div>
+
+
+<script>
+	//�����ȳ� ����
+	$('.location-btn').click(function(){
+		$('.main-locationWrap').fadeToggle();
+	});
+</script>
+<div class="main-loc-list-wrap">
+	<div class="left-wrap"><p>���������ȳ�</p></div>
+	<div class="right-wrap">
+		<ul class="main-loc-list">
+			<li class="gn"><a onclick="location.href=&quot;https://gangnam.koreaisacademy.com/customer/center_location.asp&quot;">����</a></li>
+
+			<li class="hd"><a onclick="location.href=&quot;https://sinchon.koreaisacademy.com/customer/center_location.asp&quot;">����</a></li>
+
+			<li class="dg"><a onclick="location.href=&quot;https://daegu.koreaisacademy.com/customer/center_location.asp&quot;">�뱸</a></li>
+
+			<li class="bs"><a onclick="location.href=&quot;https://busan.koreaisacademy.com/customer/center_location.asp&quot;">�λ�</a></li>
+
+			<li class="ic"><a onclick="location.href=&quot;https://incheon.koreaisacademy.com/customer/center_location.asp&quot;">��õ</a></li>
+
+			<li class="dj"><a onclick="location.href=&quot;https://daejeon.koreaisacademy.com/customer/center_location.asp&quot;">����</a></li>
+
+			<li class="nw"><a onclick="location.href=&quot;https://nowon.koreaisacademy.com/customer/center_location.asp&quot;">���</a></li>
+		</ul>
+	</div>
+</div>
+<script>
+	
+</script><section class="mainBanner">
+	<div class="main-slide">
+		<!-- view ���� movie-delay Ŭ���� ������ ������̸�ŭ Ȧ���մϴ� -->
+
+		<!--<div class="view movie-delay">
+			<video src="/2023/img/main/banner/231114_it_banner.mp4?v=1130" type="video/mp4" autoplay="" muted="" playsinline="" loop=""></video>
+		</div>-->
+		<!--<em style="background: url('/2023/img/banner/mainbanner001.jpg');"></em>-->
+		<div class="slide-box new-layout">
+			<a href="/community/notice_view.asp?txtCurPage=1&txtBoardSeq=&SubMenu=&txtMenu=&KindSeq=&txtContentSeq=474">			
+				<div class="view">
+					<div class="pc-show">
+						<em style="background: url('/2023/img/banner/IT_main_240430.jpg');"></em>
+					</div>
+					<div class="mo-show">
+						<img src="/2023/img/banner/240429_it_banner_m.jpg">
+					</div>
+				</div>
+			</a>
+		</div><!-- 3�������� -->
+	
+		
+
+		<div class="slide-box new-layout">
+			<a href="/community/notice_view.asp?txtCurPage=1&txtBoardSeq=&SubMenu=&txtMenu=&KindSeq=&txtContentSeq=467">			
+				<div class="view">
+					<div class="pc-show">
+						<em style="background: url('/2023/img/banner/banner_230312.jpg');"></em>
+					</div>
+					<div class="mo-show">
+						<img src="/renewal2021/m/img/main/banner/m_banner_231030_m.jpg">
+					</div>
+				</div>
+			</a>
+		</div><!-- ���100 -->
+
+
+		<div class="slide-box new-layout">
+			<a href="/ncs/ncslist.asp">			
+				<div class="view">
+					<div class="pc-show">
+						<em style="background: url('/2023/img/banner/IT_main_240308_ncs.jpg');"></em>
+					</div>
+					<div class="mo-show">
+						<img src="/renewal2021/m/img/main/banner/main_banner_231030_m.jpg">
+					</div>
+				</div>
+			</a>
+		</div><!-- ����100% -->
+
+
+		
+		<div class="slide-box new-layout">
+			<a href="/curriculum/app/webapp.asp">
+				<div class="view">
+					<div class="pc-show">
+						<em style="background: url('/2023/img/banner/it_banner_240222.jpg');"></em>
+					</div>
+					<div class="mo-show">
+						<img src="/2023/img/banner/it_banner_m_240222.jpg">
+					</div>
+				</div>
+			</a>
+		</div><!-- ������ -->
+
+		<div class="slide-box new-layout">
+			<a href="/cer/microsoft/mcf.asp">			
+				<div class="view">
+					<div class="pc-show">
+						<em style="background: url('/2023/img/banner/curri_01.jpg');"></em>
+					</div>
+					<div class="mo-show">
+						<img src="/2023/img/banner/mo_curri_01.jpg">
+					</div>
+				</div>
+			</a>
+		</div><!-- MCF�ڰ��� -->
+
+		<div class="slide-box new-layout">
+			<a href="/cer/datascience/bigdata.asp">			
+				<div class="view">
+					<div class="pc-show">
+						<em style="background: url('/2023/img/banner/curri_02.jpg');"></em>
+					</div>
+					<div class="mo-show">
+						<img src="/2023/img/banner/mo_curri_02.jpg">
+					</div>
+				</div>
+			</a>
+		</div><!-- �����ͺм���� -->
+
+		<div class="slide-box new-layout">
+			<a href="/curriculum/network/engineer.asp">			
+				<div class="view">
+					<div class="pc-show">
+						<em style="background: url('/2023/img/banner/curri_03.jpg');"></em>
+					</div>
+					<div class="mo-show">
+						<img src="/2023/img/banner/mo_curri_03.jpg">
+					</div>
+				</div>
+			</a>
+		</div><!-- ��Ʈ��ũ�����Ͼ���� -->
+
+		<div class="slide-box new-layout">
+			<a href="/curriculum/security/infosecurity.asp">			
+				<div class="view">
+					<div class="pc-show">
+						<em style="background: url('/2023/img/banner/curri_04.jpg');"></em>
+					</div>
+					<div class="mo-show">
+						<img src="/2023/img/banner/mo_curri_04.jpg">
+					</div>
+				</div>
+			</a>
+		</div><!-- ������������������ -->
+
+		<div class="slide-box new-layout">
+			<a href="/cer/infopro/infoProcess.asp">			
+				<div class="view">
+					<div class="pc-show">
+						<em style="background: url('/2023/img/banner/curri_05.jpg');"></em>
+					</div>
+					<div class="mo-show">
+						<img src="/2023/img/banner/mo_curri_05.jpg">
+					</div>
+				</div>
+			</a>
+		</div><!-- ����ó������ڰ������� -->
+
+		
+
+		<div class="slide-box new-layout">
+			<a href="/community/notice_view.asp?txtCurPage=1&txtBoardSeq=&SubMenu=&txtMenu=&KindSeq=&txtContentSeq=456">							
+				<div class="view">
+					<div class="pc-show">
+						<em style="background: url('/2023/img/banner/it_banner_smart.jpg');"></em>
+					</div>
+					<div class="mo-show">
+						<img src="/2023/img/banner/it_banner_smart_m.jpg">
+					</div>
+				</div>
+			</a>
+		</div><!-- ����Ʈ���п���Ȱ -->
+
+
+	</div>
+
+
+	<div class="container">
+		<div class="slide-cont">
+			<div class="slide-arrow">
+				<a href="javascript:void(0)" class="main-stat-btn">
+					<button type="button" class="main-pause slick-pause"><i></i><span class="altTxt">����</span></button>
+					<button type="button" class="main-play slick-play" style="display: none;"><i></i><span class="altTxt">���</span></button>
+				</a>
+				<div class="slide-navi">
+					<button type="button" class="main-prev slick-prev"><i></i><span class="altTxt">����</span></button>
+					<div class="main-pagi slick-pagi"></div>
+					<button type="button" class="main-next slick-next"><i></i><span class="altTxt">����</span></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<script>
+	var $status = $('.mainBanner .slick-pagi');
+	var $progressBar = $('.mainBanner .slick-label');
+	var $slickElement = $('.main-slide');
+	//progressBar
+	var mbsCount = $('.main-slide .slide-box').length;
+	$progressBar.css('width', (100 / mbsCount) + '%');
+	$slickElement.on('beforeChange', function(event, slick, currentSlide, nextSlide){
+		var calc = ( (nextSlide+1) / (slick.slideCount) ) * 100;
+		$progressBar.css('width', calc + '%');
+	});
+	//pagination
+	$slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+		var i = (currentSlide ? currentSlide : 0) + 1;
+		$status.html('<b>'+ (i < 10 ? + i : i) +'</b> ' + ' / <span> &nbsp;' + (slick.slideCount < 10 ? + slick.slideCount : slick.slideCount) + '</span>');	
+	});
+
+
+
+	$slickElement.slick({
+		swipe: true,
+		autoplay: true,
+		autoplaySpeed:4000,
+		speed:400,
+		fade: false,
+		pauseOnHover: true,
+		cssEase: 'linear',
+		arrows: true,
+		prevArrow:'.main-prev',
+		nextArrow:'.main-next',
+		slidesToShow: 1,
+		slidesToScroll: 1,
+
+		lazyLoad: 'progressive',
+
+	}).on("afterChange", function(e, slick, currentSlide, nextSlide) {
+		videoCheck('stop');
+	});
+
+	//230920 movie-delay�� n�ʾ� ��
+	var videoTimer;
+
+	var videoCheck = function (x){
+		if($('.main-slide .slick-active').has('.movie-delay').length > 0){
+			switch(x){
+				case 'stop':
+					$('.main-slide').slick('slickPause');
+					$('.slick-pause').fadeOut(300);
+					$('.slick-play').fadeIn(300);
+
+					videoTimer = setTimeout(() => {
+						 $('.main-slide').slick('slickPlay');
+						$('.slick-play').fadeOut(300);
+						$('.slick-pause').fadeIn(300);
+					}, 3000);
+					
+					break;
+
+				default:
+					if(videoTimer) clearTimeout(videoTimer);
+			}
+
+			
+		}else{
+			if(videoTimer) clearTimeout(videoTimer);
+		}
+	};
+
+	videoCheck('stop');
+
+	//pause, play
+	$('.slick-pause').click(function(){
+		$('.main-slide').slick('slickPause');
+		$(this).fadeOut(300);
+		$('.slick-play').fadeIn(300);
+	});
+
+	$('.slick-play').click(function(){
+		$('.main-slide').slick('slickPlay');
+		$(this).fadeOut(300);
+		$('.slick-pause').fadeIn(300);
+
+		videoCheck('play');
+	});
+
+</script><div class="container">
+	<div class="main-quick">
+		<div class="main-quick-left">
+			<span>Quick Menu</span>
+			<h2>
+				<b>���ϴ� �޴�</b>�� <br><b>���� ������</b> �̿��ϼ���.
+			</h2>
+			<div class="main-quick-call">
+				1588-5890
+			</div>
+		</div>
+		<div class="main-quick-right">
+			<ul>
+				<li><a href="/customer/center_vacation.asp"><span class="mQuick-vacation-winter normal"></span>����Ư����ȸ<em class="bubble">�󸮹���<br>�̺�Ʈ!</em></a></li>
+				<li><a href="/customer/center_tuition.asp"><span class="mQuick-tuition"></span>��������ȸ<!--<em class="bubble"><div id="ch_month">1</div>�� ����<br>Ư���̺�Ʈ!</em>--></a></li>
+				<li><a href="/customer/center_ncs.asp"><span class="mQuick-target"></span>�������� ������ȸ</a></li>
+				<!--<li><a href="#"><span class="mQuick-gookbi"></span>�����������</a></li>-->
+				<li><a href="/customer/center_online.asp"><span class="mQuick-visit"></span>�湮��㿹��</a></li>
+				<li><a href="/curriculum/"><span class="mQuick-curri"></span>����������ȸ</a></li>
+				<li><a href="/customer/center_tt_on.asp"><span class="mQuick-online"></span>�¶��� ����û</a></li>
+			</ul> 
+		</div>
+	</div><!-- main-quick -->
+</div>
+
+<script>
+	//������ �� ������ ���
+	function getCurrentMonth() {
+
+        const currentDate = new Date();
+
+        const currentMonth = currentDate.getMonth() + 1;
+       const thisMonth = document.getElementById('ch_month');
+      thisMonth.innerText = currentMonth
+    }
+
+    getCurrentMonth();
+
+</script>
+
+	
+		<div class="container">		
+			<div class="main-wr">
+								<div class="main-section">
+					<div class="mainTit-wr">
+						<h3>�ڸ���IT��ī���� ���������� <span>���� ��� ���� ���丮</span></h3>
+						<a href="/community/jobinterview.asp"  class="mainTit-btn"> <span>����� ���ͺ� ��ü����</span></a>
+					</div>
+					<ul class="main-job-sucess">
+					
+						<li>
+							<a href="/community/jobinterview_view.asp?txtContentSeq=210">
+								<div class="inv-img" style="background-image:url('/allupload/File/00113.jpg');"></div>
+								<dl class="board-txt">
+									<dt>���ø�ũ�����</dt>
+									<dd>
+										�������ڴԲ��� �������� ä����� ���� �����ֽð�, ����������Ʈ �غ� �� ������ �κп��� ì���ֽŴٴ� ���� ���� �������ϴ�.
+									</dd>
+								</dl>
+							</a>
+						</li>
+					
+						<li>
+							<a href="/community/jobinterview_view.asp?txtContentSeq=209">
+								<div class="inv-img" style="background-image:url('/allupload/File/th127.jpg');"></div>
+								<dl class="board-txt">
+									<dt>�ֽ�ȸ�� ����</dt>
+									<dd>
+										�п� ������ ü�����̸鼭 ������ ȥ�� ������ ������ �ξ� ���� ��� ������ ���������� ��� �� �ְ�, ���� ���� ��������� �Բ� �����ϰ� ������ �� �ִٴ� ���� ���� ū �����Դϴ�.
+									</dd>
+								</dl>
+							</a>
+						</li>
+					
+						<li>
+							<a href="/community/jobinterview_view.asp?txtContentSeq=208">
+								<div class="inv-img" style="background-image:url('/allupload/File/th120.jpg');"></div>
+								<dl class="board-txt">
+									<dt>�Ͽ츮</dt>
+									<dd>
+										���������� ���ɼ��� �˷��� �ڸ��� IT ��ī���� ���п� ���ο� ��ȸ�� ���� �� �־����ϴ�.
+									</dd>
+								</dl>
+							</a>
+						</li>
+					
+						<li>
+							<a href="/community/jobinterview_view.asp?txtContentSeq=207">
+								<div class="inv-img" style="background-image:url('/allupload/File/th97.jpg');"></div>
+								<dl class="board-txt">
+									<dt>�ξ��̿���</dt>
+									<dd>
+										�������� �Ƿ°� �μ� ��� ���� �پ ����԰� ��� ����ڴԿ��� ������ ���� �� �ִٴ� ���� ū �����Դϴ�.
+									</dd>
+								</dl>
+							</a>
+						</li>
+						
+					</ul><!-- main-job-sucess -->
+				</div><!-- main-section -->
+				<div class="main-section">
+					<div class="mainTit-wr">
+						<h3>���뵿�ο� �Բ��ϴ� <span>�������� ��������</span></h3>
+						<p><b>���뵿�� ���� ���� �����Ʒñ��</b>����, ���Ϲ��ī�带 ���� <B>������ ����</b>�� ������ �� �ֽ��ϴ�.</p>
+					</div>
+					<div class="main-hor-roll main-ncs">
+						<ul class="main-ncs-list">
+		<li>
+		<a href="/ncs/ncslist.asp">
+			<div class="main-ncs-tit">
+				<span>���ȿ����Ͼ</span>
+				<h3>���������� �� ������ �ַ�� ���� ���հ���</h3>
+			</div>
+			<div class="main-ncs-job">
+				<span>����о�</span>
+				<p>�� ������, ���� �ý��۰� �������� ������ ��ȣ ���, ���� ������</p>
+			</div>
+		</a>
+	</li>
+	<li>
+		<a href="/ncs/ncslist.asp">
+			<div class="main-ncs-tit">
+				<span>�ΰ������÷�������</span>
+				<h3>AI��� ê�� �� OCR ���� ������ ����</h3>
+			</div>
+			<div class="main-ncs-job">
+				<span>����о�</span>
+				<p> Ai�� ������ ����ó�� �ַ�� ��ü, ê�� ���� ��ü, ���̽� ������ ��ü</p>
+			</div>
+		</a>
+	</li>
+	<li>
+		<a href="/ncs/ncslist.asp">
+			<div class="main-ncs-tit">
+				<span>����SW�����Ͼ</span>
+				<h3>�ڹ�(JAVA)��� ������ ����SW������ �缺����</h3>
+			</div>
+			<div class="main-ncs-job">
+				<span>����о�</span>
+				<p>������ ������, �� �ۺ���, �� ������</p>
+			</div>
+		</a>
+	</li>
+	<li>
+		<a href="/ncs/ncslist.asp">
+			<div class="main-ncs-tit">
+				<span>����SW�����Ͼ</span>
+				<h3>���������͸� ������ �ڹٱ�� Spring �������� �缺����</h3>
+			</div>
+			<div class="main-ncs-job">
+				<span>����о�</span>
+				<p>�鿣�� ������, JAVA ��� �� ���α׷��� ������, �������α׷� ������</p>
+			</div>
+		</a>
+	</li>
+	<li>
+		<a href="/ncs/ncslist.asp">
+			<div class="main-ncs-tit">
+				<span>����SW�����Ͼ</span>
+				<h3>Node.js�� React.js�� Ȱ���� Ǯ���� ������ �缺����</h3>
+			</div>
+			<div class="main-ncs-job">
+				<span>����о�</span>
+				<p>�� ���α׷��� ������, �ý��� ����Ʈ���� ������, Full-Stack������, JAVA�� ���۳�Ʈ ������, �������α׷� ������</p>
+			</div>
+		</a>
+	</li>
+
+	<li>
+		<a href="/ncs/ncslist.asp">
+			<div class="main-ncs-tit">
+				<span>����SW�����Ͼ</span>
+				<h3>�Ӻ���� ����Ʈ���� ���� Ǯ���� ������ �缺 ����</h3>
+			</div>
+			<div class="main-ncs-job">
+				<span>����о�</span>
+				<p>�Ӻ���� ������, �ý��� ����Ʈ���� ������, Full-Stack������, �� ���α׷��� ������, �������α׷� ������</p>
+			</div>
+		</a>
+	</li>
+
+	<li>
+		<a href="/ncs/ncslist.asp">
+			<div class="main-ncs-tit">
+				<span>����ũ�����Ͼ</span>
+				<h3>Spring ��� ����ũ ������ �缺����</h3>
+			</div>
+			<div class="main-ncs-job">
+				<span>����о�</span>
+				<p>����ũ �ַ�� ����, IT ������</p>
+			</div>
+		</a>
+	</li>
+	<li>
+		<a href="/ncs/ncslist.asp">
+			<div class="main-ncs-tit">
+				<span>UI/UX�����Ͼ</span>
+				<h3>UI/UX��� ����Ʈ���� ������ �缺 ����</h3>
+			</div>
+			<div class="main-ncs-job">
+				<span>����о�</span>
+				<p>����Ʈ���� ������, �� ������, �� �ۺ���</p>
+			</div>
+		</a>
+	</li>
+
+
+	<li>
+		<a href="/ncs/ncslist.asp">
+			<div class="main-ncs-tit">
+				<span>������ȣ���ܡ��м�</span>
+				<h3>�������� �����Ͼ� �缺 ����</h3>
+			</div>
+			<div class="main-ncs-job">
+				<span>����о�</span>
+				<p>�ý���, ����, ����, Ŭ���� ���� ������</p>
+			</div>
+		</a>
+	</li>
+	<li>
+		<a href="/ncs/ncslist.asp">
+			<div class="main-ncs-tit">
+				<span>������ȣ�������</span>
+				<h3>AI ������ �ý��� ���� ������ �缺����</h3>
+			</div>
+			<div class="main-ncs-job">
+				<span>����о�</span>
+				<p>��������, �������ͳ� ����, ħ�� ���� �ý��� �о�</p>
+			</div>
+		</a>
+	</li>
+
+
+	<li>
+		<a href="/ncs/ncslist.asp">
+			<div class="main-ncs-tit">
+				<span>������ȣ�������</span>
+				<h3>�������Ȼ����� ������</h3>
+			</div>
+			<div class="main-ncs-job">
+				<span>����о�</span>
+				<p>��Ʈ��ũ ����, �ý��� ����, ��(��) ���� �о�</p>
+			</div>
+		</a>
+	</li>
+	<li>
+		<a href="/ncs/ncslist.asp">
+			<div class="main-ncs-tit">
+				<span>����SW�����Ͼ</span>
+				<h3>����ó�������� ������</h3>
+			</div>
+			<div class="main-ncs-job">
+				<span>����о�</span>
+				<p>�� ���ø����̼�, ������Ʈ ������</p>
+			</div>
+		</a>
+	</li>
+	<li>
+		<a href="/ncs/ncslist.asp">
+			<div class="main-ncs-tit">
+				<span>����SW�����Ͼ</span>
+				<h3>����ó����ɻ� ������</h3>
+			</div>
+			<div class="main-ncs-job">
+				<span>����о�</span>
+				<p>�� ���ø����̼�, ������Ʈ ������</p>
+			</div>
+		</a>
+	</li>
+	<li>
+		<a href="/ncs/ncslist.asp">
+			<div class="main-ncs-tit">
+				<span>������ȣ�������</span>
+				<h3>(���Ư)Ŭ���� ��� <br />����ȭ �ַ�� <br />���������� �缺����</h3>
+			</div>
+			<div class="main-ncs-job">
+				<span>����о�</span>
+				<p>�ý���, ����, ����, Ŭ���� ���� ������</p>
+			</div>
+		</a>
+	</li>
+
+
+</ul><!--  main-ncs-list -->						
+					</div><!-- main-ncs -->
+				</div><!-- main-section -->
+
+
+				<div class="main-section">
+					<div class="mainTit-wr">
+						<h3>�̷� ���縦 ���� 'ù����' <span>�ڸ��Ƹ��� Ư���� Ŀ��ŧ��</span></h3>
+						<a href="/curriculum/"  class="mainTit-btn"> <span>�������� ��ü����</span></a>
+					</div>
+					<div class="main-basic">
+
+						<ul id="basicTab">	
+							<li><a title="curriCoding"><span></span>�����ڵ�</a></li>
+							<li><a title="curriApp"><span></span>��/�۰���</a></li>
+							<li><a title="curriBigdata"><span></span>AI��������</a></li>
+							<li><a title="curriSecurity"><span></span>��������</a></li>
+							<li><a title="curriNetwork"><span></span>��Ʈ��ũ</a></li>
+							<li><a title="curriServer"><span></span>����</a></li>
+							<li><a title="curriSkill"><span></span>��ų��</a></li>
+							<li><a title="curriCer"><span></span>�ڰ���</a></li>
+						</ul>
+
+						<div class="main-basic-curri" id="curriCoding">
+							<div class="main-basic-tit">
+								<h3>Basic <span>Coding</span></h3>
+								<p>�����ڵ�</p>
+							</div>
+							<div class="main-basic-cont">
+																<ul class="dep03">
+									<li >
+										<a href="/curriculum/coding/python.asp">
+											<dl>
+												<dt>Python </dt>
+												<dd>���α׷��� �о߿��� �ʼ����� ������ ����ϴ� ���̽��� ���� ���� ���꼺�� ǳ���� ���̺귯��, �׸��� ���� ���� �о߿����� ���꼺�� �����غ�����.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/coding/java.asp">
+											<dl>
+												<dt>JAVA </dt>
+												<dd> �������Ʈ���� ����, �� ����, ����ϱ��� ����Ǵ� ������ ��ü���� ���α׷��� ����� �ڹٸ� ���� ������ SW�����ڷ� �ŵ쳪�ñ� �ٶ��ϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/coding/web.asp">
+											<dl>
+												<dt>��ǥ�� </dt>
+												<dd>WAS (Web Application Service)�� �����ϴ� ù �ܰ��� �������� ���� ����� �н��մϴ�. UI �±� ������ ��ũ �� �̺�Ʈó���� �н��Ͽ�, UI/UX ������ ���� ����� �н��մϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/coding/clang.asp">
+											<dl>
+												<dt>C / C++ </dt>
+												<dd>����Ʈ�� �޸� ���� ���� ó�� �ӵ��� ���� ���� ������ ����̸�, C����� �ٽ��� �����͸� ���� �޸� ������ ������ ����, ������ ��� �н��ϰ� �˴ϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/coding/programming.asp">
+											<dl>
+												<dt>C# GUI ���α׷��� </dt>
+												<dd>���� ���� �������� ������, ��ü������ ������ ���� �ǰ�, ������ �ܿ������� ȭ�鱸���� �̺�Ʈó������ GUI ���α׷��ֿ� ����ȭ�� ���������� �����մϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div><!-- curriCoding -->
+
+						<div class="main-basic-curri" id="curriApp">
+							<div class="main-basic-tit">
+								<h3>Web/App <span>Development</span></h3>
+								<p>��/�۰���</p>
+							</div>
+							<div class="main-basic-cont">
+																<ul class="dep03">
+									<li >
+										<a href="/curriculum/app/webapp.asp">
+											<dl>
+												<dt>��&�� ������</dt>
+												<dd>���� �˰��� ����, MVC, ��ü, �׷��� ���α׷��� �� �� ���� ���̽��� ���� ��� �� �ֽ��ϴ�.  ����Ʈ-���忡�� �����ϴ� ���̽� ���α׷� ���� ��-���� ���α׷����� ���̽��� ������ ���踦 �����ϼ���.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/app/backend.asp">
+											<dl>
+												<dt>�鿣�� ����(������)</dt>
+												<dd>JAVA�� �̿��� ��ü������ ���α׷��ֺ��� DBMS(Oracle, MySQL)�� �����ϴ� JDBC ���, ����Ʈ ������ ��ǥ��(HTML/CSS/JS), ���Ҿ� �������� �ٹ������ Ȱ��ǰ� �ִ� Vue.js�� ���� Spring Boot, Rest���� �н��� �� �ֽ��ϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/app/frontend.asp">
+											<dl>
+												<dt>����Ʈ���� ����</dt>
+												<dd>�⺻���� ��ǥ��(HTML, CSS, Javascript) Ȱ���� �ִ��� ���̰�, node.js �� Ȱ���ؼ� �鿣�� ���� �� ��� ��ų�� ���� ����� �ʿ��� �ǹ� ����� �����ϴµ� ������ �Ӵϴ�. �Ĺ� �� react�� Ȱ���� ������Ʈ ������ ������� ������ �� �ֽ��ϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/app/jpa.asp">
+											<dl>
+												<dt>JPA SpringBoot Project</dt>
+												<dd> JPQL, Query DSL�� ���Ҿ� Spring Data JPA, Spring Security ���� �н��ϸ�, Spring Boot ����� ������Ʈ�� �ϼ��� �� �־� �� ���� �о� ����� �غ��ϴ� �е鲲 ������ ���Ⱑ �� ���Դϴ�!</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/app/javascript.asp">
+											<dl>
+												<dt>Javascript Ǯ����</dt>
+												<dd>���� ������ Javascript�� ���� ���� �� ���� �׸��� ��ǥ�ؿ����� ������ ���� �Ǹ�, �� ���ư� ������ ����� �Ͽ� ���ϴ� �����͸� �˸��� ȭ�鿡 ��Ÿ���� ���ر��� ����˴ϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/app/webproject.asp">
+											<dl>
+												<dt>������ �� Project</dt>
+												<dd>Spring�� ����Ʈ���忡�� ���Ǵ� ������� ���Կ� ������ ����� �⺻�⸦ �������� ������Ʈ�� �����ϴ� ����� �̿��� �� �ִ� ���� �ҽ����� Ȱ���ϴ� ����� �ܰ������� ����Ǵ� Ŀ��ŧ���� �����غ�����.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/app/android.asp">
+											<dl>
+												<dt>�ȵ���̵�� ���� Project</dt>
+												<dd>�ȵ���̵� ���� ����� ��Ʋ���� ������� �� ���ۿ� �ʿ��� �⺻ ����-��, �̺�Ʈ���� ���� ����� �н��ϰ�, ����� �ǹ����� ��� ������� �н��ϰ� �˴ϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/app/ios.asp">
+											<dl>
+												<dt>�������� ����</dt>
+												<dd>Objective-C�� ���� �پ��� �� ������ �� �ִ� ����� �н��ϰ�, ����� �ǹ����� ��� ������� �н��ϰ� �˴ϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div><!-- curriApp -->
+
+						<div class="main-basic-curri" id="curriBigdata">
+							<div class="main-basic-tit">
+								<h3>AI��Big Data <span>Expert</span></h3>
+								<p>AI��������</p>
+							</div>
+							<div class="main-basic-cont">
+																<ul class="dep03">
+									<li >
+										<a href="/curriculum/bigdata/gpt.asp">
+											<dl>
+												<dt>AI��� ChatGPT Ȱ��</dt>
+												<dd>������ ChatGPT 200% Ȱ���ϴ� ���� ������ ���</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/bigdata/vision.asp">
+											<dl>
+												<dt>AIȰ�� ��ǻ�ͺ��� ������Ʈ</dt>
+												<dd>���̽��� ������� ���Ai ���� ChatGPT, ������ ��������� fastAPI�� �����ϰ�, ������ �� OpenCV�� Ȱ���� ��ǻ�ͺ��� ������Ʈ�� �ϼ��ϴ� �������� �����˴ϴ�</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/bigdata/natural.asp">
+											<dl>
+												<dt>AIȰ�� �ڿ���ó�� ������Ʈ</dt>
+												<dd>���̽� ���� ������ �������� ���� ���̺귯���� �����ӿ�ũ�� Ȱ���Ͽ� �ӽŷ���, �������� ������� ������ �� ������ �������� ������ �м� ������ ���� �������� ���ظ� ������ �� �ֽ��ϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/bigdata/analysis.asp">
+											<dl>
+												<dt>R�м�</dt>
+												<dd>R�� ��� ��� �� �׷����� ���� ���¼ҽ� ���α׷��� ����, ������ �м�, ��� �� ����н��� ���� �پ��� ��� ��Ű���� �ӽŷ��� �˰����� �����մϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/bigdata/bigdataanalysis.asp">
+											<dl>
+												<dt>�����ͺм� ������</dt>
+												<dd>�����ͺм� �о߿��� ���� �����ް��ִ� �м� ������ R�� ���̽��� ���� api�� �м� ������ �н��ϰ�, ũ�Ѹ�, DB�� Ȱ���� ������ ����, ��� �м��� �н��մϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/bigdata/dataai.asp">
+											<dl>
+												<dt>�����ͺм���� AI Project</dt>
+												<dd> ��ǻ�Ϳ��� �н���ų �������� ��ó���� ���Ҿ� �������� �ӽŷ��װ� �������� Ȱ���� �н� ����� �˾ƺ���, 2�ְ� �̾����� ���� ���� ������Ʈ�� ���� �츮�� ���� �ΰ����� ���� ���� �׽�Ʈ �غ��� ������� �Բ� ����������!</dd>
+											</dl>
+										</a>
+									</li>
+		
+									<li >
+										<a href="/curriculum/bigdata/pythonai.asp">
+											<dl>
+												<dt>���̽� ��� AI Project</dt>
+												<dd>���̽��� ������� ���ʺ��� �˰����� ���� ����� ������, �����ͺм��� �ð�ȭ�� �پ��� ���� Ǯ�̷� �н��ϰ� �˴ϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div><!-- curriBigdata -->
+
+						<div class="main-basic-curri" id="curriSecurity">
+							<div class="main-basic-tit">
+								<h3>Information Security <span>Expert</span></h3>
+								<p>�������� ������</p>
+							</div>
+							<div class="main-basic-cont">
+																<ul class="dep03">
+									<li >
+										<a href="/curriculum/security/infosecurity.asp">
+											<dl>
+												<dt>�������� </dt>
+												<dd> �ܺ� �Ǵ� ���ηκ����� ������ �����ϰ� �����ϴ� ���� ���� �̸� ���� �ǻ�Ȱ�� ������� Ȱ�밡���� �پ��� ���������� ���� �����ϰ� ������ �� �ִ� �������� �Դϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/security/networksecurity.asp">
+											<dl>
+												<dt>��Ʈ��ũ ���� </dt>
+												<dd>�ֿ� ������� üũ����Ʈ�� Ȱ���Ͽ� ��Ʈ��ũ�� Ȱ���� ���� �������� ���ؿ� ��Ŷ�м� �� Ž��/������ ���� ������� �߰��ϰ� �̿� ���� ���ȼַ���� �����ϴ� �н����� �Դϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/security/systemsecurity.asp">
+											<dl>
+												<dt>�ý��� ���� </dt>
+												<dd>��ŷ ������ �н��ϰ� �̸� ��ȣ�ϱ� ���� ��ȣȭ �� ���ȸ�� Ȱ����� ���� �α׺м��� ���� ����� �� ���ó�� Ʈ�������� �����μ� ���� ���� ��å �� ���� �����Ҽ� �ִ� �н� �����Դϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/security/websecurity.asp">
+											<dl>
+												<dt>�� ���� </dt>
+												<dd>���� ���� ���� ����, �Ǽ���ũ��Ʈ , ����������� �ľ��ϰ� SECURE CODING�� �̿� �����ϱ����� ���� ��å�� ���� �ִ� �н������Դϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/security/malware.asp">
+											<dl>
+												<dt>�Ǽ��ڵ� �м� </dt>
+												<dd>�ϼ��� �ý����� �������Ͽ� ����Ʈ������ ���������� ���������μ� �����ڵ带 �����س��� ���ο� ���α׷����� ��â�� �Ҽ� �ִ� ������ �����Ͼ�� ���ʸ� ���� �ִ� �н������Դϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/security/hacking.asp">
+											<dl>
+												<dt>���� ��ŷ </dt>
+												<dd>����� ���ۿ����� �˰� �Ǹ� �Ǽ��ڵ�κ��� �߻��ϴ� �̽��� ���� ��������� ������ �� �� �ֵ��� �ϴ� �н� �����Դϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/security/forensics.asp">
+											<dl>
+												<dt>������ ������ </dt>
+												<dd>���� ������ �ʿ��� ���Ÿ� ��� ���� ������ �����ü�� ��ϵǾ� �ִ� �����͸� ���� �ϰų� �˻��Ͽ� ã�Ƴ����μ� ������ ���Ÿ� Ȯ���ϴ� �н� �����Դϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div><!-- curriSecurity -->
+
+						<div class="main-basic-curri" id="curriNetwork">
+							<div class="main-basic-tit">
+								<h3>Network  <span>Administrator</span></h3>
+								<p>��Ʈ��ũ ������</p>
+							</div>
+							<div class="main-basic-cont">
+																<ul class="dep03 snb-wmid">
+									<li >
+										<a href="/curriculum/network/engineer.asp">
+											<dl>
+												<dt>��Ʈ��ũ �����Ͼ� </dt>
+												<dd>����� ���� ��Ʈ��ũ ���� ������� ��Ʈ��ũ ���� ������� �м��ϱ� ���� ���� ��ŷ�� �����ϸ�, �̸� ������ �� �ִ� ���� �ַ��(��ȭ��, ħ�� Ž��/����, IPSec VPN, MPLS VPN, UTM)�� ���ؼ� �н��մϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/network/ccnabasic.asp">
+											<dl>
+												<dt>CCNA ��Ʈ��ũ ���� </dt>
+												<dd>��Ʈ��ũ ������ ���� ����, ���� ���� �۾��� ������ �� �ִ� �ɷ��� �������� �� �ֽ��ϴ�. �� ���������� �����޴� �ڰ�������, ��Ʈ��ũ �о߿��� ����ϰ� ���� ����鿡�Դ� �ſ� �߿��� �ڰ����Դϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/network/ccnpip.asp">
+											<dl>
+												<dt>CCNP ROUTE<span>(IP Routing)</span> </dt>
+												<dd>CCNP ROUTE�� �ý��ڿ��� �����ϴ� ��Ʈ��ũ ������ �ڰ��� �� �ϳ���, ����ø��� ����, ����, � �� ���������� �� �ִ� ������ �����ϴ� �ڰ����Դϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/network/ccnplan.asp">
+											<dl>
+												<dt>CCNP SWITCH<span>(LAN Switching)</span> </dt>
+												<dd>CCNP SWITCH �ڰ����� ����ϸ�, ����ġ���� ���� �� ��������, VLAN ������ ����, ���д� Ʈ�� �������� ������ ����ȭ �� ����ġ�� ���� �������� �������� �� �ֽ��ϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div><!-- curriNetwork -->
+
+						<div class="main-basic-curri" id="curriServer">
+							<div class="main-basic-tit">
+								<h3>Server  <span>Administrator</span></h3>
+								<p>���� ������</p>
+							</div>
+							<div class="main-basic-cont">
+																<ul class="dep03">
+									<li >
+										<a href="/curriculum/server/multicloud.asp">
+											<dl>
+												<dt>��ƼŬ���� ��������</dt>
+												<dd>�������� ���� ���� ����ϴ� Ŭ���� ������ ������ ����, �������� ȯ���� �����ϴ� �����Ͼ ����� �н��մϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/server/system.asp">
+											<dl>
+												<dt>�ý��ۿ����Ͼ�</dt>
+												<dd>�ý��� �����Ͼ� ������ �ü��(OS, Operation System)�� ������ �̷��� �н��Ͽ�, ���� ���α׷� �����ڿ� ������ �� �ִ� ȯ���� �����ϰ� ����մϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/server/linux.asp">
+											<dl>
+												<dt>����������������</dt>
+												<dd>Linux �⺻ �ܼ� ��ɾ�, Web����, Mail ���� ����, ���� �����, �α׺м� �� �⺻���� �ǹ����� �ʿ��� �پ��� ���񽺸� �н��մϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/server/window.asp">
+											<dl>
+												<dt>�����켭��������</dt>
+												<dd>���� ������ ���������� DB, WAS, ����ȭ ���� ����͸�, �׸��� ��Ŀ, ����� �м� �� �پ��� Windows ������ ����� �н��մϴ�.  </dd>
+											</dl>
+										</a>
+									</li>
+								
+								</ul>
+							</div>
+						</div><!-- curriServer -->
+
+						<div class="main-basic-curri" id="curriSkill">
+							<div class="main-basic-tit">
+								<h3>Skill Up  <span>Course</span></h3>
+								<p>��ų�� �ܰ�</p>
+							</div>
+							<div class="main-basic-cont">
+																<ul class="dep03">
+									<li >
+										<a href="/curriculum/skill/java.asp">
+											<dl>
+												<dt>�ڵ��׽�Ʈ �ڹ�</dt>
+												<dd>�ڹٸ� �н��� �е鿡�Դ� �ڷᱸ���� �˰����� ���� �ڹٸ� ���� �� ��ȭ �� �� ������, �ڹٱ�� ȸ�� ����� ������ �˴ϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/skill/python.asp">
+											<dl>
+												<dt>�ڵ��׽�Ʈ ���̽�</dt>
+												<dd>���̽� �ڷᱸ���� �˰����� �����ϰ� ������ ���̽� ������ ���� ����Ǯ�̿� ���� ���� �� �� �ֵ��� ������ ���� �����Դϴ�.  </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/skill/jsp.asp">
+											<dl>
+												<dt>JSP</dt>
+												<dd>�鿣�� ����� ���� �ְ� ������. ������ ���� ���α׷��� ������ �۵� ����, MVC �������� �̾����� �ǹ��� �Խ��� �ۼ�����. ������ �Թ����� �ʼ� �ڽ��� �����ް� �ֽ��ϴ�.  </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/skill/android.asp">
+											<dl>
+												<dt>�ȵ���̵�</dt>
+												<dd>4�� ������Ʈ, ����, xml, Ŀ���͸���¡, ���� ����� �н��ϰ�, ���� ������Ʈ���� ��ȹ �� �����Ͽ�, �ʽ��ں��� ������Ʈ�� �ʿ��� �л����� �ܰ躰 �н������� ��ġ�� �˴ϴ�.   </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/skill/structure.asp">
+											<dl>
+												<dt>�ڷᱸ��/�˰���</dt>
+												<dd>C, �ڹ�, ���̽��� �������� �� �ڷᱸ���� �˰��� ������ ����, ���� �ڵ� �ɷ��� �� ���� ���׷��̵� �� �� �ִ� ���� ������ �����Ͻñ� �ٶ��ϴ�!   </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/skill/dbms.asp">
+											<dl>
+												<dt>DBMS</dt>
+												<dd>������ �����, ����, ������ ��������� �ٷ�� ���� ���ʺ��� ��� ��ɱ��� ��, ������, Ai ������ ���ȱ��� ����� ���ϴ� �л��� ���� �ܰ躰 �н� �������� �����Ǿ� �ֽ��ϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/skill/javaScript.asp">
+											<dl>
+												<dt>Javascript</dt>
+												<dd>����Ʈ���� �Թ��ںе��� ��ư� ������ �ִ� ����, ���, ��ü Ȱ�� é�͸� ���� �˱� ���� ���� �������� �Թ��ڸ� ���� �ٽɸ��� ��ҽ��ϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/skill/php.asp">
+											<dl>
+												<dt>PHP/SQL</dt>
+												<dd>������ ���࿡ �ݵ�� �ʿ��� SQL�� �н��Ͽ�, ������ ������� ���� �ϼ����� ������ �� �ֽ��ϴ�. PHP�� DBMS ������ ���� �� ���� ���α׷��� ���� �� �� �ִ� �����ڷ� �ŵ쳪�ñ� �ٶ��ϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li >
+										<a href="/curriculum/skill/spring.asp">
+											<dl>
+												<dt>Spring</dt>
+												<dd>�������� �����ӿ�ũ�� ǥ������ �ڸ� ��� ������, ������ �о߿� Ưȭ �Ǿ� �ִ� Spring�� �н��� ���� �Ѵܰ� ������ �����ڷ� �ŵ쳪�ñ� �ٶ��ϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div><!-- curriSkill -->
+
+						<div class="main-basic-curri" id="curriCer">
+							<div class="main-basic-tit">
+								<h3>Certificate <span>Course</span></h3>
+								<p>�ڰ��� ������</p>
+							</div>
+							<div class="main-basic-cont">
+																<ul class="dep03">
+									<li>
+										<a href="/cer/infopro/infoProcess.asp">
+											<dl>
+												<dt>����ó�� ��ɻ� �� ������ �� ��� �ڰ��� </dt>
+												<dd>����ó�� ���, ������, ��ɻ� �ڰ������� ���� �Ǹ�, �ϵ����� ����Ʈ���� Ȱ�뿡 ���� ���ʺ��� ������ ������ �ɷ��� �ܰ躰�� �����߽��ϴ�. �� ���񺰷� �����ڰ� �� ���ð��� ���̰� �ֽ��ϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="/cer/infosec/infoSecurity.asp">
+											<dl>
+												<dt>�������� ������ �� ��� �ڰ��� </dt>
+												<dd>�ý��� �� �ַ�� ����, � �� ����, ������ ���� ���� �̷а� �ǹ��ɷ��� ������� IT ��ݽü� �� ������ ���� ü������ ���Ⱦ��� �����ϴ���. �׸��� �׵��� �̱� ���� �ڰݰ������� �Դϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="/cer/datascience/bigdata.asp">
+											<dl>
+												<dt>�����ͺм���� �ڰ��� </dt>
+												<dd>��뷮�� ������ �������κ��� ������ ������ ã�� ����� �����ϱ� ���� ������ ���� �м������ ������� ������� ����/������ ��뷮 �����͸� ����, Ž��, �м��ϰ� �ð�ȭ�ϴ� ������ �����մϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="/cer/datascience/sqld.asp">
+											<dl>
+												<dt>SQLD �ڰ��� </dt>
+												<dd>�ΰ��ڰ������� ���� ���� �ΰ��ڰ������� �°ݵǾ�����, ������ �𵨸��� ���� ������ �������� SQL �⺻ �� Ȱ���� �����ϴ� �ɷ��� �����ϴ� �ڰݽ��� �Դϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="/cer/datascience/adsp.asp">
+											<dl>
+												<dt>ADsP(�����ͺм� ��������) �ڰ��� </dt>
+												<dd>������ ���ؿ� ���� �⺻������ �������� �����ͺм� ��ȹ �� �����ͺм� ���� ������ �����ϴ� �ǹ��ڸ� ���ϸ�, ������ ���� ������ �������� �����͸� �м��ϴ� �ɷ��� �����մϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="/cer/systemnetwork/network.asp">
+											<dl>
+												<dt>��Ʈ��ũ ������ �ڰ��� </dt>
+												<dd>��Ʈ��ũ������� ������ �����ϰ� ���� ����, �ý��� ����ȭ �� ��Ʈ��ũ���� �� �̸� ȿ�������� ���� �� �� �ִ� ���ͳ� ���� ����¿� ���� �ڰ����Դϴ�. </dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="/cer/systemnetwork/linux.asp">
+											<dl>
+												<dt>������ ������ �ڰ��� </dt>
+												<dd>�������� �����͡� �ڰ����� �ý����� �����ɷ��� �� �ϴ� ���� �ΰ��ڰ������� �̷����嵿�� �о߿��� �پ��� �����ݱ���� ���Ǵ� �ڰ����Դϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="/cer/systemnetwork/ccna.asp">
+											<dl>
+												<dt>CCNP / CCNA �ڰ��� </dt>
+												<dd>��ǻ�� ��Ʈ��ŷ ������ �缺�� ��ǥ�� ��ǥ �� �ý����� ��� ���� ���α׷� CCC�� �ϳ��� ����Ϳ� ����ġ�� ����Ͽ� ��Ʈ��ũ�� �����ϴ� �ɷ°� ����� �������� Ʈ���� ���� �ɷ��� ���ϴ� �ڰ����Դϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="/cer/microsoft/mcf.asp">
+											<dl>
+												<dt>MCF �ڰ��� ����</dt>
+												<dd>Microsoft Azure Cloud�� ���� �⺻���� ����� �Բ� �̸� Ȱ���� ������, �ΰ����� ����� ���� ������ ���� �� ��Ƴ��� �ִ� �ڰ���! �ٷ� MCF �ڰ����Դϴ�.</dd>
+											</dl>
+										</a>
+									</li>
+
+								</ul>
+
+		
+							</div>
+						</div><!-- curriCer -->
+
+					</div>
+				</div><!-- main-section -->
+				
+				<div class="main-section">
+					<div class="mainTit-wr">
+						<h3>�������� �� �پ��� ���α׷��� ����  <span>100% ������� ����!</span></h3>
+						<a href="/mou/list.asp"  class="mainTit-btn"> <span>�������� ��Ȳ ��ü����</span></a>
+					</div>
+					<div class="main-mou">
+						<div class="main-mou-left">
+							<div class="main-mou-album">
+								<div class="mou-album-img"><em style="background: url('/2023/img/mou-img001.jpg')"></em></div>
+								<div class="mou-album-img"><em style="background: url('/2023/img/mou-img002.jpg')"></em></div>
+								<div class="mou-album-img"><em style="background: url('/2023/img/mou-img003.jpg')"></em></div>
+								<div class="mou-album-img"><em style="background: url('/2023/img/mou-img004.jpg')"></em></div>
+								<div class="mou-album-img"><em style="background: url('/2023/img/mou-img005.jpg')"></em></div>
+							</div>
+							<dl class="main-mou-txt">
+								<dt>�������� ���೻��</dt>
+								<dd>
+									�� ������ ���������� �����������߰� �η¾缺�� ���� ��ȣ ����<br>
+									�� ���ü ����ǽ� ��ȸ ���� �� ��� �η��� ��� ����<br>
+									�� �������� ���̳�, Ư��, ��ũ�� �� �������� ���α׷� ���� �<br>
+									�� ��� �� ���� Ȱ���� ���� �����ڿ� ���� Ȱ��ȭ<br>
+									�� ��Ÿ ���� �ڹ� �� �������� ������ ���� �ʿ��� ���� ����
+								</dd>
+							</dl>
+						</div><!-- main-mou-left  -->
+
+						<div class="main-mou-right">
+							<ul class="main-mou-list">
+							
+									<li>
+										<a href="/mou/view.asp?txtCurPage=1&txtMouSeq=769">
+											<div class="img-wrap" style="background-image:url('http://img.koreaedugroup.com/mou/(��)�ξ��̿���.png')"></div>
+										</a>
+									</li>
+
+							
+									<li>
+										<a href="/mou/view.asp?txtCurPage=1&txtMouSeq=767">
+											<div class="img-wrap" style="background-image:url('http://img.koreaedugroup.com/mou/Į�ֽ�ȸ�� �ΰ�.png')"></div>
+										</a>
+									</li>
+
+							
+									<li>
+										<a href="/mou/view.asp?txtCurPage=1&txtMouSeq=766">
+											<div class="img-wrap" style="background-image:url('http://img.koreaedugroup.com/mou/(��)�����������.png')"></div>
+										</a>
+									</li>
+
+							
+									<li>
+										<a href="/mou/view.asp?txtCurPage=1&txtMouSeq=760">
+											<div class="img-wrap" style="background-image:url('http://img.koreaedugroup.com/mou/�Ѵ������Ƽ.jpg')"></div>
+										</a>
+									</li>
+
+							
+									<li>
+										<a href="/mou/view.asp?txtCurPage=1&txtMouSeq=750">
+											<div class="img-wrap" style="background-image:url('http://img.koreaedugroup.com/mou/�ΰ�.png')"></div>
+										</a>
+									</li>
+
+							
+									<li>
+										<a href="/mou/view.asp?txtCurPage=1&txtMouSeq=742">
+											<div class="img-wrap" style="background-image:url('http://img.koreaedugroup.com/mou/��Ʃ�ΰ�.png')"></div>
+										</a>
+									</li>
+
+							
+									<li>
+										<a href="/mou/view.asp?txtCurPage=1&txtMouSeq=723">
+											<div class="img-wrap" style="background-image:url('http://img.koreaedugroup.com/mou/����Ư�����ߺο�����������.png')"></div>
+										</a>
+									</li>
+
+							
+									<li>
+										<a href="/mou/view.asp?txtCurPage=1&txtMouSeq=692">
+											<div class="img-wrap" style="background-image:url('http://img.koreaedugroup.com/mou/�����������б�.png')"></div>
+										</a>
+									</li>
+
+							
+									<li>
+										<a href="/mou/view.asp?txtCurPage=1&txtMouSeq=686">
+											<div class="img-wrap" style="background-image:url('http://img.koreaedugroup.com/mou/��Ʈ�� �ֽ�ȸ��png.png')"></div>
+										</a>
+									</li>
+
+							
+									<li>
+										<a href="/mou/view.asp?txtCurPage=1&txtMouSeq=665">
+											<div class="img-wrap" style="background-image:url('http://img.koreaedugroup.com/mou/(��) ��ġ�� �ΰ�.png')"></div>
+										</a>
+									</li>
+
+							
+									<li>
+										<a href="/mou/view.asp?txtCurPage=1&txtMouSeq=658">
+											<div class="img-wrap" style="background-image:url('http://img.koreaedugroup.com/mou/(��) �������Ƽ �ΰ�.png')"></div>
+										</a>
+									</li>
+
+							
+									<li>
+										<a href="/mou/view.asp?txtCurPage=1&txtMouSeq=657">
+											<div class="img-wrap" style="background-image:url('http://img.koreaedugroup.com/mou/(��) �丶��ý��� �ΰ�.png')"></div>
+										</a>
+									</li>
+
+							
+									<li>
+										<a href="/mou/view.asp?txtCurPage=1&txtMouSeq=617">
+											<div class="img-wrap" style="background-image:url('http://img.koreaedugroup.com/mou/�������� �ΰ�_�����.png')"></div>
+										</a>
+									</li>
+
+							
+									<li>
+										<a href="/mou/view.asp?txtCurPage=1&txtMouSeq=618">
+											<div class="img-wrap" style="background-image:url('http://img.koreaedugroup.com/mou/�����_�ΰ�.png')"></div>
+										</a>
+									</li>
+
+							
+									<li>
+										<a href="/mou/view.asp?txtCurPage=1&txtMouSeq=615">
+											<div class="img-wrap" style="background-image:url('http://img.koreaedugroup.com/mou/��Ƽ���_�������� �ΰ�.png')"></div>
+										</a>
+									</li>
+
+							
+									<li>
+										<a href="/mou/view.asp?txtCurPage=1&txtMouSeq=614">
+											<div class="img-wrap" style="background-image:url('http://img.koreaedugroup.com/mou/�������� �ΰ� ����_�����ε�ý���.png')"></div>
+										</a>
+									</li>
+
+							
+							</ul>
+						</div><!-- main-mou-right -->
+					</div><!-- main-mou -->
+				</div><!-- main-section -->
+
+
+
+
+
+				<div class="main-section">
+					<div class="main-mid-banner">
+						<div class="main-mid-banner-txt">
+							<h3>�پ��� �о��� ��� ������ ������ ǳ���� ������ ������ �޾ƺ�����.</h3>
+							<a href="javascript:ctOpen();" class="main-mid-banner-btn">���� ��� & ���� ������ �޾ƺ���</a>
+						</div>
+					</div>
+				</div>
+
+								<div class="main-section">
+					<div class="mainTit-wr">
+						<h3>���������� ��ȹ���� ���߱���! <span>�ǹ����� �״��, �� ���� ������Ʈ</span></h3>
+					</div>
+					<div class="main-project">
+						<div class="main-project-list">
+							
+							<div class="main-project-cont">
+								<a href="/community/project_view.asp?idxnum=244">
+									<em style="background: url('/allupload/File/th157.jpg');"></em>
+									<h3>�Ҽ� ����</h3>
+								</a>
+							</div>
+
+							
+							<div class="main-project-cont">
+								<a href="/community/project_view.asp?idxnum=243">
+									<em style="background: url('/allupload/File/�����112.jpg');"></em>
+									<h3>Java Swing�� Ȱ���� Chess ���� ����</h3>
+								</a>
+							</div>
+
+							
+							<div class="main-project-cont">
+								<a href="/community/project_view.asp?idxnum=242">
+									<em style="background: url('/allupload/File/thumb(500)41.jpg');"></em>
+									<h3>�����ȹ ���� ���� �� ���� ������Ʈ</h3>
+								</a>
+							</div>
+
+							
+							<div class="main-project-cont">
+								<a href="/community/project_view.asp?idxnum=241">
+									<em style="background: url('/allupload/File/thumb(500)39.jpg');"></em>
+									<h3>FoodWave(��������Ʈ ����Ʈ)</h3>
+								</a>
+							</div>
+
+							
+							<div class="main-project-cont">
+								<a href="/community/project_view.asp?idxnum=240">
+									<em style="background: url('/allupload/File/�����110.jpg');"></em>
+									<h3>SODA-������</h3>
+								</a>
+							</div>
+
+							
+							<div class="main-project-cont">
+								<a href="/community/project_view.asp?idxnum=239">
+									<em style="background: url('/allupload/File/�����108.jpg');"></em>
+									<h3>������� ��Ź��</h3>
+								</a>
+							</div>
+
+							
+							<div class="main-project-cont">
+								<a href="/community/project_view.asp?idxnum=238">
+									<em style="background: url('/allupload/File/thumb(500)37.jpg');"></em>
+									<h3>��ȭ�� ã��</h3>
+								</a>
+							</div>
+
+							
+							<div class="main-project-cont">
+								<a href="/community/project_view.asp?idxnum=237">
+									<em style="background: url('/allupload/File/�����106.jpg');"></em>
+									<h3>������ ������Ʈ</h3>
+								</a>
+							</div>
+
+							
+						</div>
+					</div><!-- main-project -->
+				</div><!-- main-section -->
+<script>
+	
+	$('.main-project-list').slick({
+		swipe: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		pauseOnHover: false,
+		arrows: true,
+		autoplay: true,
+		dots: false,
+		autoplaySpeed: 4000,
+		speed:400,
+		cssEase: 'ease-out',
+		responsive: [ // ������ �� ���� �ɼ�
+			
+			{ 
+				breakpoint: 768, //ȭ�� ������ 768px
+				settings: {	
+					//���� �ɼ��� ����Ʈ , ���⿡ �߰��ϸ� �װɷ� ����
+					arrows: false,
+					slidesToShow:2 
+				} 
+			}
+		]
+	});
+</script>
+
+
+				<div class="main-section">
+					<div class="mainTit-wr">
+						<h3>������Ʈ ����ȸ���� ���Ư������ <span>�ڸ����� ������ �����̾߱�</span></h3>
+						<a href="/community/photo.asp"  class="mainTit-btn"> <span>���佺�丮 ��ü����</span></a>
+					</div>
+					<div class="main-project">
+						<div class="main-gallery-list">
+							
+							<div class="main-gallery-cont">
+								<a href="/community/photo_view.asp?idxnum=2237&clkMater=&txtMenu=&txtCurPage=1&selMater=">
+									<em style="background: url('/allupload/File/th171.jpg');"></em>
+									<h3>[������Ʈ��ǥȸ] (KDT) (����ũ) Spring �� Ai ��� ����ũ ������Ʈ ���� ����</h3>
+								</a>
+							</div>
+
+							
+							<div class="main-gallery-cont">
+								<a href="/community/photo_view.asp?idxnum=2236&clkMater=&txtMenu=&txtCurPage=1&selMater=">
+									<em style="background: url('/allupload/File/th169.jpg');"></em>
+									<h3>[���������̼�] (K-Digital) AI��� ê�� �� OCR ���� ������ ����</h3>
+								</a>
+							</div>
+
+							
+							<div class="main-gallery-cont">
+								<a href="/community/photo_view.asp?idxnum=2235&clkMater=&txtMenu=&txtCurPage=1&selMater=">
+									<em style="background: url('/allupload/File/rg.jpg');"></em>
+									<h3>(��)�ξ��̿��� ��������(MOU) ü��</h3>
+								</a>
+							</div>
+
+							
+						</div>
+					</div><!-- main-project -->
+				</div><!-- main-section -->	
+
+
+				<div class="main-section">
+					<div class="mainTit-wr">
+						<h3>�ǹ������� ����ü���� �� �ִ� <span>���� �ǹ������ڵ��� Ư���� ���̳�</span></h3>
+					</div>
+					<div class="main-seminar">
+						<div class="main-seminar-list">
+							
+							<div class="main-seminar-cont">
+								<a href="/community/seminar_view.asp?idxnum=332">
+									<em style="background: url(/allupload/File/POSTER-240510-400.jpg);"></em>
+								</a>
+							</div>
+
+							
+							<div class="main-seminar-cont">
+								<a href="/community/seminar_view.asp?idxnum=331">
+									<em style="background: url(/allupload/File/sacvav.jpg);"></em>
+								</a>
+							</div>
+
+							
+							<div class="main-seminar-cont">
+								<a href="/community/seminar_view.asp?idxnum=330">
+									<em style="background: url(/allupload/File/THUM185.jpg);"></em>
+								</a>
+							</div>
+
+							
+							<div class="main-seminar-cont">
+								<a href="/community/seminar_view.asp?idxnum=329">
+									<em style="background: url(/allupload/File/POSTER-240425-400.jpg);"></em>
+								</a>
+							</div>
+
+							
+							<div class="main-seminar-cont">
+								<a href="/community/seminar_view.asp?idxnum=328">
+									<em style="background: url(/allupload/File/410.jpg);"></em>
+								</a>
+							</div>
+
+							
+							<div class="main-seminar-cont">
+								<a href="/community/seminar_view.asp?idxnum=327">
+									<em style="background: url(/allupload/File/240423_IT����_���������thumb.jpg);"></em>
+								</a>
+							</div>
+
+							
+						</div>
+					</div><!-- main-seminar -->
+				</div><!-- main-section -->
+
+
+
+			</div><!--  main-wr -->
+		</div>
+				<div class="main-section">
+			<div class="container">
+				<div class="mainTit-wr">
+					<h3>���� �ִ�, �ֽ�ȭ�� ������Ʈ�� ��ǻ�� �ü���  <span>�������̸� ������ ������ ���</span></h3>
+				</div>
+				<div class="main-facility">
+					<div class="main-facility-list">
+						<div class="main-facility-cont"><em style="background: url('/2023/img/interior/dg/academy_interior01_1.jpg');"></em></div>
+						<div class="main-facility-cont"><em style="background: url('/2023/img/interior/dg/academy_interior02_1.jpg');"></em></div>
+						<div class="main-facility-cont"><em style="background: url('/2023/img/interior/dg/academy_interior03_1.jpg');"></em></div>
+						<div class="main-facility-cont"><em style="background: url('/2023/img/interior/dg/academy_interior04.jpg');"></em></div>
+						<div class="main-facility-cont"><em style="background: url('/2023/img/interior/dg/academy_interior05.jpg');"></em></div>
+						<div class="main-facility-cont"><em style="background: url('/2023/img/interior/dg/academy_interior06.jpg');"></em></div>
+						<div class="main-facility-cont"><em style="background: url('/2023/img/interior/dg/academy_interior07.jpg');"></em></div>
+						<div class="main-facility-cont"><em style="background: url('/2023/img/interior/dg/academy_interior08.jpg');"></em></div>
+						<div class="main-facility-cont"><em style="background: url('/2023/img/interior/dg/academy_interior09.jpg');"></em></div>
+						<div class="main-facility-cont"><em style="background: url('/2023/img/interior/dg/academy_interior10.jpg');"></em></div>
+						<div class="main-facility-cont"><em style="background: url('/2023/img/interior/dg/academy_interior11.jpg');"></em></div>
+						<div class="main-facility-cont"><em style="background: url('/2023/img/interior/dg/academy_interior12.jpg');"></em></div>
+						<div class="main-facility-cont"><em style="background: url('/2023/img/interior/dg/academy_interior13.jpg');"></em></div>
+						<div class="main-facility-cont"><em style="background: url('/2023/img/interior/dg/academy_interior14.jpg');"></em></div>
+						<div class="main-facility-cont"><em style="background: url('/2023/img/interior/dg/academy_interior15.jpg');"></em></div>
+						<div class="main-facility-cont"><em style="background: url('/2023/img/interior/dg/academy_interior16.jpg');"></em></div>
+						<div class="main-facility-cont"><em style="background: url('/2023/img/interior/dg/academy_interior17.jpg');"></em></div>
+						<div class="main-facility-cont"><em style="background: url('/2023/img/interior/dg/academy_interior18.jpg');"></em></div>
+						<div class="main-facility-cont"><em style="background: url('/2023/img/interior/gn2/academy_interior01.jpg');"></em></div>
+						<div class="main-facility-cont"><em style="background: url('/2023/img/interior/gn2/academy_interior02.jpg');"></em></div>
+						<div class="main-facility-cont"><em style="background: url('/2023/img/interior/gn2/academy_interior03.jpg');"></em></div>
+						<div class="main-facility-cont"><em style="background: url('/2023/img/interior/gn2/academy_interior04.jpg');"></em></div>
+						<div class="main-facility-cont"><em style="background: url('/2023/img/interior/gn2/academy_interior05.jpg');"></em></div>
+						<div class="main-facility-cont"><em style="background: url('/2023/img/interior/gn2/academy_interior06.jpg');"></em></div>
+					</div>
+				</div>
+			</div>
+		</div><!-- main-section -->
+
+<script>
+
+	$('.main-facility-list').slick({
+		swipe: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		pauseOnHover: false,
+		arrows: true,
+		autoplay: true,
+		dots: false,
+		autoplaySpeed: 4000,
+		speed:400,
+		centerMode: true,
+        centerPadding: '10px',
+		cssEase: 'ease-out',
+		responsive: [ // ������ �� ���� �ɼ�
+			
+			{ 
+				breakpoint: 768, //ȭ�� ������ 768px
+				settings: {	
+					//���� �ɼ��� ����Ʈ , ���⿡ �߰��ϸ� �װɷ� ����
+					arrows: false,
+					slidesToShow:1 
+				} 
+			}
+		]
+	});
+
+</script>
+			<section class = "sub-info-medalWrap">
+				<div class="infoOvg">
+					<div class="sub-info-medal">
+
+						<div class="info-Medals">
+							<div class="scrollBox">
+								<ul class="medalLine">
+									<li class="infoMedal">
+										<div class="image i1"
+											style="background-image: url('/renewal2021/img/academy/centerinfo_sec0_medal01.png')">
+										</div>
+										<div class="texts">
+											<h4>2019 ����ķ�۽�</h4>
+											<p>
+												<span class="TxtBlueBold">3�� ���� ���</span><br>
+												�Ʒñ�� ����
+											</p>
+										</div>
+									</li>
+
+									<li class="infoMedal">
+										<div class="image i2"
+											style="background-image: url('/renewal2021/img/academy/centerinfo_sec0_medal02.png')">
+										</div>
+										<div class="texts">
+											<h4>2020 ����ķ�۽�</h4>
+											<p>
+												<span class="TxtBlueBold">5�� ���� ���</span><br>
+												�Ʒñ�� ����
+											</p>
+										</div>
+									</li>
+
+									<li class="infoMedal">
+										<div class="image i3"
+											style="background-image: url('/renewal2021/img/academy/centerinfo_sec0_medal03.png')">
+										</div>
+										<div class="texts">
+											<h4>2021 �뱸ķ�۽�</h4>
+											<p>
+												<span class="TxtBlueBold">5�� ���� ���</span><br>
+												�Ʒñ�� ����
+											</p>
+										</div>
+									</li>
+
+									<li class="infoMedal">
+										<div class="image"
+											style="background-image: url('/renewal2021/img/academy/centerinfo_sec0_medal10.png')">
+										</div>
+										<div class="texts">
+											<h4>2022 ����ķ�۽�</h4>
+											<p>
+												<span class="TxtBlueBold">5�� ���� ���</span><br>
+												�Ʒñ�� ����
+											</p>
+										</div>
+									</li>
+
+									<li class="infoMedal">
+										<div class="image i4"
+											style="background-image: url('/renewal2021/img/academy/centerinfo_sec0_medal04.png')">
+										</div>
+										<div class="texts">
+											<h4>2021 ����ķ�۽�</h4>
+											<p>
+												<span class="TxtBlueBold">�Ʒ� �̼��� ��</span><br>
+												A��� ȹ��
+											</p>
+										</div>
+									</li>
+
+									<li class="infoMedal">
+										<div class="image i5"
+											style="background-image: url('/renewal2021/img/academy/centerinfo_sec0_medal04.png')">
+										</div>
+										<div class="texts">
+											<h4>2022 ����ķ�۽�</h4>
+											<p>
+												<span class="TxtBlueBold">�Ʒ� �̼��� ��</span><br>
+												A��� ȹ��
+											</p>
+										</div>
+									</li>
+
+									<li class="infoMedal">
+										<div class="image i1"
+											style="background-image: url('/renewal2021/img/academy/centerinfo_sec0_medal06.png')">
+										</div>
+										<div class="texts">
+											<h4>7�� ����</h4>
+											<p>
+												<span class="TxtBlueBold">���ѹα� �����귣�� ���</span><br>
+												�������ȡ�IT ����
+											</p>
+										</div>
+									</li>
+
+									<li class="infoMedal">
+										<div class="image i2"
+											style="background-image: url('/renewal2021/img/academy/centerinfo_sec0_medal07.png')">
+										</div>
+										<div class="texts">
+											<h4>4�� ����</h4>
+											<p>
+												<span class="TxtBlueBold">���ѹα� �귣�彺Ÿ ���</span><br>
+												�п���������
+											</p>
+										</div>
+									</li>
+
+									<li class="infoMedal">
+										<div class="image i3"
+											style="background-image: url('/renewal2021/img/academy/centerinfo_sec0_medal08.png')">
+										</div>
+										<div class="texts">
+											<h4>5�� ����</h4>
+											<p>
+												<span class="TxtBlueBold">������ �귣�� ���</span><br>
+												�����������
+											</p>
+										</div>
+									</li>
+
+									<li class="infoMedal">
+										<div class="image i4"
+											style="background-image: url('/renewal2021/img/academy/centerinfo_sec0_medal09.png')">
+										</div>
+										<div class="texts">
+											<h4>4�� ����</h4>
+											<p>
+												<span class="TxtBlueBold">�۽�Ʈ�귣�� ���</span><br>
+												�����������
+											</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+					</div> <!-- sub-info-medal close -->
+				</div> <!-- infoOvh close -->
+
+			</section>
+
+	<script type="text/javascript">
+		$('.info-Medals').endlessScroll({ width: '100%', height: '450px', steps: -1, speed: 10, mousestop: false });
+	</script><script type="text/javascript">
+//�ڵ�����ȣ 4�ڸ� �Է��ϸ� �������� �ڵ� �̵�
+$(function() {
+    $("form[name='form'] input[name='handphone2']").keyup (function () {
+        var charLimit = $(this).attr("maxlength");
+        if (this.value.length >= charLimit) {
+            $("form[name='form'] input[name='handphone3']").focus();
+            return false;
+        }
+    });
+});
+
+$(function() {
+    $("form[name='form2'] input[name='handphone2']").keyup (function () {
+        var charLimit = $(this).attr("maxlength");
+        if (this.value.length >= charLimit) {
+            $("form[name='form2'] input[name='handphone3']").focus();
+            return false;
+        }
+    });
+});
+
+$(function() {
+    $("form[name='quickTuitionform'] input[name='handphone2']").keyup (function () {
+        var charLimit = $(this).attr("maxlength");
+        if (this.value.length >= charLimit) {
+            $("form[name='quickTuitionform'] input[name='handphone3']").focus();
+            return false;
+        }
+    });
+});
+
+$(function() {
+    $("form[name='form_subtuiton'] input[name='handphone2']").keyup (function () {
+        var charLimit = $(this).attr("maxlength");
+        if (this.value.length >= charLimit) {
+            $("form[name='form_subtuiton'] input[name='handphone3']").focus();
+            return false;
+        }
+    });
+});
+
+
+</script>
+
+<script type="text/javascript">
+	//������ �� ������ ���
+	function getCurrentMonth() {
+
+        const currentDate = new Date();
+
+        const currentMonth = currentDate.getMonth() + 1;
+       const thisMonth = document.querySelectorAll('.ch_month');
+	   for(let i = 0; i < thisMonth.length; i++){
+			thisMonth[i].innerText = currentMonth
+	   }
+	}
+    getCurrentMonth();
+</script>
+
+	
+		<!-- Else �� �Ʒ� html -->
+		<!-- 240510 ����� �����׸� Ȯ�� -->
+
+	<a id="ctBtn" class="mo-show bottomqckBtn" href="/customer/center_tuition.asp"><span>���� ������ ��ȸ</span></a>
+
+
+
+<a id="ctBg" href="javascript:ctClose();"></a>
+<div id="curriTuition">	
+	<div class="quickdb-wrap">
+		<div class="mainTit-wr">
+			<h3>�Ϲ�/�������� ���� <span>�ٷ� �˾ƺ��ðھ��?</span></h3>
+			<a href="javascript:ctClose();" class="qckClose">�ݱ�</a>
+		</div>
+
+
+
+
+		<form name="reg_formM2" id="reg_formM2">
+			<input type="hidden" name="mater" value="������������ȸ"><!-- �����������������ȸ -->
+			<input type="hidden" name="s_interest" value="">
+			<input type="hidden" name="interest2" id = "interest_quick" value=""/>
+			<label id="Div_Cousrse2" class="pointColor" style="display:none;"></label>
+
+				<div class="writeFormWrap">
+					<ul class="writeForm">
+						<li>
+							<h6>�ش��ϴ� ������ ������ ������ �ּ���</h6>
+							<ul class="radioList">
+								<li><input type="radio" name="interest2" id="eduQck1" value="�Ϲ� ����" checked><label for="eduQck1">�Ϲ� ����</label></li>
+								<li><input type="radio" name="interest2" id="eduQck2" value="���� ����"><label for="eduQck2">���� ����</label></li>
+							</ul>
+						</li>
+						<li>
+							<h6>�����ִ� �о߸� ������ �ּ���.</h6>
+							<ul class="radioList qckIntstList">
+								<li><input type="checkbox" name="interest_quick"  id="chkQ0101" value="C���/C++/C#" onclick="interest_add_quick(this);"><label for="chkQ0101">C���/C++/C#</label></li>
+								<li><input type="checkbox" name="interest_quick"  id="chkQ0102" value="�ڹ�/Spring" onclick="interest_add_quick(this);"><label for="chkQ0102">�ڹ�/Spring</label></li>
+								<li><input type="checkbox" name="interest_quick"  id="chkQ0103" value="���̽�" onclick="interest_add_quick(this);"><label for="chkQ0103">���̽�</label></li>
+								<li><input type="checkbox" name="interest_quick"  id="chkQ0104" value="����ó�� ��ɻ�/������/���" onclick="interest_add_quick(this);"><label for="chkQ0104">����ó�� ��ɻ�/������/���</label></li>
+								<li><input type="checkbox" name="interest_quick"  id="chkQ0105" value="�������� ������/���" onclick="interest_add_quick(this);"><label for="chkQ0105">�������� ������/���</label></li>
+								<li><input type="checkbox" name="interest_quick"  id="chkQ0106" value="������ �м����" onclick="interest_add_quick(this);"><label for="chkQ0106">������ �м����</label></li>
+								<li><input type="checkbox" name="interest_quick"  id="chkQ0107" value="ADSP/ADP �ڰ���" onclick="interest_add_quick(this);"><label for="chkQ0107">ADSP/ADP �ڰ���</label></li>
+								<li><input type="checkbox" name="interest_quick"  id="chkQ0108" value="SQLD/SQLP �ڰ���" onclick="interest_add_quick(this);"><label for="chkQ0108">SQLD/SQLP �ڰ���</label></li>
+								<li><input type="checkbox" name="interest_quick"  id="chkQ0109" value="CCNA/CCNP �����ڰ���" onclick="interest_add_quick(this);"><label for="chkQ0109">CCNA/CCNP �����ڰ���</label></li>
+								<li><input type="checkbox" name="interest_quick"  id="chkQ0110" value="��Ʈ��ũ������ �ڰ���" onclick="interest_add_quick(this);"><label for="chkQ0110">��Ʈ��ũ������ �ڰ���</label></li>
+								<li><input type="checkbox" name="interest_quick"  id="chkQ0111" value="������������ �ڰ���" onclick="interest_add_quick(this);"><label for="chkQ0111">������������ �ڰ���</label></li>
+								<li><input type="checkbox" name="interest_quick"  id="chkQ0112" value="MCF �����ڰ���" onclick="interest_add_quick(this);"><label for="chkQ0112">MCF �����ڰ���</label></li>
+								<li><input type="checkbox" name="interest_quick"  id="chkQ0113" value="ITQ �ڰ���" onclick="interest_add_quick(this);"><label for="chkQ0113">ITQ �ڰ���</label></li>
+								<li><input type="checkbox" name="interest_quick"  id="chkQ0114" value="�ڷᱸ��/�˰���" onclick="interest_add_quick(this);"><label for="chkQ0114">�ڷᱸ��/�˰���</label></li>
+								<li><input type="checkbox" name="interest_quick"  id="chkQ0115" value="�ڵ��׽�Ʈ" onclick="interest_add_quick(this);"><label for="chkQ0115">�ڵ��׽�Ʈ</label></li>
+								<li><input type="checkbox" name="interest_quick"  id="chkQ0116" value="DBMS/PHP/SQL" onclick="interest_add_quick(this);"><label for="chkQ0116">DBMS/PHP/SQL</label></li>
+								<li><input type="checkbox" name="interest_quick"  id="chkQ0117" value="������/AI �����������" onclick="interest_add_quick(this);"><label for="chkQ0117">������/AI �����������</label></li>
+								<li><input type="checkbox" name="interest_quick"  id="chkQ0118" value="��/�� ���� �����������" onclick="interest_add_quick(this);"><label for="chkQ0118">��/�� ���� �����������</label></li>
+								<li><input type="checkbox" name="interest_quick"  id="chkQ0119" value="�鿣�� ������ �����������" onclick="interest_add_quick(this);"><label for="chkQ0119">�鿣�� ������ �����������</label></li>
+								<li><input type="checkbox" name="interest_quick"  id="chkQ0120" value="����Ʈ���� ������ �����������" onclick="interest_add_quick(this);"><label for="chkQ0120">����Ʈ���� ������ �����������</label></li>
+								<li><input type="checkbox" name="interest_quick"  id="chkQ0121" value="�������������� �����������" onclick="interest_add_quick(this);"><label for="chkQ0121">�������������� �����������</label></li>
+								<li><input type="checkbox" name="interest_quick"  id="chkQ0122" value="��Ʈ��ũ������ �����������" onclick="interest_add_quick(this);"><label for="chkQ0122">��Ʈ��ũ������ �����������</label></li>
+								<li><input type="checkbox" name="interest_quick"  id="chkQ0123" value="���������� �����������" onclick="interest_add_quick(this);"><label for="chkQ0123">���������� �����������</label></li>
+								<li><input type="checkbox" name="interest_quick"  id="chkQ0124" value="��Ÿ����" onclick="interest_add_quick(this);"><label for="chkQ0124">��Ÿ����</label></li>
+								
+							</ul>
+
+						</li>
+						<li>
+							<h6>������������� �������ּ���</h6>
+							<ul id="r_div_quick" class="radioList"></ul>
+
+<SCRIPT LANGUAGE="JavaScript">
+$("#r_div_quick").empty();
+//��������
+var cur_place = '14';
+if ( 'g-sa.koreaisacademy.com' =="koreaitacademy.com" || 'g-sa.koreaisacademy.com' =="koreaisacademy.com"){
+	cur_place = 0;
+}
+
+//��������
+var Arr_Place =  [ ["IT(����)",14,"����"],["IT(����)",23,"����"],["IT(�뱸)",40,"�뱸"],["IT(�λ�)",47,"�λ�"],["IT(��õ)",61,"��õ"],["IT(����)",62,"����"],["IT(���)",65,"���"] ];
+
+//���������� ù��°
+for(var i in Arr_Place){
+	if (cur_place==Arr_Place[i][1]){
+		$("#r_div_quick").append( '<li><input id="locQuick'+i+'" name="location" type="radio" value="'+Arr_Place[i][0]+'" checked/><label for="locQuick'+i+'">'+Arr_Place[i][2]+'</label></li>' );
+	}
+}
+//������
+for(var i in Arr_Place){
+	if (cur_place !=Arr_Place[i][1]){
+		$("#r_div_quick").append( '<li><input id="locQuick'+i+'" name="location" type="radio" value="'+Arr_Place[i][0]+'" /><label for="locQuick'+i+'">'+Arr_Place[i][2]+'</label></li>' );
+	}
+}
+
+</SCRIPT>
+						</li>
+						<li>
+							<h6>��û�Ͻôº��� �̸��� ����ó�� �Է��� �ּ���.</h6>
+							<div class="inputTxt">
+								<div class="input-field">
+									<input type="text" name="name" maxlength="25" title="�̸�" value=""  placeholder="�̸��� �Է��� �ּ���." required>
+									<!--<label>�̸�</label>-->
+								</div>
+								<div class="input-field">
+								<ul class="telForm">
+									<li>
+										<select name="handphone1" id="handphone1" class="phoneSelectBar">
+											<option value="010"  selected>010</option>
+											<option value="011" >011</option>
+											<option value="016" >016</option>
+											<option value="017" >017</option>
+											<option value="018" >018</option>
+											<option value="019" >019</option>
+										</select>
+									</li>
+									<li><span class="telBar">-</span></li>
+									<li><input name="handphone2" id="handphone2" class="phoneInputBar01" type="tel" value="" title="�޴��� �� ��ȣ"  onKeyDown="javascript:onlyNumberInput();" maxlength="4" /></li>
+									<li><span class="telBar">-</span></li>
+									<li><input name="handphone3" id="handphone3" class="phoneInputBar02" type="tel" value=""  title="�޴��� �� ��ȣ" onKeyDown="javascript:onlyNumberInput();" maxlength="4" /></li>
+								</ul>			
+								<!--<label>��ȭ��ȣ</label>-->
+								</div>
+							</div>
+						</li>
+					</ul>
+					<div class="btn-wrap text-center">
+						<button type="button" class="btnSubmit" style="width:100%;font-weight:900;"onclick="reg_checkMobile2();"><span class="ch_month" id="ch_month" style="color: #FDE767;font-weight:700;"></span><span style="color: #FDE767;font-weight:700;" >�� ����, �ִ� 50% ����</span> ������������ȸ</button>
+					</div>
+	
+					<div class="wCheckWrap" style="margin-top:10px; text-align:right;">
+						<input type="checkbox" name="chkAgree" id="w_check" value="1">
+						<label for="w_check" class="formCheck" style=" vertical-align:top;"> <a href="#ex1" rel="modal:open"><u>��������ó����ħ</u></a>�� ����</label>
+					</div>
+				</div>
+
+		
+	</form>
+	</div>
+</div>
+
+
+
+
+
+
+
+<script language="JavaScript">
+
+	//������ �� ������ ���
+	function getCurrentMonth() {
+
+        const currentDate = new Date();
+
+        const currentMonth = currentDate.getMonth() + 1;
+       const thisMonth = document.querySelectorAll('.ch_month');
+	   for(let i = 0; i < thisMonth.length; i++){
+			thisMonth[i].innerText = currentMonth
+	   }
+	}
+    getCurrentMonth();
+
+	var flag = false;
+
+	function reg_checkMobile2()
+	{
+		var form2 = document.reg_formM2;
+		
+		if (!flag)
+		{
+			
+
+			if (reg_formM2.location.value == "-" || reg_formM2.location.value == ""){			
+				alert("������ �������ּ���.");
+			}
+
+			else if (Check(reg_formM2.name.value) == ""){			
+				alert("�̸��� �Է��ϼ���.");
+				reg_formM2.name.focus();
+			}
+
+			else if (Check(reg_formM2.handphone1.value) == "" )
+			{			
+				alert("�ڵ�����ȣ�� �Է��ϼ���.");			
+				reg_formM2.handphone1.focus();
+			}
+			else if (Check(reg_formM2.handphone2.value) == "" )
+			{			
+				alert("�ڵ�����ȣ�� �Է��ϼ���.");			
+				reg_formM2.handphone2.focus();
+			}
+			else if (Check(reg_formM2.handphone3.value) == "" )
+			{			
+				alert("�ڵ�����ȣ�� �Է��ϼ���.");
+				reg_formM2.handphone3.focus();
+			} else if (document.getElementById("w_check").checked == false) {
+
+				if(confirm("�������� ���� ��  �̿뿡 ���� ���׿�\n�����Ͻð� ��� �����Ͻðڽ��ϱ�?")){
+					reg_formM2.w_check.checked = true;
+
+					flag = true;
+					reg_formM2.action = "/customer/mails.asp"
+					reg_formM2.submit();			
+
+				}else{
+					return;
+				}
+			}else{
+				flag = true;
+				reg_formM2.action = "/customer/mails.asp"
+				reg_formM2.submit();			
+			}
+
+
+		}
+		else
+			alert("������Դϴ�. ��ø� ��ٸ�����");
+	}
+
+
+	function Check(keyword) 
+	{
+		var st_num, key_len;
+		st_num = keyword.indexOf(" ");	
+		while (st_num != -1)
+		{
+			keyword = keyword.replace(" ", "");
+			st_num  = keyword.indexOf(" ");
+		}
+		key_len=keyword.length;
+		return key_len;
+	}
+
+	function consult_form_div()
+	{
+		if ( document.getElementById("consult_form").style.display == "block" )
+		{
+			document.getElementById("consult_form").style.display = "none";
+		}
+		else
+		{
+			document.getElementById("consult_form").style.display = "block";
+		}
+	}
+
+	function interest_add_quick_text()
+	{
+		str = "";
+
+
+		//alert("����� �Ѿ��.");
+
+		if (document.getElementsByName("interest_quick").length > 1)
+		{
+			for (Temp_i = 0; Temp_i < document.getElementsByName("interest_quick").length; Temp_i ++)
+			{
+				if (document.getElementsByName("interest_quick")[Temp_i].checked == true)
+				{
+					str = str + document.getElementsByName("interest_quick")[Temp_i].value + ", ";
+				}				
+			}
+		}else{
+			if (document.getElementsByName("interest_quick").checked == true)
+			{
+				str = str & document.getElementsByName("interest_quick").value;
+			}
+		}
+
+		
+		
+			document.getElementById("Div_Cousrse2").innerHTML = str;
+		
+	}
+
+	function interest_add_quick(val){
+		var str = document.getElementById("interest_quick");
+
+		if (document.getElementsByName("interest_quick").length > 1){
+			if(val.checked == true){ 
+				str.value = str.value == '' ? val.value : str.value +', '+ val.value;
+			} else {
+				var vayStr = str.value.split(", ");
+				if (vayStr.length == 1 ){					
+					str.value = str.value.replace(vayStr[0],"");
+				} else {					
+					for (var i = 0; i < vayStr.length ; i ++ ){
+						if (vayStr[i] == val.value){							
+							if (i == 0 ){					
+								str.value = str.value.replace(vayStr[i]+", ","");
+								
+							} else {	
+								str.value = str.value.replace(", "+vayStr[i],"");
+							}
+						}
+					}					
+				}
+			}
+		}		
+	}
+
+	function onlyNumberInput() 
+	{ 
+		 var code = window.event.keyCode; 
+		
+		 if ((code > 34 && code < 41) || (code > 47 && code < 58) || (code > 95 && code < 106) || code == 8 || code == 9 || code == 13 || code == 46) 
+		 { 
+		  window.event.returnValue = true; 
+		  return; 
+		 } 
+		 window.event.returnValue = false; 
+	} 
+
+	function len_chk(str){  
+	  var frm = str; 
+	    
+	  if(frm.value.length > 3){  
+	       alert("4�ڸ��� ���Ϸ� �Է��ϼ���.");  
+	       frm.value = frm.value.substring(0,3);  
+	       frm.focus();  
+	  }
+	}
+			
+	function Course(str)
+	{
+		fm = document.reg_formM2;
+
+		if (str == "1") //�Ϲݰ���
+		{
+			fm.action = "customer_tuition01.asp"
+			fm.submit();
+		}
+		else if (str == "2") //��������������
+		{
+			fm.action = "customer_tuition02.asp"
+			fm.submit();
+		}
+		else if (str == "3") //�����ڱ�������
+		{
+			fm.action = "customer_tuition03.asp"
+			fm.submit();
+		}
+		else if (str == "4") //�����������û
+		{
+			fm.action = "customer_tuition04.asp"
+			fm.submit();
+		}
+		else if (str == "5") //�¶��λ���û
+		{
+			fm.action = "customer_tuition05.asp"
+			fm.submit();
+		}
+	}
+
+	function form_reset()
+	{
+		document.reg_formM2.reset();
+		
+		
+			document.getElementById("Div_Cousrse2").innerHTML = "";
+		
+	}
+
+	function KeyCheck(objName,objSize,nextObjName)
+	{
+	  if( objName.value.length == objSize ){
+		nextObjName.focus();
+		return;
+	  }
+
+	}
+
+</script>
+
+<script language="javascript">
+	function ctClose(){
+		$('#curriTuition').animate({'bottom': '-200%'}, 600, 'easeOutCubic');
+		$('#ctBg').fadeOut();
+		$('body').removeClass('lock');
+	};
+	function ctOpen(){
+		$('#curriTuition').animate({'bottom': '0%'}, 600, 'easeOutCubic');
+		$('#ctBg').fadeIn();
+		$('body').addClass('lock');
+	};
+</script>
+
+
+	
+
+<div id="footer">
+	<div class="container">
+		<div class="footer-navi">
+			<h1><a href="/" class="logo"></a></h1>
+			<ul class="ftMenu">
+				<li><a href="/academy/centerinfo.asp">�п��Ұ�</a></li>
+				<li><a href="/academy/process.asp">�������</a></li>
+				<li><a href="/mou/list.asp">�������� ��Ȳ</a></li>
+				<!-- <li><a href="#ex1" rel="modal:open"><b>����������޹�ħ</b></a></li> -->
+				<li><a href="/member/privacyRenew.asp"><b>����������޹�ħ</b></a></li>
+				<li><a href="/customer/center_suggest.asp">����㼾��</a></li>
+				<li><a href="javascript:void(0);" onclick="payPopUp('03',14);">�¶��ΰ���</a></li>			
+				<li><a href="/member/tuition.asp">������ȳ�</a></li>
+			</ul>
+		</div>
+		<div class="footer-add">
+			<ul>
+				<li>
+				�������� 1�� : ����Ư���� ������ ������� 146 ���ͺ��� 3,4��<span class="add-ver-line"></span>�������� 2�� : ����Ư���� ������ ������� 26�� 12 ���Ϻ���Ÿ�� 13��	
+				</li>
+				<li>����ڹ�ȣ  : 815-88-00171<span class="add-ver-line"></span>�п���Ϲ�ȣ : ���ﰭ�� ��2020-1<span class="add-ver-line"></span>����Ǹž���ȣ : 2015 - ���ﰭ�� - 03148ȣ<span class="add-ver-line"></span>��ȭ���� : 1588-5890</li>
+				<li>��ǥ�� : ��ȫ��<span class="add-ver-line"></span>��������å���� : ������<span class="add-ver-line"></span>��������� : ��������<span class="add-ver-line"></span>E-mail : koreais@koreaedugroup.com<span class="add-ver-line"></span>Fax : 02-2135-2949</li>
+			</ul>
+		</div>
+		<div class="footer-copy">
+			copyright �� 2015 KOREA INFORMATION TECHNOLOGY ACADEMY. ALL RIGHTS RESERVED
+		</div>
+		<div class="ftFamily">
+
+			<span>���������ȳ�</span>
+			<ul>
+					<li><a href="https://gangnam.koreaisacademy.com/?dGubun=">����</a></li>
+					<li><a href="https://sinchon.koreaisacademy.com/?dGubun=">����/ȫ��</a></li>
+					<li><a href="https://daegu.koreaisacademy.com/?dGubun=">�뱸</a></li>
+					<li><a href="https://busan.koreaisacademy.com/?dGubun=">�λ�</a></li>
+					<li><a href="https://incheon.koreaisacademy.com/?dGubun=">��õ</a></li>
+					<li><a href="https://daejeon.koreaisacademy.com/?dGubun=">����</a></li>
+					<li><a href="https://nowon.koreaisacademy.com/?dGubun=">���</a></li>
+					<li><a href="/landing/hackathon.asp"><strong>KIT��Ŀ��</strong></a></li>
+
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+<div id="ex1" class="modal">
+	<h5> ��������ó����ħ �ȳ�</h5>
+	<div class="currituitionPrvcy">
+		<div class="currituitionPrvcy">
+		<div class="privacyTxt">
+	<h3><span>��������</span>ó����ħ</h3>
+	<b>�ڸ���IT��ī������ ��������ó����ħ�� ������ ���� ������ ��� �ֽ��ϴ�.</b><br>
+	<b>��. �����ϴ� �������� �׸� �� �������</b><br>
+	<b>��. ���������� ���� �� �̿����</b><br>
+	<b>��. ������ ���������� ���� �� �̿�Ⱓ</b><br>
+	<b>��. ���Ǹ� �ź��� �Ǹ��� �ִٴ� ��ǰ� ���� �źο� ���� ������ ����</b><br><br>
+	<b>��.�����ϴ� �������� �׸� �� �������</b><br>
+	�ڸ���IT��ī���̴� ������ �¶��λ���(�¶��λ���û, ��������ȸ,���Ϲ��ī����(������)��ȸ, ��뺸��ȯ��,�����ڱ��������ȸ, �ð�ǥ��ȸ, ��������ġ��ȸ, ��Ź��������)�� ���� ���������� �Ʒ��� ���� �����ϰ� �ֽ��ϴ�.<br>
+	- [�ʼ�]�̸�, �ڵ���<br><br>
+	�ڸ���IT��ī���̴� ������ ���� ������� ���������� �����մϴ�.<br>
+	- Ȩ������ �� �������̵�(�¶��λ���û, ��������ȸ,���Ϲ��ī����(������)��ȸ, ��뺸��ȯ��, �����ڱ��������ȸ, �ð�ǥ��ȸ, ��������ġ��ȸ, ��Ź��������)�� ���� ���������� �����ϰ� �ֽ��ϴ�.<br><br>
+	<b>��.�������� ���� �� �̿����</b><br>
+	�ڸ���IT��ī���̴� ������ ���������� ������ ������ ���� Ȱ���մϴ�.<br>
+	- �������ǿ� ���� �а�����ڵ��� ��ȭ �� �̸��� ��� <br><br>
+	<b>��.������ ���������� ���� �� �̿�Ⱓ </b><br>
+	��� ���䰡 �Ϸ�� �� 5�Ⱓ �̿����� ��ȸ�� ���Ͽ� �����ϸ�, �� �� �ش������� ��ü���� �ı��մϴ�.<br><br>
+	<b>��. ���Ǹ� �ź��� �Ǹ��� �ִٴ� ��ǰ� ���� �źο� ���� ������ ����</b><br>
+	�̿��ڴ� �ڸ���IT��ī���� Ȩ���������� �����ϴ� ���������� ���� ���Ǹ� �ź��� �Ǹ��� ������ ���� �ź� �ÿ��� ȸ������ �� ���ͳ� ������ ��ȸ, �¶��� ��� ���� Ȩ������ ���񽺰� �Ϻ� ���� �˴ϴ�.
+</div>
+	</div>
+    </div>
+	<div class="btnC">
+		<a href="#" rel="modal:close" class="btnSubmit">�ݱ�</a>
+	</div>
+</div>
+
+
+
+<script type="text/javascript">
+$('.ftFamily > span').click(function(){
+	if($(this).parent().is('.on')) {
+		$(this).parent().removeClass('on');
+		$(this).next().slideUp(300);
+	}else {
+		$(this).parent().addClass('on');
+		$(this).next().slideDown(300);
+	}
+});
+</script>
+
+
+<script  type="text/javascript">
+//<![CDATA[
+var _HCmz={
+ PC:"",
+ PT:"",
+ SO:"",
+ MP:""
+ 
+};
+
+function logCorpAScript_full(){
+	HTTP_MSN_MEMBER_NAME="";/*member name*/
+	LOGSID = "648595198";/*logsid*/
+	LOGREF = "";/*logref*/
+	var prtc=(document.location.protocol=="https:")?"https://":"http://";
+		var hst=prtc+"asp27.http.or.kr";
+		var rnd="r"+(new Date().getTime()*Math.random()*9);
+		this.ch=function(){
+			if(document.getElementsByTagName("head")[0]){logCorpAnalysis_full.dls();}else{window.setTimeout(logCorpAnalysis_full.ch,30)}
+		}
+		this.dls=function(){
+			var h=document.getElementsByTagName("head")[0];
+			var s=document.createElement("script");s.type="text/jav"+"ascript";try{s.defer=true;}catch(e){};try{s.async=true;}catch(e){};
+			if(h){s.src=hst+"/HTTP_MSN/UsrConfig/legend1984/js/ASP_Conf.js?s="+rnd;h.appendChild(s);}
+		}
+		this.init= function(){
+			document.write('<img src="'+hst+'/sr.gif?d='+rnd+'" style="width:1px;height:1px;position:absolute;display:none" onload="logCorpAnalysis_full.ch()" alt="" />');
+		}
+	}
+	//if(typeof logCorpAnalysis_full=="undefined"){v
