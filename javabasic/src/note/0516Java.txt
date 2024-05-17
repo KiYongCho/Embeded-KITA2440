@@ -1,2 +1,47 @@
 ### JDBC (Java DataBase Connectivity)
 
+* JDBC
+  - Java에서 모든 종류의 DBMS에 연결하고 쿼리하는 모든 방법의 집합
+  - Java에서는 JDBC를 통해 어떤 종류의 DBMS에 대한 작업도 일관성 있게 진행이 가능
+
+* 주요 API
+  - Connection : 데이터베이스 연결 객체
+  - DriverManager : 커넥션을 생성하기 위해 데이터베이스 드라이버를 관리
+                             getConnection메소드를 통해 Connection객체 생성
+  - Statement : 데이터베이스에 보낼 쿼리문 객체
+  - PreparedStatement : Statement의 하위 인터페이스로 위치지정자(place holder, ?)를
+                                    이용해 쿼리문을 프로그램에서 동적으로 생성
+  - CallableStatement : DBMS의 프로시져나 함수를 호출하여 사용하기 위한 인터페이스
+  - ResultSet : select쿼리를 수행한 결과 행들을 저장할 커서(Cursor)
+  - SQLException : DBMS 관련 작업 중 발생 가능한 예외 클래스
+  
+* JDBC 코딩 절차
+  1. DriverManager.getConnection() 으로 Connection 획득
+  2. Connection을 통해 Statement 또는 PreparedStatement 또는 CallableStatement 생성
+  3. 쿼리문을 문자열로 작성하여 Statement 수행
+  4-1. select쿼리의 경우 ResultSet을 반환받고 rs.next()를 통해 각 행에 대해 필요한 작업 수행
+  4-2. select가 아닌 쿼리의 경우 쿼리를 수행하고 영향받은 행의 수를 리턴받아 결과 확인
+  5. 작업이 끝나면 finally에서 반드시 사용한 객체들을 사용순서의 역순으로 close()
+  
+* Transaction 처리
+  - 트랜잭션 : 한 번에 모두 수행되거나 모두 수행되지 말아야 할 작업의 묶음 단위 (예> 이체트랜잭션은 출금+입금)
+  1. conn.setAutoCommit(false) : 쿼리 수행시 커밋 방지
+  2. Transaction 완료시 commit()
+  3. Transaction 롤백시 rollback()
+  4. 롤백시점을 savepoint로 지정하고 지정된 savepoint로 롤백 가능
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

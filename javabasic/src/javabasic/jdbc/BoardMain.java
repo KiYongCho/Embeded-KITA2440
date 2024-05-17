@@ -69,7 +69,7 @@ public class BoardMain {
 	} // main
 	
 	// 게시물 목록
-	private List<Board> listBoard() throws SQLException {
+	List<Board> listBoard() throws SQLException {
 		String sql = " select bid, btitle, bcontent, bregdate from board ";
 		ps = conn.prepareStatement(sql);
 		rs = ps.executeQuery();
@@ -86,7 +86,7 @@ public class BoardMain {
 	}
 	
 	// 게시물 한건 조회
-	private Board getBoard(Board board) throws SQLException {
+	Board getBoard(Board board) throws SQLException {
 		String sql = " select bid, btitle, bcontent, bregdate from board where bid=? ";
 		ps = conn.prepareStatement(sql);
 		ps.setInt(1, board.getBid());
@@ -103,7 +103,7 @@ public class BoardMain {
 	
 	
 	// 게시물 등록
-	private int insertBoard(Board board) throws SQLException {
+	int insertBoard(Board board) throws SQLException {
 		String sql = " insert into board values(bid_seq.nextval, ?, ?, sysdate) ";
 		ps = conn.prepareStatement(sql);
 		ps.setString(1, board.getBtitle());
@@ -112,7 +112,7 @@ public class BoardMain {
 	}
 	
 	// 게시물 수정
-	private int updateBoard(Board board) throws SQLException {
+	int updateBoard(Board board) throws SQLException {
 		String sql = " update board set btitle=?, bcontent=? where bid=? ";
 		ps = conn.prepareStatement(sql);
 		ps.setString(1, board.getBtitle());
@@ -122,7 +122,7 @@ public class BoardMain {
 	}
 	
 	// 게시물 삭제
-	private int deleteBoard(Board board) throws SQLException {
+	int deleteBoard(Board board) throws SQLException {
 		String sql = " delete board where bid=? ";
 		ps = conn.prepareStatement(sql);
 		ps.setInt(1, board.getBid());
