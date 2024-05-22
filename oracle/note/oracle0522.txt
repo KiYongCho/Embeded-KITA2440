@@ -1,0 +1,34 @@
+# 데이터 모델링 (Data Modeling)
+  데이터를 저장할 구조에 대한 정의/설계
+
+* 개념적 모델링 (Conceptual Modeling)
+  모델에 대한 개념적 설계
+  ex) 이러이러한 시스템에 이러이러한 데이터가 있는데
+       이런 구조로 설계하면 어떨까 하고 개념적으로 생각하는 단계
+
+* 논리적 모델링 (Logical Modeling)
+  개념적 모델링이 끝나면 실제 인간의 언어로 데이터의 구조를
+  설계하는 단계
+  ex) 학생테이블에는 학생고유번호, 학생명, 이메일, 전화번호 ... 등이 있다
+
+* 물리적 모델링 (Physical Modeling)
+  논리적 모델링이 끝나면 DBMS의 언어로 데이터의 구조를
+  설계하는 단계
+  ex) STUDENT : SID(NUMBER PRIMARY KEY), SNAME(VARCHAR2 NOT NULL) ...
+
+* 모델링 툴(Tool)
+  데이터 모델링을 위한 소프트웨어
+  ex) ER-WIN, Ex-ERD, IDE에 있는 모델링 플러그인
+
+
+
+
+
+
+
+
+
+
+
+
+
