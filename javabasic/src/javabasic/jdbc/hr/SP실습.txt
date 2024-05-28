@@ -1,0 +1,63 @@
+[SP 실습]
+1. javabasic.jdbc.hr
+2. 오라클 HR 계정 사용
+3. 
+1) JOB_ID를 입력하면 해당 직무의 총 근무일수를 반환하는 FUNC_JOBHISTORY 함수 생성
+CREATE OR REPLACE FUNCTION FUNC_JOBHISTORY
+(P_JOBID JOBS.JOB_ID%TYPE)
+RETURN NUMBER
+IS
+	TOTALDAYS NUMBER;
+BEGIN
+	SELECT SUM(JH.END_DATE - JH.START_DATE) INTO TOTALDAYS
+	FROM JOBS J, JOB_HISTORY JH
+	WHERE J.JOB_ID = JH.JOB_ID
+		AND J.JOB_ID = P_JOBID;
+	RETURN TOTALDAYS;
+END;
+
+SELECT FUNC_JOBHISTORY('SA_MAN') FROM DUAL;
+
+2) 부서ID를 입력하면 부서 직원들의 월급 총액을 반환하는 PROC_DEPTSAL 프로시져 생성
+CREATE OR REPLACE PROCEDURE PROC_DEPTSAL
+(P_DEPTID IN DEPARTMENTS.DEPARTMENT_ID%TYPE,
+ TOTALSAL OUT NUMBER)
+ IS
+ BEGIN
+ 	SELECT SUM(E.SALARY) INTO TOTALSAL
+ 	FROM DEPARTMENTS D, EMPLOYEES E
+ 	WHERE 
+ 		D.DEPARTMENT_ID = E.DEPARTMENT_ID
+ 		AND
+ 		D.DEPARTMENT_ID = P_DEPTID;
+ END;
+ 
+DECLARE
+	TOTALSAL NUMBER;
+BEGIN
+	PROC_DEPTSAL(30, TOTALSAL);
+	DBMS_OUTPUT.PUT_LINE(TOTALSAL);
+END;
+
+3) HRMain.java 에서 함수와 프로시져를 호출해서 결과를 아래와 같이 출력
+    Accountant부서의 총 근무일수는 118일 입니다.
+    Marketing부서 직원들의 월급 총액은 12000입니다.
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
