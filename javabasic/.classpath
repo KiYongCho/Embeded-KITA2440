@@ -7,5 +7,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="D:/oracle/ojdbc6-11.2.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/jars/gson-2.10.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

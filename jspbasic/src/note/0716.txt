@@ -1,0 +1,127 @@
+# JSP 내장객체
+  JSP에 이미 만들어져서 제공되는 객체
+
+* request : javax.servlet.HttpServletRequest
+  클라이언트의 요청 정보 객체
+  
+* response : javax.servlet.HttpServletResponse
+  서버의 응답 정보 객체
+  
+* session : javax.servlet.HttpSession
+  서버에 저장하는 클라이언트의 정보 객체
+  
+* application : javax.servlet.ServletContext
+  어플리케이션(ServletContext) 정보 객체
+  
+* out : javax.servlet.jsp.JspWriter
+  문자출력 객체
+  
+* pageContext : javax.servlet.jsp.PageContext
+  JSP페이지의 환경정보 객체
+  
+* page : java.lang.Object
+  JSP페이지 객체
+  
+* config : javax.servlet.ServletConfig
+  Servlet 설정 정보 객체
+  
+
+# 내장객체 속성
+
+* pageContext, request, session, application 객체에는 속성 설정이 가능
+  pageContext : page 스코프 - 페이지 내에서만 속성데이터 유지
+  request : request 스코프 - 요청이 전달되는 동안 속성데이터 유지
+  session : session 스코프 - 세션이 유지되는 동안 속성데이터 유지
+  application : application 스코프 - 어플리케이션이 종료될때까지 속성데이터 유지
+  
+  * 속성관련 메소드
+  Object getAttribute(속성명) : 속성값을 반환
+  void setAttribute(속성명, 속성값) : 속성 설정
+  void removeAttribute(속성명) : 속성 제거
+  Enumeration getAttributeNames() : 속성명들을 반환
+  
+  
+ # request 객체
+ String getParameter(String name) : 파라미터의 값을 문자열로 반환
+ String[] getParameterValues(String name) : 파라미터의 값들을 문자열배열로 반환
+ Enumeration getParameterNames() : 파라미터 이름들을 Enumeration으로 반환
+ Map getParameterMap() : 파라미터의 이름들과 값들을 Map으로 반환
+ String getRemoteAddr() : 클라이언트의 IP주소를 반환
+ long getContentLength() : 요청파라미터의 길이(byte수)를 반환
+ String getQueryString() : 요청URL에서 ? 뒤에 나오는 문자열 반환
+ String getContextPath() : 컨텍스트경로를 문자열로 반환
+ String getRequestURI() : 요청한 URI경로를 문자열로 반환
+ 
+ # response 객체
+ void setCharacterEncoding(인코딩방식) : 응답 인코딩방식 설정
+ void sendRedirect(리다이렉션할URL) : 클라이언트에게 지정한 URL로 다시 요청하라고 지시
+ 
+ # forward요청, redirection요청
+   - forward요청은 request가 전달됨 (동일한 request)
+   - redirection요청은 새로운 request (다른 request)
+   
+ 
+ # session 객체
+   - 클라이언트가 서버에 접속하면 서버에 session객체가 생김 (클라이언트 당 1개)
+   - session의 역할은 클라이언트 식별
+   - session은 tomcat서버의 경우 기본 30분의 timeout 시간이 설정되어짐
+   - session의 timeout시간(분 단위)은 web.xml에 설정
+   - String getId() : 세션ID를 문자열로 반환
+   - void invalidate() : 세션 무효화 (로그아웃)
+   - getMaxInactiveInterval() : 세션 최대 지속시간 int(초단위)로 반환
+   - setMaxInactiveInterval(초) : 세션 최대 지속시간 int(초단위) 설정
+   - boolean isNew() : 새로 생성된 세션객체인지 여부 반환
+   
+ # 초기화 파라미터 (web.xml에 설정해서 사용)
+   - context init parameter : 웹어플리케이션 시작시 설정되는 변수와 값
+  	<context-param>
+  		<param-name>db</param-name>
+  		<param-value>oracle</param-value>
+  	</context-param> 
+   - servlet init parameter : 서블릿 초기화시 설정되는 변수와 값
+	<servlet>
+		<servlet-name>hello</servlet-name>
+		<servlet-class>jspbasic.HelloServlet</servlet-class>
+		<init-param>
+			<param-name>a</param-name>
+			<param-value>100</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>hello</servlet-name>
+		<url-pattern>/hello</url-pattern>
+	</servlet-mapping>     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
