@@ -1,0 +1,61 @@
+# JSP Directive (지시어)
+
+*  page : 페이지의 속성들을 정의
+<%@ page 속성명="속성값" %>
+- 속성
+  import : 클래스 임포트
+  contentType : MIME 타입 (text/plain, text/html, application/json, application/xml ...)
+
+* include : 페이지내에 페이지를 삽입할때
+<%@ include file="파일명" %> 
+- 속성
+  파일명 : jsp파일명 
+  포함하고 있는 jsp가 서블릿으로 컴파일될때 같이 컴파일 됨
+
+* taglib : 페이지내에서 사용할 태그라이브러리를 정의
+  - 태그라이브러리 : JSTL(JSP Standard Tag Library), 사용자정의태그라이브러리
+<%@ taglib uri="태그라이브러리URI" prefix="접두어" %>
+
+
+# Action Tag
+
+* 형식 : <jsp:태그명 속성명="속성값" />
+* <jsp:forward : request를 포워딩
+  ex) <jsp:forward page="otherpage.jsp" />
+* <jsp:include : 컴파일된 페이지를 포함
+  ex) <jsp:include page="otherpage.jsp" />
+* <jsp:param : 파라미터 설정 (forward, include 시 사용)
+  ex)  <jsp:include page="otherpage.jsp">
+  			<jsp:param name="name" value="홍길동" />
+  			<jsp:param name="age" value="20" />
+         </jsp:include>
+* <jsp:useBean : JavaBean을 사용 
+  ex) <jsp:useBean 
+  			id="객체명" 
+  			scope="page|request|session|application"
+  			class="클래스풀네임" />
+* <jsp:setProperty : 프라퍼티 값 설정
+  ex) <jsp:useBean id="person" scope="request" class="person.Person" />
+  		<jsp:setProperty name="person" property="name" value="홍길동" />
+  		<jsp:setProperty name="person" property="age" value="20" />
+  		파라미터변수명과 프라퍼티변수명이 동일하면 빈 객체의 프라퍼티값들을 일괄 설정
+  		<jsp:setProperty name="person" property="*" />
+  		파라미터변수명과 프라퍼티변수명이 다를때
+  		<jsp:setProperty name="person" property="name" param="nm" />
+* <jsp:getProperty : 프라퍼티 값 획득
+  ex) <jsp:getProperty name="person" property="name" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

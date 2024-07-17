@@ -1,0 +1,7 @@
+# jsp실습3 : 자동차 등록관리 프로그램
+
+* 폴더 : car
+* 파일 : src/jspbasic/Car.java, registCar.html, registCar.jsp 
+* 기능 : 등록한 자동차 정보를 빈에 세팅해서 출력
+* 자동차 정보 : 연번, 제조사, 모델명, 배기량, 색상, 가격
+  
