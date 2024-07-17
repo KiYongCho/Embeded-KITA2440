@@ -44,6 +44,78 @@
   		<jsp:setProperty name="person" property="name" param="nm" />
 * <jsp:getProperty : 프라퍼티 값 획득
   ex) <jsp:getProperty name="person" property="name" />
+  
+  
+  # EL (Expression Language) : 표현식
+  
+  * EL은 JSP에서 사용할 수 있는 표현식(=값으로 판별될 수 있는 문장)
+    ex) ${100 + 200} (O), ${int i = 100;} (X)
+  * 기본문법 :  ${}
+  * EL내에 사용된 변수는 pageContext > request > session > application
+    순으로 참조하게 됨
+    ex) ${name} : name변수가 pageContext에 있는지 찾음
+                          없으면 request 에 있는지 찾음
+                          없으면 session 에 있는지 찾음
+                          없으면 application 에 있는지 찾음
+                          
+ * EL내에 사용된 변수의 스코프를 명시 (디폴트는 pageScope)
+   ex) ${pageScope.name} ${requestScope.name}
+         ${sessionScope.name} ${applicationScope.name}
+         
+* EL의 내장 객체
+  - pageContext
+  - servletContext
+  - session
+  - request
+  - response
+  - param
+  - paramValues
+  - header
+  - headerValues
+  - cookie
+  - initParam
+  - pageScope : pageContext의 속성변수의 값 가져옴
+  - requestScope : request의 속성변수의 값 가져옴
+  - sessionScope : session의 속성변수의 값 가져옴
+  - applicationScope  : application의 속성변수의 값 가져옴    
+  
+* el에서 객체의 프라퍼티를 참조하게 되면 자동으로 getter를 호출하게 됨
+  ex) ${person.name} = > person의 getName()을 호출
+  
+* EL의 연산자
+  - div : 나눗셈 ex) ${6 div 3}    (= /)
+  - mod : 나머지 ex) ${5 mod 2}  (= %)
+  - eq : ==
+  - ne : !=
+  - lt : <
+  - gt : >
+  - le : <=
+  - ge : >= 
+  - empty
+    값이 null이면 true 반환
+    문자열, Map, Collection(List, Set)의 크기가 0이면 true 반환
+    그 외 모든 경우는 false 반환
+    ex) ${empty "hello"} 
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 
 
