@@ -4,7 +4,7 @@ import java.sql.Date;
 
 public class Product {
 	
-	private String pno;
+	private int pno;
 	private String pcomp;
 	private String pname;
 	private String pcolor;
@@ -15,7 +15,7 @@ public class Product {
 	public Product() {
 	}
 
-	public Product(String pno, String pcomp, String pname, String pcolor, String pamt, String pprice, String pmdate) {
+	public Product(int pno, String pcomp, String pname, String pcolor, String pamt, String pprice, String pmdate) {
 		super();
 		this.pno = pno;
 		this.pcomp = pcomp;
@@ -26,11 +26,11 @@ public class Product {
 		this.pmdate = pmdate;
 	}
 
-	public String getPno() {
+	public int getPno() {
 		return pno;
 	}
 
-	public void setPno(String pno) {
+	public void setPno(int pno) {
 		this.pno = pno;
 	}
 

@@ -1,6 +1,10 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
 <%@page import="jspbasic.product.ProductProc"%>
 
+<%
+	request.setCharacterEncoding("utf-8");
+%>
+
 <jsp:useBean id="product" class="jspbasic.product.Product" />
 <jsp:setProperty name="product" property="*" />
 

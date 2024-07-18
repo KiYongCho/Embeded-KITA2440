@@ -17,7 +17,7 @@
 <div id="wrapper">
 	<h2>상품 리스트</h2>
 	<p>
-		<button onclick="location.href='productWriteForm.jsp';">등록</button>
+		<button onclick="location.href='productRegistForm.jsp';">등록</button>
 	</p>
 	<table>
 		<thead>
