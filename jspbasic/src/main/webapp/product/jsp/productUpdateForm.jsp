@@ -16,6 +16,7 @@
 <body>
 <div id="wrapper">
 	<form method="post" action="productUpdateProc.jsp">
+		<input type="hidden" name="pno" value="<%=product.getPno()%>" />
 		회사명 : <input type="text" name="pcomp" value="<%=product.getPcomp()%>" /><br />
 		상품명 : <input type="text" name="pname" value="<%=product.getPname()%>" /><br />
 		색상 : <input type="text" name="pcolor" value="<%=product.getPcolor()%>" /><br />
