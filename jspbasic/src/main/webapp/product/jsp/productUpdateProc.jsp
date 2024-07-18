@@ -6,11 +6,7 @@
 %>
 
 <jsp:useBean id="product" class="jspbasic.product.Product" />
-<jsp:setProperty name="product" property="pcomp" />
-<jsp:setProperty name="product" property="pname" />
-<jsp:setProperty name="product" property="pcolor" />
-<jsp:setProperty name="product" property="pamt" />
-<jsp:setProperty name="product" property="pprice" />
+<jsp:setProperty name="product" property="*" />
 
 <%
 	ProductProc productProc = new ProductProc();

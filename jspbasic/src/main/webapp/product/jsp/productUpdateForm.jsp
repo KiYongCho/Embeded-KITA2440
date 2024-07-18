@@ -15,7 +15,7 @@
 </head>
 <body>
 <div id="wrapper">
-	<form method="post" action="productRegistProc.jsp">
+	<form method="post" action="productUpdateProc.jsp">
 		회사명 : <input type="text" name="pcomp" value="<%=product.getPcomp()%>" /><br />
 		상품명 : <input type="text" name="pname" value="<%=product.getPname()%>" /><br />
 		색상 : <input type="text" name="pcolor" value="<%=product.getPcolor()%>" /><br />
