@@ -4,18 +4,18 @@ import java.sql.Date;
 
 public class Product {
 	
-	private int pno;
+	private String pno;
 	private String pcomp;
 	private String pname;
 	private String pcolor;
-	private int pamt;
-	private int pprice;
-	private Date pmdate;
+	private String pamt;
+	private String pprice;
+	private String pmdate;
 	
 	public Product() {
 	}
-	
-	public Product(int pno, String pcomp, String pname, String pcolor, int pamt, int pprice, Date pmdate) {
+
+	public Product(String pno, String pcomp, String pname, String pcolor, String pamt, String pprice, String pmdate) {
 		super();
 		this.pno = pno;
 		this.pcomp = pcomp;
@@ -26,11 +26,11 @@ public class Product {
 		this.pmdate = pmdate;
 	}
 
-	public int getPno() {
+	public String getPno() {
 		return pno;
 	}
 
-	public void setPno(int pno) {
+	public void setPno(String pno) {
 		this.pno = pno;
 	}
 
@@ -58,27 +58,27 @@ public class Product {
 		this.pcolor = pcolor;
 	}
 
-	public int getPamt() {
+	public String getPamt() {
 		return pamt;
 	}
 
-	public void setPamt(int pamt) {
+	public void setPamt(String pamt) {
 		this.pamt = pamt;
 	}
 
-	public int getPprice() {
+	public String getPprice() {
 		return pprice;
 	}
 
-	public void setPprice(int pprice) {
+	public void setPprice(String pprice) {
 		this.pprice = pprice;
 	}
 
-	public Date getPmdate() {
+	public String getPmdate() {
 		return pmdate;
 	}
 
-	public void setPmdate(Date pmdate) {
+	public void setPmdate(String pmdate) {
 		this.pmdate = pmdate;
 	}
 

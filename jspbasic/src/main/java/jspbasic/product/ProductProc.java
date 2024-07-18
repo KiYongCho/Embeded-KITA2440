@@ -20,13 +20,13 @@ public class ProductProc {
 		List<Product> productList = new ArrayList<Product>();
 		while (rs.next()) {
 			Product product = new Product();
-			product.setPno(rs.getInt("pno"));
+			product.setPno(rs.getString("pno"));
 			product.setPcomp(rs.getString("pcomp"));
 			product.setPname(rs.getString("pname"));
 			product.setPcolor(rs.getString("pcolor"));
-			product.setPamt(rs.getInt("pamt"));
-			product.setPprice(rs.getInt("pprice"));
-			product.setPmdate(rs.getDate("pmdate"));
+			product.setPamt(rs.getString("pamt"));
+			product.setPprice(rs.getString("pprice"));
+			product.setPmdate(rs.getString("pmdate"));
 			productList.add(product);
 		}
 		ConnectionUtil.closeConnection(conn);
@@ -40,9 +40,9 @@ public class ProductProc {
 		pstmt.setString(1, product.getPcomp());
 		pstmt.setString(2, product.getPname());
 		pstmt.setString(3, product.getPcolor());
-		pstmt.setInt(4, product.getPamt());
-		pstmt.setInt(5, product.getPprice());
-		pstmt.setDate(6, product.getPmdate());
+		pstmt.setString(4, product.getPamt());
+		pstmt.setString(5, product.getPprice());
+		pstmt.setString(6, product.getPmdate());
 		int result = pstmt.executeUpdate();
 		ConnectionUtil.closeConnection(conn);
 		return result;
@@ -55,9 +55,9 @@ public class ProductProc {
 		pstmt.setString(1, product.getPcomp());
 		pstmt.setString(2, product.getPname());
 		pstmt.setString(3, product.getPcolor());
-		pstmt.setInt(4, product.getPamt());
-		pstmt.setInt(5, product.getPprice());
-		pstmt.setInt(6, product.getPno());
+		pstmt.setString(4, product.getPamt());
+		pstmt.setString(5, product.getPprice());
+		pstmt.setString(6, product.getPno());
 		int result = pstmt.executeUpdate();
 		ConnectionUtil.closeConnection(conn);
 		return result;
