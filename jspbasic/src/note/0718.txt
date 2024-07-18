@@ -1,0 +1,33 @@
+# JSTL (JSP Standard Tag Library)
+  - JSP에서 사용하는 표준 태그 라이브러리
+  - jstl....jar 파일 필요 (WEB-INF/lib 내에 jar파일을 준비)
+  
+* JSTL 종류
+- core : URI(http://java.sun.com/jsp/jstl/core), 접두어(c)
+  변수 사용, URL관리, 흐름제어
+- function : URI(http://java.sun.com/jsp/jstl/functions), 접두어(fn)
+  함수 사용
+- formatting : URI(http://java.sun.com/jsp/jstl/fmt), 접두어(fmt)
+  형식 변환, 파싱
+- xml
+- sql
+
+* JSTL을 JSP에서 사용하려면 taglib 디렉티브 사용
+ ex) <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+# jsp실습5 : JSP 게시판 
+
+* 테이블명 : board
+* 시퀀스명 : seq_board
+* 패키지 : jspbasic.board
+* 인터페이스 : BoardInterface.java
+* 클래스 : Board.java, BoardDao.java, ConnectionUtil.java
+* 폴더 : board
+* 파일 : css/board.css
+	       js/board.js 
+		   jsp/boardList.jsp
+           jsp/boardRegistForm.jsp
+           jsp/boardUpdateForm.jsp
+           jsp/boardRegistProc.jsp
+           jsp/boardUpdateProc.jsp
+           jsp/boardDeleteProc.jsp
+* 기능 : 게시물목록, 게시물등록, 게시물수정, 게시물삭제, 조회수증가
+* 게시물 : 번호(bid), 제목(btitle), 내용(bcontent), 작성자(bwriter), 조회수(bcount), 작성일시(bregdate)
+
+* 실습 순서
+1. 테이블/시퀀스 생성
+2. 자바빈(Board.java) 생성
+3. 인터페이스(BoardInterface.java) 생성
+4. 클래스(BoardDao.java, ConnectionUtil.java) 생성
+5. 등록 > 목록 > 수정 > 삭제 순으로 프론트 구현
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
