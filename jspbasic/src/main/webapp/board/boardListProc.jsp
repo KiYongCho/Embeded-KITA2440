@@ -17,6 +17,7 @@
 
 	// 게시물 목록
 	List<Board> boardList = bi.listBoard(
+		request.getParameter("bsort"),
 		request.getParameter("searchKeyword"),
 		request.getParameter("searchValue")
 	);
@@ -26,6 +27,9 @@
 	
 	// request에 속성으로 boardList 저장
 	request.setAttribute("boardList", boardList);
+	request.setAttribute("bsort", request.getParameter("bsort"));
+	request.setAttribute("searchKeyword", request.getParameter("searchKeyword"));
+	request.setAttribute("searchValue", request.getParameter("searchValue"));
 	
 	// boardList.jsp로 포워딩
 	// 포워딩은 서버내에서 발생하고 기존의 request가 유지됨

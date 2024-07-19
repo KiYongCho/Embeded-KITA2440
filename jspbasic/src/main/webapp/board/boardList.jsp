@@ -19,13 +19,19 @@
 	</p>
 	<p>
 		<form method="get" action="boardListProc.jsp">
+			<select name="bsort">
+				<option value="" <c:if test="${bsort==''}" >selected</c:if>>--전체--</option>
+				<option value="자유" <c:if test="${bsort=='자유'}" >selected</c:if>>자유</option>
+				<option value="공지" <c:if test="${bsort=='공지'}" >selected</c:if>>공지</option>
+				<option value="사진" <c:if test="${bsort=='사진'}" >selected</c:if>>사진</option>
+			</select>&nbsp;		
 			<select name="searchKeyword">
-				<option value="">--전체--</option>
-				<option value="btitle">제목</option>
-				<option value="bcontent">내용</option>
+				<option value="" <c:if test="${searchKeyword==''}" >selected</c:if>>--전체--</option>
+				<option value="btitle" <c:if test="${searchKeyword=='btitle'}" >selected</c:if>>제목</option>
+				<option value="bcontent" <c:if test="${searchKeyword=='bcontent'}" >selected</c:if>>내용</option>
 			</select>
 			&nbsp;
-			<input type="text" name="searchValue" />
+			<input type="text" name="searchValue" value="${searchValue}" />
 			&nbsp;
 			<input type="submit" value="검색" />
 		</form>

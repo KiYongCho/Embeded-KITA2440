@@ -15,9 +15,10 @@ public class BoardDao implements BoardInterface {
 	ResultSet rs;
 
 	@Override
-	public List<Board> listBoard(String searchKeyword, String searchValue) 
+	public List<Board> listBoard(String bsort, String searchKeyword, String searchValue) 
 			throws SQLException {
 		
+		if (bsort==null) bsort = "";
 		if (searchKeyword==null) searchKeyword = "";
 		if (searchValue==null) searchValue = "";
 		
@@ -29,9 +30,14 @@ public class BoardDao implements BoardInterface {
 		} else if (searchKeyword.equals("bcontent")) {
 			sql += " WHERE BCONTENT LIKE '%" + searchValue + "%' ";
 		} else if (searchKeyword.equals("")) {
-			sql += " WHERE BTITLE LIKE '%" + searchValue + "%' ";
-			sql += " OR BCONTENT LIKE '%" + searchValue + "%' ";
+			sql += " WHERE (BTITLE LIKE '%" + searchValue + "%' ";
+			sql += " OR BCONTENT LIKE '%" + searchValue + "%') ";
 		}
+		
+		if (!bsort.equals("")) {
+			sql += " AND BSORT='" + bsort + "' ";
+		}
+		
 		sql += " ORDER BY BID DESC ";
 		
 		pstmt = conn.prepareStatement(sql);

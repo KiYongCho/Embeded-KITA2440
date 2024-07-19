@@ -2,7 +2,9 @@
 <%@page import="jspbasic.board.BoardDao"%>
 <%@page import="jspbasic.board.BoardInterface"%>
 <%@ page contentType="text/html; charset=UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 
 <%
 	int bid = Integer.parseInt(request.getParameter("bid"));
@@ -27,7 +29,11 @@
 	번호 : ${board.bid}<br />
 	분류 : ${board.bsort}<br />
 	제목 : ${board.btitle}<br />
-	내용 : ${board.bcontent}<br />
+	<%
+		pageContext.setAttribute("lineChar", "\n");
+	%>
+	내용<br />
+	${fn:replace(board.bcontent, lineChar, "<br/>")}<br />
 	작성자 : ${board.bwriter}<br />
 	조회수 : ${board.bcount}<br />
 	등록일시 : <fmt:formatDate value="${board.bregdate}" pattern="yy/MM/dd HH:mm" /><br />
