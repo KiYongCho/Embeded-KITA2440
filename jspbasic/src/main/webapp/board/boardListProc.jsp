@@ -5,11 +5,21 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 
 <%
+	if (session.getAttribute("mid")==null) {
+		RequestDispatcher rd = request.getRequestDispatcher("login.jsp");
+		rd.forward(request, response);
+	}
+%>
+
+<%
 	// 인터페이스타입으로 객체 생성
 	BoardInterface bi = new BoardDao();
 
 	// 게시물 목록
-	List<Board> boardList = bi.listBoard();
+	List<Board> boardList = bi.listBoard(
+		request.getParameter("searchKeyword"),
+		request.getParameter("searchValue")
+	);
 	
 	// request를 다른페이지에 전달할 때 RequestDispatcher
 	RequestDispatcher rd = request.getRequestDispatcher("boardList.jsp");

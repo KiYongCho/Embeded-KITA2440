@@ -3,6 +3,10 @@ package jspbasic.board;
 import java.sql.SQLException;
 import java.sql.Timestamp;
 
+import jspbasic.member.Member;
+import jspbasic.member.MemberDao;
+import jspbasic.member.MemberInterface;
+
 public class BoardTest {
 	
 	public static void main(String[] args) throws SQLException {
@@ -38,12 +42,15 @@ public class BoardTest {
 //			System.out.println("삭제 실패!");
 //		}		
 		
-		int result = boardDao.addCount(1);
-		if (result > 0) {
-			System.out.println("조회수 증가 성공!");
-		} else {
-			System.out.println("조회수 증가 실패!");
-		}			
+//		int result = boardDao.addCount(1);
+//		if (result > 0) {
+//			System.out.println("조회수 증가 성공!");
+//		} else {
+//			System.out.println("조회수 증가 실패!");
+//		}
+		
+//		MemberInterface mi = new MemberDao();
+//		System.out.println(mi.getMember(new Member("hong", "1234")));
 		
 	} // main
 

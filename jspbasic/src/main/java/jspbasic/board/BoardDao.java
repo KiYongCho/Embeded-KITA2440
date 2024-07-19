@@ -15,9 +15,25 @@ public class BoardDao implements BoardInterface {
 	ResultSet rs;
 
 	@Override
-	public List<Board> listBoard() throws SQLException {
+	public List<Board> listBoard(String searchKeyword, String searchValue) 
+			throws SQLException {
+		
+		if (searchKeyword==null) searchKeyword = "";
+		if (searchValue==null) searchValue = "";
+		
 		conn = ConnectionUtil.getConnection();
-		String sql = " SELECT * FROM BOARD ORDER BY BID DESC ";
+		
+		String sql = " SELECT * FROM BOARD ";
+		if (searchKeyword.equals("btitle")) {
+			sql += " WHERE BTITLE LIKE '%" + searchValue + "%' ";
+		} else if (searchKeyword.equals("bcontent")) {
+			sql += " WHERE BCONTENT LIKE '%" + searchValue + "%' ";
+		} else if (searchKeyword.equals("")) {
+			sql += " WHERE BTITLE LIKE '%" + searchValue + "%' ";
+			sql += " OR BCONTENT LIKE '%" + searchValue + "%' ";
+		}
+		sql += " ORDER BY BID DESC ";
+		
 		pstmt = conn.prepareStatement(sql);
 		rs = pstmt.executeQuery();
 		if (rs!=null) {
@@ -30,6 +46,7 @@ public class BoardDao implements BoardInterface {
 				board.setBwriter(rs.getString("BWRITER"));
 				board.setBcount(rs.getInt("BCOUNT"));
 				board.setBregdate(rs.getTimestamp("BREGDATE"));
+				board.setBsort(rs.getString("BSORT"));
 				boardList.add(board);
 			}
 			return boardList;
@@ -55,6 +72,7 @@ public class BoardDao implements BoardInterface {
 				board.setBwriter(rs.getString("BWRITER"));
 				board.setBcount(rs.getInt("BCOUNT"));
 				board.setBregdate(rs.getTimestamp("BREGDATE"));
+				board.setBsort(rs.getString("BSORT"));
 			}
 			return board;
 		} else {
@@ -65,23 +83,23 @@ public class BoardDao implements BoardInterface {
 	@Override
 	public int registBoard(Board board) throws SQLException {
 		conn = ConnectionUtil.getConnection();
-		String sql = " INSERT INTO BOARD VALUES(SEQ_BOARD.NEXTVAL, ?, ?, ?, 0, SYSDATE) ";
+		String sql = " INSERT INTO BOARD VALUES(SEQ_BOARD.NEXTVAL, ?, ?, ?, 0, SYSDATE, ?) ";
 		pstmt = conn.prepareStatement(sql);
 		pstmt.setString(1, board.getBtitle());
 		pstmt.setString(2, board.getBcontent());
 		pstmt.setString(3, board.getBwriter());
+		pstmt.setString(4, board.getBsort());
 		return pstmt.executeUpdate();
 	}
 
 	@Override
 	public int updateBoard(Board board) throws SQLException {
 		conn = ConnectionUtil.getConnection();
-		String sql = " UPDATE BOARD SET BTITLE=?, BCONTENT=?, BWRITER=? ";
-		sql += " WHERE BID=? ";
+		String sql = " UPDATE BOARD SET BSORT=?, BTITLE=?, BCONTENT=? WHERE BID=? ";
 		pstmt = conn.prepareStatement(sql);
-		pstmt.setString(1, board.getBtitle());
-		pstmt.setString(2, board.getBcontent());
-		pstmt.setString(3, board.getBwriter());
+		pstmt.setString(1, board.getBsort());
+		pstmt.setString(2, board.getBtitle());
+		pstmt.setString(3, board.getBcontent());
 		pstmt.setInt(4, board.getBid());
 		return pstmt.executeUpdate();
 	}

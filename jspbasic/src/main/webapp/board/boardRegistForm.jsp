@@ -9,12 +9,29 @@
 <div id="wrapper">
 	<h2>게시물 등록</h2>
 	<form method="post" action="boardRegistProc.jsp">
+		<input type="hidden" name="bwriter" value="${sessionScope.mid}" />
+		분류 : 
+		<select name="bsort">
+			<option value="자유">자유</option>
+			<option value="공지">공지</option>
+			<option value="사진">사진</option>
+		</select>
 		제목 : <input type="text" name="btitle" /><br />
 		내용 : <textarea name="bcontent" cols="40" rows="5"></textarea><br />
-		작성자 : <input type="text" name="bwriter" /><br />
 		<input type="submit" value="등록" />
 	</form>
 	<p><input type="button" value="목록" onclick="location.href='boardListProc.jsp';" /></p>
 </div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+

@@ -25,6 +25,7 @@
 <div id="wrapper">
 	<h2>게시물 보기</h2>
 	번호 : ${board.bid}<br />
+	분류 : ${board.bsort}<br />
 	제목 : ${board.btitle}<br />
 	내용 : ${board.bcontent}<br />
 	작성자 : ${board.bwriter}<br />

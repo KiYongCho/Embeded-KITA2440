@@ -13,11 +13,13 @@ public class Board implements Serializable {
 	private String bwriter;
 	private int bcount;
 	private Timestamp bregdate;
-	
+	private String bsort;
+		
 	public Board() {
 	}
 
-	public Board(int bid, String btitle, String bcontent, String bwriter, int bcount, Timestamp bregdate) {
+	public Board(int bid, String btitle, String bcontent, String bwriter, int bcount, Timestamp bregdate,
+			String bsort) {
 		super();
 		this.bid = bid;
 		this.btitle = btitle;
@@ -25,6 +27,7 @@ public class Board implements Serializable {
 		this.bwriter = bwriter;
 		this.bcount = bcount;
 		this.bregdate = bregdate;
+		this.bsort = bsort;
 	}
 
 	public int getBid() {
@@ -75,10 +78,18 @@ public class Board implements Serializable {
 		this.bregdate = bregdate;
 	}
 
+	public String getBsort() {
+		return bsort;
+	}
+
+	public void setBsort(String bsort) {
+		this.bsort = bsort;
+	}
+
 	@Override
 	public String toString() {
 		return "Board [bid=" + bid + ", btitle=" + btitle + ", bcontent=" + bcontent + ", bwriter=" + bwriter
-				+ ", bcount=" + bcount + ", bregdate=" + bregdate + "]";
+				+ ", bcount=" + bcount + ", bregdate=" + bregdate + ", bsort=" + bsort + "]";
 	}
 	
 }
