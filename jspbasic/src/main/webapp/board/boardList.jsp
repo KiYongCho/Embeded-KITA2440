@@ -23,7 +23,7 @@
 			<c:forEach var="board" items="${boardList}">
 			<tr>
 				<td>${board.bid}</td>
-				<td>${board.btitle}</td>
+				<td><a href="boardView.jsp?bid=${board.bid}">${board.btitle}</a></td>
 				<td>${board.bwriter}</td>
 				<td>${board.bcount}</td>
 				<td><fmt:formatDate value="${board.bregdate}" pattern="yy/MM/dd HH:mm" /></td>

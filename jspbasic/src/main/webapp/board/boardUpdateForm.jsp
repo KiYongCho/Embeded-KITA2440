@@ -25,6 +25,7 @@
 		작성자 : <input type="text" name="bwriter" value="${board.bwriter}" /><br />
 		<input type="submit" value="수정" />
 	</form>
+	<p><input type="button" value="목록" onclick="location.href='boardListProc.jsp';" /></p>
 </div>
 </body>
 </html>

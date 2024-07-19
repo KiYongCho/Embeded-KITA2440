@@ -14,6 +14,7 @@
 		작성자 : <input type="text" name="bwriter" /><br />
 		<input type="submit" value="등록" />
 	</form>
+	<p><input type="button" value="목록" onclick="location.href='boardListProc.jsp';" /></p>
 </div>
 </body>
 </html>
