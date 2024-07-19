@@ -65,13 +65,11 @@ public class BoardDao implements BoardInterface {
 	@Override
 	public int registBoard(Board board) throws SQLException {
 		conn = ConnectionUtil.getConnection();
-		String sql = " INSERT INTO BOARD VALUES(SEQ_BOARD.NEXTVAL, ?, ?, ?, ?, ?) ";
+		String sql = " INSERT INTO BOARD VALUES(SEQ_BOARD.NEXTVAL, ?, ?, ?, 0, SYSDATE) ";
 		pstmt = conn.prepareStatement(sql);
 		pstmt.setString(1, board.getBtitle());
 		pstmt.setString(2, board.getBcontent());
 		pstmt.setString(3, board.getBwriter());
-		pstmt.setInt(4, board.getBcount());
-		pstmt.setTimestamp(5, board.getBregdate());
 		return pstmt.executeUpdate();
 	}
 
