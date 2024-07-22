@@ -13,6 +13,9 @@
 <div id="wrapper">
 	<h2>게시물 목록</h2>
 	<p>
+		현재 접속자 수 : ${applicationScope.userCount}명
+	</p>
+	<p>
 		${sessionScope.mid} 님 환영합니다!&nbsp;
 		<input type="button" value="로그아웃" 
 			onclick="location.href='logoutProc.jsp';" /> 

@@ -8,6 +8,30 @@
     <welcome-file>index.jsp</welcome-file>    
   </welcome-file-list>
   
+  <listener>
+  	<listener-class>jspbasic.listener.MyServletContextListener</listener-class>
+  </listener>
+  
+  <listener>
+  	<listener-class>jspbasic.listener.MyServletContextAttributeListener</listener-class>
+  </listener>
+  
+  <listener>
+  	<listener-class>jspbasic.listener.MyHttpSessionListener</listener-class>
+  </listener>  
+  
+  <listener>
+  	<listener-class>jspbasic.listener.MyHttpSessionAttributeListener</listener-class>
+  </listener>   
+  
+  <listener>
+  	<listener-class>jspbasic.listener.MyServletRequestListener</listener-class>
+  </listener>     
+  
+  <listener>
+  	<listener-class>jspbasic.listener.MyServletRequestAttributeListener</listener-class>
+  </listener>   
+  
   <filter>
   	<filter-name>LoggingFilter</filter-name>
   	<filter-class>jspbasic.filter.LoggingFilter</filter-class>

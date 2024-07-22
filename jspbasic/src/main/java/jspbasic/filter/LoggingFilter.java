@@ -37,7 +37,7 @@ public class LoggingFilter implements Filter {
 			pstmt.setString(2, ((HttpServletRequest)request).getRequestURL().toString());
 			int result = pstmt.executeUpdate();
 			if (result > 0) {
-				System.out.println("로그테이블에 로그 기록됨!");
+//				System.out.println("로그테이블에 로그 기록됨!");
 			} else {
 				System.out.println("로깅 실패!");
 			}

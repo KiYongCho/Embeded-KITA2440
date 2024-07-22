@@ -13,10 +13,10 @@ public class EncodingFilter implements Filter {
 	
 	@Override
 	public void init(FilterConfig filterConfig) throws ServletException {
-		System.out.println(this.getClass().getName() + "가 초기화 됨!");
-		System.out.println(filterConfig.getFilterName());
-		System.out.println(filterConfig.getInitParameter("encoding"));
-		System.out.println(filterConfig.getInitParameter("name"));
+//		System.out.println(this.getClass().getName() + "가 초기화 됨!");
+//		System.out.println(filterConfig.getFilterName());
+//		System.out.println(filterConfig.getInitParameter("encoding"));
+//		System.out.println(filterConfig.getInitParameter("name"));
 	}
 
 	@Override
@@ -30,7 +30,7 @@ public class EncodingFilter implements Filter {
 	
 	@Override
 	public void destroy() {
-		System.out.println(this.getClass().getName() + "가 소멸됨!");
+//		System.out.println(this.getClass().getName() + "가 소멸됨!");
 	}
 
 } // class

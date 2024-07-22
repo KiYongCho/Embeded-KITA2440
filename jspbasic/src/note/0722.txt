@@ -4,3 +4,23 @@
 * 역할 : 인증, 보안, 인코딩, 로깅 ... 과 같은 서블릿 서비스를 하기 전 작업들
 * Filter를 만들려면 Filter인터페이스를 구현
 * Filter는 web.xml에 등록
+
+# Listener
+* Listener는 서블릿컨텍스트, 세션, 리퀘스트가 생성되고 소멸될때 작동
+* AttributeListener는 서블릿컨텍스트, 세션, 리퀘스트에 속성변수가 추가, 삭제, 대체되면 작동
+* Listener를 만들려면 Listener인터페이스를 구현
+* web.xml에 리스너 등록
+
+
+
+
+
+
+
+
+
+
+
+
+
+
