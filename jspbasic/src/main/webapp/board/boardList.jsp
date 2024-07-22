@@ -43,7 +43,7 @@
 		<thead>
 			<tr>
 				<th>번호</th><th>분류</th><th>제목</th><th>작성자</th><th>조회수</th><th>등록일시</th>
-				<th>수정</th><th>삭제</th>
+				<th>파일</th><th>수정</th><th>삭제</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -55,6 +55,7 @@
 				<td>${board.bwriter}</td>
 				<td>${board.bcount}</td>
 				<td><fmt:formatDate value="${board.bregdate}" pattern="yy/MM/dd HH:mm" /></td>
+				<td>${board.cfn}</td>
 				<td><a href="boardUpdateForm.jsp?bid=${board.bid}">[수정]</a></td>
 				<td><a href="boardDeleteProc.jsp?bid=${board.bid}">[삭제]</a></td>
 			</tr>

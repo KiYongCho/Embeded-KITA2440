@@ -58,6 +58,24 @@
   	<url-pattern>/*</url-pattern>
   </filter-mapping>
   
+  <servlet>
+  	<servlet-name>FileuploadServlet</servlet-name>
+  	<servlet-class>jspbasic.servlet.FileuploadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>FileuploadServlet</servlet-name>
+  	<url-pattern>/fileupload</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>FiledownloadServlet</servlet-name>
+  	<servlet-class>jspbasic.servlet.FiledownloadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>FiledownloadServlet</servlet-name>
+  	<url-pattern>/filedownload</url-pattern>
+  </servlet-mapping>  
+  
 </web-app>
 
 
