@@ -37,10 +37,22 @@
 	작성자 : ${board.bwriter}<br />
 	조회수 : ${board.bcount}<br />
 	등록일시 : <fmt:formatDate value="${board.bregdate}" pattern="yy/MM/dd HH:mm" /><br />
+	첨부파일 : <c:if test="${!empty board.cfn}">
+						<a href="/jspbasic/filedownload?filename=${board.cfn}">${board.cfn}</a>
+				 </c:if>
 	<p><input type="button" value="목록" onclick="location.href='boardListProc.jsp';" /></p>
 </div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
 
 
 

@@ -55,7 +55,11 @@
 				<td>${board.bwriter}</td>
 				<td>${board.bcount}</td>
 				<td><fmt:formatDate value="${board.bregdate}" pattern="yy/MM/dd HH:mm" /></td>
-				<td>${board.cfn}</td>
+				<td>
+					<c:if test="${!empty board.cfn}">
+						<a href="/jspbasic/filedownload?filename=${board.cfn}"><img src="file.png" style="width: 18px;" /></a>
+					</c:if>
+				</td>
 				<td><a href="boardUpdateForm.jsp?bid=${board.bid}">[수정]</a></td>
 				<td><a href="boardDeleteProc.jsp?bid=${board.bid}">[삭제]</a></td>
 			</tr>

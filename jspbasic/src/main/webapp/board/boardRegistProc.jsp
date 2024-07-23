@@ -20,7 +20,7 @@
 <jsp:setProperty name="board" property="bsort"  value='<%=mr.getParameter("bsort")%>' />
 <jsp:setProperty name="board" property="btitle"  value='<%=mr.getParameter("btitle")%>' />
 <jsp:setProperty name="board" property="bcontent"  value='<%=mr.getParameter("bcontent")%>' />
-<jsp:setProperty name="board" property="cfn"  value='<%=mr.getFilesystemName("cfn")%>' />
+<jsp:setProperty name="board" property="cfn"  value='<%=mr.getOriginalFileName("cfn")%>' />
 
 <%
 	BoardInterface bi = new BoardDao();
