@@ -1,0 +1,53 @@
+# MVC (Model, View, Controller) 패턴
+
+* Model : 데이터 + 데이터 처리
+* View : 화면 또는 UI
+* Controller : 모델하고 뷰를 분리하기 위한 서블릿
+* Model과 View를 분리해서 서로 독립성을 유지 시키는 것이
+   MVC패턴을 사용하는 목적 => 하나의 모델을 여러 View에서 사용할 수 있게됨
+* Model - Controller - View 형태로 연결되므로 Model과 View의 직접 상관관계가 없음
+* Java에서는 
+  - Model : Java Class
+  - Controller : Java Class (Servlet)
+  - View : JSP (Tymeleafe, HTML/CSS/Javascript ...)
+
+  
+# DAO/DO (Data Access Object / Data Object) 패턴
+
+* 데이터와 데이터처리를 분리하는 패턴
+* 일반적으로 자바에서는 Javabean과 DAO를 분리
+* 데이터 : Javabean
+   데이터처리 : DAO
+   
+   
+# Service 패턴 (Facade 패턴)
+
+* 클라이언트가 서버의 서비스를 요청할때 서비스 interface를 거치도록 하는 패턴
+* 어플리케이션의 확장성, 유연성, 보안성 등이 증대됨
+* 패턴1 : 인터페이스를 구현한 클래스
+* 패턴2 : 인터페이스를 구현한 추상클래스를 상속받는 클래스
+
+
+# Command 패턴
+
+* 서비스를 커맨드로 분리 = 서비스와 커맨드를 매핑
+* A커맨드 -> A서비스를 실행
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
