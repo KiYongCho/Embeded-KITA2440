@@ -18,3 +18,6 @@
 	response.sendRedirect("boardListProc.jsp");
 %>
 
+
+
+

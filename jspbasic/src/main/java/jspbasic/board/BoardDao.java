@@ -82,7 +82,6 @@ public class BoardDao implements BoardInterface {
 				board.setBregdate(rs.getTimestamp("BREGDATE"));
 				board.setBsort(rs.getString("BSORT"));
 				board.setCfn(rs.getString("CFN"));
-				board.setSfn(rs.getString("SFN"));
 			}
 			return board;
 		} else {
@@ -93,28 +92,26 @@ public class BoardDao implements BoardInterface {
 	@Override
 	public int registBoard(Board board) throws SQLException {
 		conn = ConnectionUtil.getConnection();
-		String sql = " INSERT INTO BOARD VALUES(SEQ_BOARD.NEXTVAL, ?, ?, ?, 0, SYSDATE, ?, ?, ?) ";
+		String sql = " INSERT INTO BOARD VALUES(SEQ_BOARD.NEXTVAL, ?, ?, ?, 0, SYSDATE, ?, ?) ";
 		pstmt = conn.prepareStatement(sql);
 		pstmt.setString(1, board.getBtitle());
 		pstmt.setString(2, board.getBcontent());
 		pstmt.setString(3, board.getBwriter());
 		pstmt.setString(4, board.getBsort());
 		pstmt.setString(5, board.getCfn());
-		pstmt.setString(6, UUID.randomUUID().toString());
 		return pstmt.executeUpdate();
 	}
 
 	@Override
 	public int updateBoard(Board board) throws SQLException {
 		conn = ConnectionUtil.getConnection();
-		String sql = " UPDATE BOARD SET BSORT=?, BTITLE=?, BCONTENT=?, CFN=?, SFN=? WHERE BID=? ";
+		String sql = " UPDATE BOARD SET BSORT=?, BTITLE=?, BCONTENT=?, CFN=? WHERE BID=? ";
 		pstmt = conn.prepareStatement(sql);
 		pstmt.setString(1, board.getBsort());
 		pstmt.setString(2, board.getBtitle());
 		pstmt.setString(3, board.getBcontent());
 		pstmt.setString(4, board.getCfn());
-		pstmt.setString(5, UUID.randomUUID().toString());
-		pstmt.setInt(6, board.getBid());
+		pstmt.setInt(5, board.getBid());
 		return pstmt.executeUpdate();
 	}
 

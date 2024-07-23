@@ -10,7 +10,7 @@
 
 	File dir = new File(realPath);
 	if (!dir.exists()) dir.mkdirs();
-	
+		
 	MultipartRequest mr = new MultipartRequest(request, realPath, 5*1024*1024, 
 			"utf-8", new DefaultFileRenamePolicy());
 %>
@@ -27,3 +27,9 @@
 	bi.registBoard(board);
 	response.sendRedirect("boardListProc.jsp");
 %>
+
+
+
+
+
+
