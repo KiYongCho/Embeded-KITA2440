@@ -3,6 +3,7 @@ package jspmvc.client;
 import java.util.ArrayList;
 import java.util.List;
 
+import jspmvc.dao.PersonDaoDBImpl;
 import jspmvc.dao.PersonDaoImpl;
 import jspmvc.service.PersonService;
 import jspmvc.vo.Person;
@@ -14,7 +15,8 @@ public class Client {
 	
 	public static void main(String[] args) throws Exception {
 		
-		personService = new PersonDaoImpl();
+		//personService = new PersonDaoImpl();
+		personService = new PersonDaoDBImpl();
 		personList = new ArrayList<Person>();
 		
 		// regist
@@ -24,16 +26,17 @@ public class Client {
 		personService.registPerson(personList, person);
 		person = new Person(3, "이순신", 40);
 		personService.registPerson(personList, person);
-		System.out.println(personList);
+		//System.out.println(personList);
 		
 		// list
 		personList = personService.listPerson(personList);
-		System.out.println(personList);
+		//System.out.println(personList);
 		
 		// update
+		Person personBefore = new Person(3, "이순신", 40);
 		Person personAfter = new Person(3, "이순신UP", 50);
-		personList = personService.updatePerson(personList, person, personAfter);
-		System.out.println(personList);
+		personList = personService.updatePerson(personList, personBefore, personAfter);
+		//System.out.println(personList);
 		
 		// delete
 		personList = personService.deletePerson(personList, personAfter.getPid());
