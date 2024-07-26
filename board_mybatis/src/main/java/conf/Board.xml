@@ -3,8 +3,8 @@
 <mapper namespace="board">
 
 	<insert id="registBoard" parameterType="Board">
-		insert into board(bid, btitle, bcontent, bwriter, bcount, bregdate, bsort, cfn)
-		values(seq_board.nextval, #{btitle}, #{bcontent}, #{bwriter}, 0, sysdate, #{bsort}, #{cfn})
+		insert into board(bid, btitle, bcontent, bwriter, bcount, bregdate, bsort, cfn, rcount)
+		values(seq_board.nextval, #{btitle}, #{bcontent}, #{bwriter}, 0, sysdate, #{bsort}, #{cfn}, 0)
 	</insert>
 
 	<select id="selectBoard" parameterType="Search" resultType="Board">
@@ -46,6 +46,12 @@
 	<update id="addCount" parameterType="int">
 		update board
 		set bcount = bcount + 1
+		where bid = #{bid}
+	</update>
+	
+	<update id="changeRcount" parameterType="Board">
+		update board
+		set rcount = rcount + #{rcount}
 		where bid = #{bid}
 	</update>
 	

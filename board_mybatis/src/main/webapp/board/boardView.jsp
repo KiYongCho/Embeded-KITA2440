@@ -26,7 +26,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
 <script src="js/board.js"></script>
 <script defer>
-	getReplyList('${board.bid}');
+	getReplyList('${board.bid}', '${sessionScope.mid}');
 </script>
 </head>
 <body>

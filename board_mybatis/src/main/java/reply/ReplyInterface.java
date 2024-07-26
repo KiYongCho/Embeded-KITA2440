@@ -8,6 +8,6 @@ public interface ReplyInterface {
 	
 	public abstract int registReply(Reply reply) throws Exception;
 	
-	public abstract int deleteReply(int rid) throws Exception;
+	public abstract int deleteReply(Reply reply) throws Exception;
 
 }

@@ -51,7 +51,12 @@
 			<tr>
 				<td>${board.bid}</td>
 				<td>${board.bsort}</td>
-				<td><a href="boardView.jsp?bid=${board.bid}">${board.btitle}</a></td>
+				<td>
+					<a href="boardView.jsp?bid=${board.bid}">${board.btitle}</a>
+					<c:if test="${board.rcount > 0}">
+						<small>(${board.rcount})</small>
+					</c:if>
+				</td>
 				<td>${board.bwriter}</td>
 				<td>${board.bcount}</td>
 				<td><fmt:formatDate value="${board.bregdate}" pattern="yy/MM/dd HH:mm" /></td>

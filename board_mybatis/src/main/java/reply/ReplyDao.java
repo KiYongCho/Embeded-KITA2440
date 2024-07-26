@@ -8,6 +8,8 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
+import board.Board;
+
 public class ReplyDao implements ReplyInterface {
 	
 	private static Reader reader = null;
@@ -30,16 +32,27 @@ public class ReplyDao implements ReplyInterface {
 	@Override
 	public int registReply(Reply reply) throws Exception {
 		SqlSession ss = ssf.openSession(true);
-		System.out.println(reply);
+		
+		Board board = new Board();
+		board.setBid(reply.getBid());
+		board.setRcount(1);
+		ss.update("board.changeRcount", board);
+				
 		int result = ss.insert("reply.registReply", reply);
 		ss.close();
 		return  result;
 	}
 
 	@Override
-	public int deleteReply(int rid) throws Exception {
+	public int deleteReply(Reply reply) throws Exception {
 		SqlSession ss = ssf.openSession(true);
-		int result = ss.delete("reply.deleteReply", rid);
+		
+		Board board = new Board();
+		board.setBid(reply.getBid());
+		board.setRcount(-1);
+		ss.update("board.changeRcount", board);		
+		
+		int result = ss.delete("reply.deleteReply", reply.getRid());
 		ss.close();
 		return  result;		
 	}
