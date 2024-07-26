@@ -22,6 +22,12 @@
 <head>
 <meta charset="UTF-8">
 <title>boardView</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+<script src="js/board.js"></script>
+<script defer>
+	getReplyList('${board.bid}');
+</script>
 </head>
 <body>
 <div id="wrapper">
@@ -42,8 +48,31 @@
 				 </c:if>
 	<p><input type="button" value="목록" onclick="location.href='boardListProc.jsp';" /></p>
 </div>
+<div>
+	<p>
+		<input id="rcontent" type="text" placeholder="댓글을 입력해 주세요!" />
+		&nbsp;<input type="button" value="등록"  
+			onclick="registReply('${sessionScope.mid}', '${board.bid}');" />
+	</p>
+</div>
+<div id="replyList"></div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

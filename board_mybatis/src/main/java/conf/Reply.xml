@@ -2,9 +2,10 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="reply">
 
-	<select id="listReply" resultType="Reply">
+	<select id="listReply" parameterType="int" resultType="Reply">
 		select *
 		from reply
+		where bid = #{bid}
 		order by rid desc
 	</select>
 	

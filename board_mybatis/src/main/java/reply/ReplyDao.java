@@ -23,21 +23,37 @@ public class ReplyDao implements ReplyInterface {
 	}	
 
 	@Override
-	public List<Reply> listReply() throws Exception {
-		return ssf.openSession().selectList("listReply");
+	public List<Reply> listReply(int bid) throws Exception {
+		return ssf.openSession().selectList("reply.listReply", bid);
 	}
 
 	@Override
 	public int registReply(Reply reply) throws Exception {
-		return ssf.openSession().insert("registReply", reply);
+		SqlSession ss = ssf.openSession(true);
+		System.out.println(reply);
+		int result = ss.insert("reply.registReply", reply);
+		ss.close();
+		return  result;
 	}
 
 	@Override
 	public int deleteReply(int rid) throws Exception {
-		return ssf.openSession().delete("deleteReply", rid);
+		SqlSession ss = ssf.openSession(true);
+		int result = ss.delete("reply.deleteReply", rid);
+		ss.close();
+		return  result;		
 	}
 
 }
+
+
+
+
+
+
+
+
+
 
 
 
