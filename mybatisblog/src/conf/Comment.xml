@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Comment">
+
+	<insert id="insertComment" parameterType="Comment">
+		insert into comm
+		values(seq_comm.nextval, #{commTitle}, #{commContent}, #{blogId})
+	</insert>
+	
+	<select id="countComment" resultType="int">
+		select count(*)
+		from comm
+	</select>
+	
+	<update id="updateComment" parameterType="Comment">
+		update comm
+		set comm_title=#{commTitle}, comm_content=#{commContent} 
+		where comm_id=#{commId}
+	</update>
+	
+	<delete id="deleteComment" parameterType="int">
+		delete comm
+		where comm_id=#{commId}
+	</delete>
+	
+</mapper>
+
+
+
+
+
+
+
+
+
+

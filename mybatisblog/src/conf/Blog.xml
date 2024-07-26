@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Blog">
+
+	<resultMap id="blogResultMap" type="Blog">
+		<constructor>
+			<idArg column="blog_id" javaType="int" />
+		</constructor>
+		<result property="blogName" column="blog_name" />
+		<result property="blogTitle" column="blog_title" />
+		<association property="author" column="blog_author_id" javaType="Author" resultMap="authorResultMap" />
+		<collection property="comms" ofType="Comm" resultMap="commResultMap" />
+	</resultMap>
+
+	<resultMap id="authorResultMap" type="Author">
+		<id property="authorId" column="author_id" />
+		<result property="authorName" column="author_name" />
+		<result property="blogId" column="blog_id" />
+	</resultMap>
+
+	<resultMap id="commResultMap" type="Comment">
+		<id property="commId" column="comm_id" />
+		<result property="commTitle" column="comm_title" />
+		<result property="commContent" column="comm_content" />
+		<result property="blogId" column="blog_id" />
+	</resultMap>
+	
+	<select id="selectBlog" resultMap="blogResultMap">
+		select 
+			B.blog_id, B.blog_name, B.blog_title, B.blog_author_id
+			, A.author_id, A.author_name, A.blog_id
+			, C.comm_id, C.comm_title, C.comm_content, C.blog_id
+		from 
+			BLOG B
+			left outer join AUTHOR A on B.blog_id = A.blog_id
+			left outer join COMM C on C.blog_id = A.blog_id
+	</select>	
+
+	<insert id="insertBlog" parameterType="Blog">
+		insert into blog
+		values(seq_blog.nextval, #{blogName}, #{blogTitle}, 0)
+	</insert>
+	
+	<select id="countBlog" resultType="int">
+		select count(*)
+		from blog 
+	</select>
+	
+	<update id="updateBlog" parameterType="Blog">
+		update blog
+		set blog_name=#{blogName}, blog_title=#{blogTitle}
+		where blog_id=#{blogId}
+	</update>
+	
+	<delete id="deleteBlog" parameterType="int">
+		delete blog
+		where blog_id=#{blogId}
+	</delete>
+	
+	<sql id="selectCommLet">
+		select comm_id, comm_title, comm_content, blog_id
+		from comm
+	</sql>
+	
+	<select id="selectCommsByBlogId" parameterType="CommentSearcher" 
+		resultMap="commResultMap">
+		<include refid="selectCommLet"/>
+		where blog_id = #{blogId}
+		<if test="searchValue != null">
+			<choose>
+				<when test="searchKey=='title'">
+					and comm_title like '%'||#{searchValue}||'%'
+				</when>
+				<when test="searchKey=='content'">
+					and comm_content like '%'||#{searchValue}||'%'
+				</when>
+				<otherwise>
+					and 1 = 1
+				</otherwise>
+			</choose>
+		</if>
+		order by comm_id desc
+	</select>
+	
+	<select id="selectCommsByCommIds" parameterType="list" 
+		resultMap="commResultMap">
+		<include refid="selectCommLet"/>
+		<where>
+			blog_id=#{list[0]}
+			and comm_id in 
+			<foreach item="item" index="index" collection="list" 
+				open="(" separator="," close=")">
+				<if test="index>0">
+					#{item}
+				</if>
+			</foreach>
+		</where>
+	</select>
+	
+	<update id="updateComm" parameterType="Comment">
+		update comm
+		<trim prefix="set" suffixOverrides=",">
+			<if test="commTitle!=null">comm_title=#{commTitle},</if>
+			<if test="commContent!=null">comm_content=#{commContent}</if>
+		</trim>
+		<where>
+			<if test="commId!=null">
+				comm_id=#{commId}
+			</if>
+			<if test="blogId!=null">
+			 	and blog_id=#{blogId}
+			 </if>
+		</where>
+	</update>	
+	
+</mapper>
+
+
+
+
+
+
+
+
+
+

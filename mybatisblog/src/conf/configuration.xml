@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<properties resource="conf/db.properties" />
+	<typeAliases>
+		<typeAlias type="blog.Blog" alias="Blog" />	
+		<typeAlias type="blog.Author" alias="Author" />	
+		<typeAlias type="blog.Comment" alias="Comment" />	
+		<typeAlias type="blog.CommentSearcher" alias="CommentSearcher" />	
+	</typeAliases>	
+	<environments default="development">
+		<environment id="development">
+			<transactionManager type="JDBC" />
+			<dataSource type="POOLED">
+				<property name="driver" value="${driver}"/>
+				<property name="url" value="${url}"/>
+				<property name="username" value="${username}"/>
+				<property name="password" value="${password}"/>
+			</dataSource>
+		</environment>
+	</environments>
+	<mappers>
+		<mapper resource="conf/Blog.xml" />
+		<mapper resource="conf/Author.xml" />
+		<mapper resource="conf/Comment.xml" />
+	</mappers>
+</configuration>
+
+
+
+
+
+
+
+
+
+
